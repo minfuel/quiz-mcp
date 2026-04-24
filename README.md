@@ -1,8 +1,105 @@
 # quiz-mcp
+Let AI models hand off interactive quizzes to humans through a real browser UI.
 
-An MCP server that lets an AI model hand off interactive quizzes to a human through a local browser UI. The model registers a quiz via the `start_quiz` tool, the user fills it in at `http://localhost:<port>`, and the model reads back the submitted answers via `get_answers` — all over standard MCP stdio, with no persistent infrastructure required. The HTTP server lazy-starts on the first `start_quiz` call and shuts down automatically once every quiz has been finished and its result consumed.
+Instead of generating HTML forms as artifacts or asking questions one-by-one in chat, the model describes a quiz as JSON, the user fills it in at `http://localhost:<port>`, and the answers flow back to the model as structured data.
+
+Useful for teachers building quizzes with AI, researchers running structured interviews, or any agent that needs real input from a human.
 
 ![Quiz runner showing the bundled JavaScript basics demo](docs/quiz-runner.png)
+
+## Quick start
+
+### Try the demo quiz (no install, no clone)
+
+Run the bundled 7-question JavaScript basics quiz straight from GitHub:
+
+```bash
+npx @quiz-mcp/runner \
+  --url https://raw.githubusercontent.com/karerckor/quiz-mcp/main/demo/js-quiz.json \
+  --output ./answers.json \
+  --open
+```
+
+`--open` launches the URL in the system browser. Answers are written to `./answers.json` when you submit.
+
+### Register as an MCP server
+
+Once connected, the model gains four tools: `start_quiz`, `get_answers`, `get_quiz_format`, and `stop_runner`.
+
+#### Claude Code
+
+Add to `.mcp.json` in your project root (or `~/.claude.json` for user-wide):
+
+```json
+{
+  "mcpServers": {
+    "quiz-mcp": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@quiz-mcp/cli", "mcp"]
+    }
+  }
+}
+```
+
+#### OpenCode
+
+Add to `opencode.json` (project) or `~/.config/opencode/opencode.json` (global):
+
+```json
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "quiz-mcp": {
+      "type": "local",
+      "command": ["npx", "-y", "@quiz-mcp/cli", "mcp"],
+      "enabled": true
+    }
+  }
+}
+```
+
+#### Kilo Code
+
+Open the MCP settings panel in Kilo Code (MCP Servers → Edit Global MCP) and add:
+
+```json
+{
+  "mcpServers": {
+    "quiz-mcp": {
+      "command": "npx",
+      "args": ["-y", "@quiz-mcp/cli", "mcp"]
+    }
+  }
+}
+```
+
+The same `command`/`args` pair works for any MCP client that follows the standard `mcpServers` shape (Claude Desktop, Cursor, Windsurf, …).
+
+### Scaffold and run your own quiz
+
+```bash
+# scaffold a new quiz skeleton → ./javascript-basics.quiz.json
+npx @quiz-mcp/cli create "JavaScript basics"
+
+# serve it in a browser and write answers to a file
+npx @quiz-mcp/runner --file ./javascript-basics.quiz.json --output ./answers.json --open
+```
+
+The scaffolded file includes a `$schema` pointer so editors can validate and autocomplete the quiz structure as you fill it in.
+
+### Serve a remote quiz with a webhook sink
+
+```bash
+npx @quiz-mcp/runner \
+  --url https://example.com/quiz.json \
+  --on-complete https://example.com/hooks/quiz \
+  --output ./answers.json
+```
+
+The runner exits with code `0` on success, `1` on load/validation failure, `2` if a sink failed after the quiz completed.
+
+---
 
 ## Repository structure
 
@@ -25,7 +122,7 @@ An MCP server that lets an AI model hand off interactive quizzes to a human thro
 | Node.js | ≥ 20 |
 | pnpm | 10.8.1 (pinned via `packageManager`) |
 
-## Installation
+## Development
 
 ```bash
 git clone https://github.com/karerckor/quiz-mcp.git
@@ -33,94 +130,12 @@ cd quiz-mcp
 pnpm install
 ```
 
-## Quick start
-
-### Build everything
-
-```bash
-pnpm build
-```
-
-Turborepo respects the dependency graph (`^build`), so packages are built in the correct order.
-
-### Run the full test suite
-
-```bash
-pnpm test
-```
-
-### Type-check all packages
-
-```bash
-pnpm typecheck
-```
-
-### Watch mode (parallel)
-
-```bash
-pnpm dev
-```
-
-## Usage scenarios
-
-### 1. Register quiz-mcp as an MCP server (Claude Code)
-
-Create or extend `.mcp.json` in your project root:
-
-```json
-{
-  "mcpServers": {
-    "quiz-mcp": {
-      "type": "stdio",
-      "command": "npx",
-      "args": ["-y", "@quiz-mcp/cli", "mcp"]
-    }
-  }
-}
-```
-
-For Claude Desktop (`claude_desktop_config.json`) or Cursor (`~/.cursor/mcp.json`), use the same `command`/`args` pair. Once connected, the model gains four tools: `start_quiz`, `get_answers`, `get_quiz_format`, and `stop_runner`.
-
-### 2. Scaffold and run a quiz from the CLI
-
-Create a minimal quiz file, then serve it in a browser:
-
-```bash
-# scaffold a new quiz skeleton → ./javascript-basics.quiz.json
-npx @quiz-mcp/cli create "JavaScript basics"
-
-# serve it and write answers to a file
-npx @quiz-mcp/runner --file ./javascript-basics.quiz.json --output ./answers.json --open
-```
-
-The scaffolded file includes a `$schema` pointer so editors can validate and
-autocomplete the quiz structure as you fill it in.
-
-`--open` launches the URL in the system browser automatically.
-
-### 3. Try the JavaScript demo quiz without cloning
-
-Point the runner at the raw URL of the bundled demo — no local checkout needed:
-
-```bash
-npx @quiz-mcp/runner \
-  --url https://raw.githubusercontent.com/karerckor/quiz-mcp/main/demo/js-quiz.json \
-  --output ./answers.json \
-  --open
-```
-
-This loads `demo/js-quiz.json` (a 7-question JavaScript basics quiz) straight from GitHub.
-
-### 4. Serve a quiz from a remote URL with a webhook sink
-
-```bash
-npx @quiz-mcp/runner \
-  --url https://example.com/quiz.json \
-  --on-complete https://example.com/hooks/quiz \
-  --output ./answers.json
-```
-
-The runner exits with code `0` on success, `1` on load/validation failure, `2` if a sink failed after the quiz completed.
+| Command | Purpose |
+|---|---|
+| `pnpm build` | Build all packages (Turborepo respects the `^build` graph). |
+| `pnpm test` | Run the full test suite. |
+| `pnpm typecheck` | Type-check every package. |
+| `pnpm dev` | Watch mode, parallel across packages. |
 
 ## Quiz schema
 
@@ -159,4 +174,3 @@ The schema is also available at the canonical URL embedded in the file:
 - [`packages/runner-api/README.md`](packages/runner-api/README.md) — REST endpoints, SSR server options, `QuizService` interface, theming
 - [`packages/runner-ui/README.md`](packages/runner-ui/README.md) — client bundle internals, Vite manifest, custom deployments
 - [`packages/web-components/README.md`](packages/web-components/README.md) — `<quiz-player>` element API, events, theming, framework integration
-
