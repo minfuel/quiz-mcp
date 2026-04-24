@@ -2,6 +2,8 @@
 
 An MCP server that lets an AI model hand off interactive quizzes to a human through a local browser UI. The model registers a quiz via the `start_quiz` tool, the user fills it in at `http://localhost:<port>`, and the model reads back the submitted answers via `get_answers` — all over standard MCP stdio, with no persistent infrastructure required. The HTTP server lazy-starts on the first `start_quiz` call and shuts down automatically once every quiz has been finished and its result consumed.
 
+![Quiz runner showing the bundled JavaScript basics demo](docs/quiz-runner.png)
+
 ## Repository structure
 
 | Path | Package / App | Description |
