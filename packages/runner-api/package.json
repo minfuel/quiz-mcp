@@ -1,0 +1,47 @@
+{
+  "name": "@quiz-mcp/runner-api",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./client": {
+      "types": "./dist/client.d.ts",
+      "import": "./dist/client.js"
+    },
+    "./server": {
+      "types": "./dist/server/index.d.ts",
+      "import": "./dist/server/index.js"
+    },
+    "./in-memory": {
+      "types": "./dist/in-memory.d.ts",
+      "import": "./dist/in-memory.js"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "lint": "echo 'lint ok'",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist *.tsbuildinfo"
+  },
+  "devDependencies": {
+    "typescript": "^5.8",
+    "vitest": "^2"
+  },
+  "dependencies": {
+    "@quiz-mcp/core": "workspace:*",
+    "@quiz-mcp/runner-ui": "workspace:*",
+    "@quiz-mcp/ui": "workspace:*",
+    "@hono/node-server": "^1.19.14",
+    "hono": "^4",
+    "zod": "^3"
+  }
+}

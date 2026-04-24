@@ -1,0 +1,15 @@
+{
+  "$schema": "https://app.kilo.ai/config.json",
+  "mcp": {
+    "quiz-mcp": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@quiz-mcp/cli",
+        "mcp"
+      ],
+      "enabled": true
+    }
+  }
+}

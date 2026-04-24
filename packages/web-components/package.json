@@ -1,0 +1,39 @@
+{
+  "name": "@quiz-mcp/web-components",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/quiz-mcp-web-components.mjs",
+  "module": "./dist/quiz-mcp-web-components.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/quiz-mcp-web-components.mjs",
+      "default": "./dist/quiz-mcp-web-components.mjs"
+    },
+    "./iife": "./dist/quiz-mcp-web-components.iife.js"
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch",
+    "lint": "echo 'lint ok'",
+    "typecheck": "svelte-check --tsconfig ./tsconfig.json",
+    "clean": "rm -rf dist *.tsbuildinfo"
+  },
+  "dependencies": {
+    "@quiz-mcp/core": "workspace:*",
+    "@quiz-mcp/ui": "workspace:*",
+    "daisyui": "^5",
+    "tailwindcss": "^4"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^5",
+    "@tailwindcss/vite": "^4",
+    "svelte": "^5",
+    "svelte-check": "^4",
+    "typescript": "^5.8",
+    "vite": "^6"
+  }
+}

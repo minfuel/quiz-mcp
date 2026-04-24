@@ -1,0 +1,34 @@
+{
+  "name": "@quiz-mcp/runner-ui",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": null,
+    "./package.json": "./package.json",
+    "./manifest": "./dist/.vite/manifest.json"
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch",
+    "lint": "echo 'lint ok'",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist *.tsbuildinfo"
+  },
+  "dependencies": {
+    "@quiz-mcp/core": "workspace:*",
+    "@quiz-mcp/ui": "workspace:*",
+    "@quiz-mcp/web-components": "workspace:*",
+    "daisyui": "^5",
+    "hono": "^4",
+    "tailwindcss": "^4"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4",
+    "typescript": "^5.8",
+    "vite": "^6",
+    "vitest": "^2"
+  }
+}

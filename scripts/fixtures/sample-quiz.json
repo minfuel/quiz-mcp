@@ -1,0 +1,123 @@
+{
+  "id": "quiz-sample-01",
+  "title": "Sample quiz covering every question type",
+  "description": "Fixture for schema round-trip validation",
+  "questions": [
+    {
+      "_kind": "single_choice",
+      "id": "q-single-choice",
+      "text": "Pick a color",
+      "attachments": [
+        [
+          {
+            "id": "att-sc-1",
+            "type": "image",
+            "url": "https://example.com/palette.png",
+            "alt": "Color palette"
+          }
+        ]
+      ],
+      "options": [
+        { "id": "sc-opt-1", "label": "Red" },
+        { "id": "sc-opt-2", "label": "Blue" }
+      ]
+    },
+    {
+      "_kind": "multiple_choice",
+      "id": "q-multiple-choice",
+      "text": "Pick your favorite colors",
+      "options": [
+        {
+          "id": "mc-opt-1",
+          "label": "Red",
+          "attachment": {
+            "id": "att-mc-1",
+            "type": "code",
+            "language": "css",
+            "code": "color: #e11d48;"
+          }
+        },
+        { "id": "mc-opt-2", "label": "Blue" },
+        { "id": "mc-opt-3", "label": "Green" }
+      ]
+    },
+    {
+      "_kind": "short_text",
+      "id": "q-short-text",
+      "text": "What is your name?"
+    },
+    {
+      "_kind": "long_text",
+      "id": "q-long-text",
+      "text": "Describe your day"
+    },
+    {
+      "_kind": "dropdown",
+      "id": "q-dropdown",
+      "text": "Pick a country",
+      "mode": "single",
+      "options": [
+        { "id": "dd-opt-1", "label": "USA" },
+        { "id": "dd-opt-2", "label": "Canada" }
+      ]
+    },
+    {
+      "_kind": "fill_gaps",
+      "id": "q-fill-gaps",
+      "text": "Complete the sentence",
+      "parts": [
+        { "_kind": "text", "content": "The capital of France is " },
+        { "_kind": "text_gap", "gapId": "gap-1", "placeholder": "city" },
+        { "_kind": "text", "content": " and its currency is " },
+        {
+          "_kind": "dropdown_gap",
+          "gapId": "gap-2",
+          "options": [
+            { "id": "fg-opt-1", "label": "Euro" },
+            { "id": "fg-opt-2", "label": "Franc" }
+          ]
+        }
+      ]
+    },
+    {
+      "_kind": "match",
+      "id": "q-match",
+      "text": "Match animals to their sounds",
+      "pairs": [
+        [
+          { "id": "left-1", "text": "Cat" },
+          { "id": "left-2", "text": "Dog" }
+        ],
+        [
+          { "id": "right-1", "text": "Meow" },
+          { "id": "right-2", "text": "Woof" }
+        ]
+      ]
+    },
+    {
+      "_kind": "scale",
+      "id": "q-scale",
+      "text": "Rate your satisfaction",
+      "min": 1,
+      "max": 5,
+      "minLabel": "Terrible",
+      "maxLabel": "Excellent"
+    },
+    {
+      "_kind": "sorting",
+      "id": "q-sorting",
+      "text": "Sort these in order",
+      "items": [
+        { "id": "sort-1", "text": "First" },
+        { "id": "sort-2", "text": "Second" },
+        { "id": "sort-3", "text": "Third" }
+      ]
+    },
+    {
+      "_kind": "upload",
+      "id": "q-upload",
+      "text": "Upload your CV",
+      "accept": ["pdf", "docx"]
+    }
+  ]
+}

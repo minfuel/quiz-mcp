@@ -1,0 +1,708 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/karerckor/quiz-mcp/main/schema/quiz.schema.json",
+  "title": "Quiz",
+  "$ref": "#/definitions/Quiz",
+  "definitions": {
+    "Quiz": {
+      "type": "object",
+      "properties": {
+        "$schema": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "questions": {
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "_kind": {
+                    "type": "string",
+                    "const": "single_choice"
+                  },
+                  "id": {
+                    "$ref": "#/definitions/Quiz/properties/id"
+                  },
+                  "text": {
+                    "type": "string"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "required": {
+                    "type": "boolean",
+                    "default": false
+                  },
+                  "score": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "attachments": {
+                    "type": "array",
+                    "items": {
+                      "type": "array",
+                      "items": {
+                        "anyOf": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "id": {
+                                "$ref": "#/definitions/Quiz/properties/id"
+                              },
+                              "type": {
+                                "type": "string",
+                                "enum": [
+                                  "video",
+                                  "audio",
+                                  "image",
+                                  "file"
+                                ]
+                              },
+                              "url": {
+                                "type": "string",
+                                "format": "uri"
+                              },
+                              "alt": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "id",
+                              "type",
+                              "url"
+                            ],
+                            "additionalProperties": false
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "id": {
+                                "$ref": "#/definitions/Quiz/properties/id"
+                              },
+                              "type": {
+                                "type": "string",
+                                "const": "code"
+                              },
+                              "language": {
+                                "type": "string"
+                              },
+                              "code": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "id",
+                              "type",
+                              "language",
+                              "code"
+                            ],
+                            "additionalProperties": false
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "mode": {
+                    "type": "string",
+                    "enum": [
+                      "list",
+                      "grid"
+                    ],
+                    "default": "list"
+                  },
+                  "options": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "$ref": "#/definitions/Quiz/properties/id"
+                        },
+                        "label": {
+                          "type": "string"
+                        },
+                        "attachment": {
+                          "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/attachments/items/items"
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "label"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "minItems": 2
+                  }
+                },
+                "required": [
+                  "_kind",
+                  "id",
+                  "text",
+                  "options"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "_kind": {
+                    "type": "string",
+                    "const": "multiple_choice"
+                  },
+                  "id": {
+                    "$ref": "#/definitions/Quiz/properties/id"
+                  },
+                  "text": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/text"
+                  },
+                  "title": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/title"
+                  },
+                  "required": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/required"
+                  },
+                  "score": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/score"
+                  },
+                  "attachments": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/attachments"
+                  },
+                  "mode": {
+                    "type": "string",
+                    "enum": [
+                      "list",
+                      "grid"
+                    ],
+                    "default": "list"
+                  },
+                  "options": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/options/items"
+                    },
+                    "minItems": 2
+                  },
+                  "minSelections": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "maxSelections": {
+                    "type": "integer",
+                    "minimum": 1
+                  }
+                },
+                "required": [
+                  "_kind",
+                  "id",
+                  "text",
+                  "options"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "_kind": {
+                    "type": "string",
+                    "const": "short_text"
+                  },
+                  "id": {
+                    "$ref": "#/definitions/Quiz/properties/id"
+                  },
+                  "text": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/text"
+                  },
+                  "title": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/title"
+                  },
+                  "required": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/required"
+                  },
+                  "score": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/score"
+                  },
+                  "attachments": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/attachments"
+                  },
+                  "placeholder": {
+                    "type": "string"
+                  },
+                  "maxLength": {
+                    "type": "integer",
+                    "minimum": 1
+                  }
+                },
+                "required": [
+                  "_kind",
+                  "id",
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "_kind": {
+                    "type": "string",
+                    "const": "long_text"
+                  },
+                  "id": {
+                    "$ref": "#/definitions/Quiz/properties/id"
+                  },
+                  "text": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/text"
+                  },
+                  "title": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/title"
+                  },
+                  "required": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/required"
+                  },
+                  "score": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/score"
+                  },
+                  "attachments": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/attachments"
+                  },
+                  "placeholder": {
+                    "type": "string"
+                  },
+                  "minLength": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "maxLength": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "rows": {
+                    "type": "integer",
+                    "minimum": 1
+                  }
+                },
+                "required": [
+                  "_kind",
+                  "id",
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "_kind": {
+                    "type": "string",
+                    "const": "dropdown"
+                  },
+                  "id": {
+                    "$ref": "#/definitions/Quiz/properties/id"
+                  },
+                  "text": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/text"
+                  },
+                  "title": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/title"
+                  },
+                  "required": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/required"
+                  },
+                  "score": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/score"
+                  },
+                  "attachments": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/attachments"
+                  },
+                  "mode": {
+                    "type": "string",
+                    "enum": [
+                      "single",
+                      "multiple",
+                      "tags"
+                    ]
+                  },
+                  "options": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/options/items"
+                    }
+                  }
+                },
+                "required": [
+                  "_kind",
+                  "id",
+                  "text",
+                  "mode",
+                  "options"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "_kind": {
+                    "type": "string",
+                    "const": "fill_gaps"
+                  },
+                  "id": {
+                    "$ref": "#/definitions/Quiz/properties/id"
+                  },
+                  "text": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/text"
+                  },
+                  "title": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/title"
+                  },
+                  "required": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/required"
+                  },
+                  "score": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/score"
+                  },
+                  "attachments": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/attachments"
+                  },
+                  "parts": {
+                    "type": "array",
+                    "items": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "_kind": {
+                              "type": "string",
+                              "const": "text"
+                            },
+                            "content": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "_kind",
+                            "content"
+                          ],
+                          "additionalProperties": false
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "_kind": {
+                              "type": "string",
+                              "const": "text_gap"
+                            },
+                            "gapId": {
+                              "$ref": "#/definitions/Quiz/properties/id"
+                            },
+                            "placeholder": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "_kind",
+                            "gapId"
+                          ],
+                          "additionalProperties": false
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "_kind": {
+                              "type": "string",
+                              "const": "dropdown_gap"
+                            },
+                            "gapId": {
+                              "$ref": "#/definitions/Quiz/properties/id"
+                            },
+                            "options": {
+                              "type": "array",
+                              "items": {
+                                "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/options/items"
+                              },
+                              "minItems": 2
+                            }
+                          },
+                          "required": [
+                            "_kind",
+                            "gapId",
+                            "options"
+                          ],
+                          "additionalProperties": false
+                        }
+                      ]
+                    },
+                    "minItems": 1
+                  }
+                },
+                "required": [
+                  "_kind",
+                  "id",
+                  "text",
+                  "parts"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "_kind": {
+                    "type": "string",
+                    "const": "match"
+                  },
+                  "id": {
+                    "$ref": "#/definitions/Quiz/properties/id"
+                  },
+                  "text": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/text"
+                  },
+                  "title": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/title"
+                  },
+                  "required": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/required"
+                  },
+                  "score": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/score"
+                  },
+                  "attachments": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/attachments"
+                  },
+                  "pairs": {
+                    "type": "array",
+                    "minItems": 2,
+                    "maxItems": 2,
+                    "items": [
+                      {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "$ref": "#/definitions/Quiz/properties/id"
+                            },
+                            "text": {
+                              "type": "string"
+                            },
+                            "attachments": {
+                              "type": "array",
+                              "items": {
+                                "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/attachments/items/items"
+                              }
+                            }
+                          },
+                          "required": [
+                            "id"
+                          ],
+                          "additionalProperties": false
+                        },
+                        "minItems": 1
+                      },
+                      {
+                        "type": "array",
+                        "items": {
+                          "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/6/properties/pairs/items/0/items"
+                        },
+                        "minItems": 1
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "_kind",
+                  "id",
+                  "text",
+                  "pairs"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "_kind": {
+                    "type": "string",
+                    "const": "scale"
+                  },
+                  "id": {
+                    "$ref": "#/definitions/Quiz/properties/id"
+                  },
+                  "text": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/text"
+                  },
+                  "title": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/title"
+                  },
+                  "required": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/required"
+                  },
+                  "score": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/score"
+                  },
+                  "attachments": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/attachments"
+                  },
+                  "min": {
+                    "type": "number"
+                  },
+                  "max": {
+                    "type": "number"
+                  },
+                  "step": {
+                    "type": "number",
+                    "exclusiveMinimum": 0,
+                    "default": 1
+                  },
+                  "minLabel": {
+                    "type": "string"
+                  },
+                  "maxLabel": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "_kind",
+                  "id",
+                  "text",
+                  "min",
+                  "max"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "_kind": {
+                    "type": "string",
+                    "const": "sorting"
+                  },
+                  "id": {
+                    "$ref": "#/definitions/Quiz/properties/id"
+                  },
+                  "text": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/text"
+                  },
+                  "title": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/title"
+                  },
+                  "required": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/required"
+                  },
+                  "score": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/score"
+                  },
+                  "attachments": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/attachments"
+                  },
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "$ref": "#/definitions/Quiz/properties/id"
+                        },
+                        "text": {
+                          "type": "string"
+                        },
+                        "attachments": {
+                          "type": "array",
+                          "items": {
+                            "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/attachments/items/items"
+                          }
+                        }
+                      },
+                      "required": [
+                        "id"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "minItems": 2
+                  }
+                },
+                "required": [
+                  "_kind",
+                  "id",
+                  "text",
+                  "items"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "_kind": {
+                    "type": "string",
+                    "const": "upload"
+                  },
+                  "id": {
+                    "$ref": "#/definitions/Quiz/properties/id"
+                  },
+                  "text": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/text"
+                  },
+                  "title": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/title"
+                  },
+                  "required": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/required"
+                  },
+                  "score": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/score"
+                  },
+                  "attachments": {
+                    "$ref": "#/definitions/Quiz/properties/questions/items/anyOf/0/properties/attachments"
+                  },
+                  "accept": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "enum": [
+                        "image",
+                        "video",
+                        "audio",
+                        "pdf",
+                        "docx",
+                        "csv",
+                        "any"
+                      ]
+                    },
+                    "minItems": 1
+                  },
+                  "maxFiles": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "maxSizeBytes": {
+                    "type": "integer",
+                    "minimum": 1
+                  }
+                },
+                "required": [
+                  "_kind",
+                  "id",
+                  "text",
+                  "accept"
+                ],
+                "additionalProperties": false
+              }
+            ]
+          }
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "questions"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

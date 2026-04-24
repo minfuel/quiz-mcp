@@ -1,0 +1,40 @@
+{
+  "name": "quiz-mcp",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "clean": "turbo run clean",
+    "test": "turbo run test",
+    "gen:schema": "tsx scripts/generate-quiz-schema.mts",
+    "check:schema": "tsc -p scripts/tsconfig.json && tsx scripts/check-quiz-schema.mts",
+    "typecheck:scripts": "tsc -p scripts/tsconfig.json",
+    "schema:gen": "turbo run gen:schema",
+    "schema:check": "turbo run check:schema"
+  },
+  "devDependencies": {
+    "@quiz-mcp/core": "workspace:^",
+    "@types/node": "^25.6.0",
+    "ajv": "^8.18.0",
+    "ajv-formats": "^3.0.1",
+    "tsup": "^8.5.1",
+    "tsx": "^4.21.0",
+    "turbo": "^2",
+    "typescript": "^5.8",
+    "vitest": "^2",
+    "zod-to-json-schema": "^3"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  },
+  "packageManager": "pnpm@10.8.1"
+}

@@ -1,0 +1,117 @@
+{
+  "id": "svelte-quiz-demo",
+  "title": "Svelte — Basics",
+  "description": "A 7-question quiz to test basic Svelte knowledge.",
+  "questions": [
+    {
+      "_kind": "single_choice",
+      "id": "sq1",
+      "title": "Reactivity",
+      "text": "How do you declare a reactive variable in a Svelte component?",
+      "score": 1,
+      "options": [
+        { "id": "sq1a", "label": "useState()" },
+        { "id": "sq1b", "label": "this.state = ..." },
+        { "id": "sq1c", "label": "let count = 0" },
+        { "id": "sq1d", "label": "ref(0)" }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "sq2",
+      "title": "Reactive statements",
+      "text": "What prefix is used to make a statement reactive in Svelte?",
+      "score": 1,
+      "options": [
+        { "id": "sq2a", "label": "$:" },
+        { "id": "sq2b", "label": "@" },
+        { "id": "sq2c", "label": "#" },
+        { "id": "sq2d", "label": "!" }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "sq3",
+      "title": "Component compilation",
+      "text": "What does the Svelte compiler produce from a .svelte file?",
+      "score": 1,
+      "options": [
+        { "id": "sq3a", "label": "A Virtual DOM diffing function" },
+        { "id": "sq3b", "label": "Vanilla JavaScript that manipulates the DOM directly" },
+        { "id": "sq3c", "label": "A WebAssembly binary" },
+        { "id": "sq3d", "label": "A JSX template function" }
+      ]
+    },
+    {
+      "_kind": "fill_gaps",
+      "id": "sq4",
+      "title": "Binding syntax",
+      "text": "Complete the Svelte event handler and binding syntax:",
+      "score": 1,
+      "parts": [
+        { "_kind": "text", "content": "Event handler: " },
+        {
+          "_kind": "dropdown_gap",
+          "gapId": "sq4g1",
+          "options": [
+            { "id": "sq4g1a", "label": "on:click" },
+            { "id": "sq4g1b", "label": "@click" },
+            { "id": "sq4g1c", "label": "v-on:click" }
+          ]
+        },
+        { "_kind": "text", "content": ". Two-way binding: " },
+        {
+          "_kind": "dropdown_gap",
+          "gapId": "sq4g2",
+          "options": [
+            { "id": "sq4g2a", "label": "bind:value" },
+            { "id": "sq4g2b", "label": "v-model" },
+            { "id": "sq4g2c", "label": "[(value)]" }
+          ]
+        },
+        { "_kind": "text", "content": "." }
+      ]
+    },
+    {
+      "_kind": "multiple_choice",
+      "id": "sq5",
+      "title": "Svelte features",
+      "text": "Which of the following are true about Svelte? (Select all that apply)",
+      "score": 1,
+      "minSelections": 0,
+      "maxSelections": 4,
+      "options": [
+        { "id": "sq5a", "label": "No virtual DOM — compiles to vanilla JS" },
+        { "id": "sq5b", "label": "Uses a runtime framework that ships with every app" },
+        { "id": "sq5c", "label": "Scoped styles by default in components" },
+        { "id": "sq5d", "label": "Built-in transition and animation support" }
+      ]
+    },
+    {
+      "_kind": "sorting",
+      "id": "sq6",
+      "title": "Component lifecycle",
+      "text": "Arrange the Svelte lifecycle hooks in the order they are called:",
+      "score": 1,
+      "items": [
+        { "id": "sq6d", "text": "onDestroy" },
+        { "id": "sq6a", "text": "onMount" },
+        { "id": "sq6b", "text": "beforeUpdate" },
+        { "id": "sq6c", "text": "afterUpdate" }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "sq7",
+      "title": "Stores",
+      "text": "Which function creates a writable store in Svelte?",
+      "score": 1,
+      "options": [
+        { "id": "sq7a", "label": "createStore()" },
+        { "id": "sq7b", "label": "writable()" },
+        { "id": "sq7c", "label": "useState()" },
+        { "id": "sq7d", "label": "observable()" }
+      ]
+    }
+  ]
+}

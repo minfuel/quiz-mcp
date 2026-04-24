@@ -1,0 +1,7 @@
+import { serve } from "@hono/node-server";
+import app from "./server.js";
+
+const port = Number.parseInt(process.env.PORT ?? "3000", 10);
+serve({ fetch: app.fetch, port }, (info) => {
+  console.log(`Quiz runner listening on http://localhost:${info.port}`);
+});

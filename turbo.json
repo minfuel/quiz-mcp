@@ -1,0 +1,31 @@
+{
+  "$schema": "https://v2-9-7-canary-13.turborepo.dev/schema.json",
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**", ".svelte-kit/**", "build/**"]
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "lint": {},
+    "typecheck": {},
+    "clean": {
+      "cache": false
+    },
+    "test": {
+      "dependsOn": ["^build"],
+      "outputs": []
+    },
+    "//#gen:schema": {
+      "dependsOn": ["@quiz-mcp/core#build"],
+      "outputs": ["schema/quiz.schema.json"],
+      "cache": false
+    },
+    "//#check:schema": {
+      "dependsOn": ["@quiz-mcp/core#build"],
+      "cache": false
+    }
+  }
+}

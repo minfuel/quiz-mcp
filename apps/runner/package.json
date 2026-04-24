@@ -1,0 +1,34 @@
+{
+  "name": "@quiz-mcp/runner",
+  "version": "2.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "bin": { "quiz-mcp-runner": "./dist/cli.js" },
+  "publishConfig": { "access": "public" },
+  "files": ["dist"],
+  "scripts": {
+    "dev": "concurrently -k -n ui,runner -c cyan,magenta \"pnpm --filter @quiz-mcp/runner-ui dev\" \"pnpm run dev:server\"",
+    "dev:server": "tsc && concurrently -k \"tsc -w --preserveWatchOutput\" \"node --watch dist/index.js\"",
+    "build": "pnpm clean && tsup",
+    "start": "node dist/cli.js",
+    "lint": "echo 'lint ok'",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist *.tsbuildinfo"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.19.14",
+    "hono": "^4",
+    "zod": "^3"
+  },
+  "devDependencies": {
+    "@quiz-mcp/core": "workspace:*",
+    "@quiz-mcp/runner-api": "workspace:*",
+    "@quiz-mcp/runner-ui": "workspace:*",
+    "@types/node": "^25.6.0",
+    "concurrently": "^9",
+    "tsup": "^8",
+    "typescript": "^5.8",
+    "vitest": "^2"
+  }
+}
