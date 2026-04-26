@@ -1,0 +1,87 @@
+{
+  "id": "quiz-M15 Gass 2-S2-level-2",
+  "title": "M15 GASS 2 - S2 Engine performance - Level 2",
+  "description": "Quiz for M15 GASS 2 chapter S2 Engine performance level 2",
+  "questions": [
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "Forklar om hastighet i aksial kompressor",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "hvor er høyest statisk trykk?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "forklar om fri kobling - lite,\nram luft",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "hva forteller newtons tredje lov?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "**28  Hvor er det høyest trykk i en gassturbin motot?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    }
+  ]
+}

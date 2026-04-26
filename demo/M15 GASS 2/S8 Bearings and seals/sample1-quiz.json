@@ -1,0 +1,39 @@
+{
+  "id": "quiz-M15 Gass 2-S8-level-2",
+  "title": "M15 GASS 2 - S8 Bearings and seals - Level 2",
+  "description": "Quiz for M15 GASS 2 chapter S8 Bearings and seals level 2",
+  "questions": [
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "111. Hvilke opp belastninger tar et rulle lager",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "Hvilke lager tar opp thrusten?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    }
+  ]
+}

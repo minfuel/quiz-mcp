@@ -1,0 +1,23 @@
+{
+  "id": "quiz-M15 Gass 2-S17-level-2",
+  "title": "M15 GASS 2 - S17 Turbo-shaft Engines - Level 2",
+  "description": "Quiz for M15 GASS 2 chapter S17 Turbo-shaft Engines level 2",
+  "questions": [
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "272. Torquemeteret på motoren brukes til å måle vridningen av hva?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    }
+  ]
+}

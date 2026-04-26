@@ -1,0 +1,23 @@
+{
+  "id": "quiz-M15 Gass 2-S6-level-1",
+  "title": "M15 GASS 2 - S6 Turbine section - Level 1",
+  "description": "Quiz for M15 GASS 2 chapter S6 Turbine section level 1",
+  "questions": [
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "Hva er en fir tree root/ Jule tre innfestning?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    }
+  ]
+}

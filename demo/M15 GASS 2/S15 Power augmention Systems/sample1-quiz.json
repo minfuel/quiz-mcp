@@ -1,0 +1,103 @@
+{
+  "id": "quiz-M15 Gass 2-S15-level-2",
+  "title": "M15 GASS 2 - S15 Power augmention Systems - Level 2",
+  "description": "Quiz for M15 GASS 2 chapter S15 Power augmention Systems level 2",
+  "questions": [
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "**259. Hvordan kan du se at etterbrenneren er på?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "**260. Hvilke komponenter inngår et etterbrennersystem?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "**261. Hvordan antennes luften i etterbrenneren?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "262. Dersom motoren har et water injection system kan dette systemet aktiveres ved?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "263. Hvorfor er noen fly utstyrt med et water injection system?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "264. Hva skjer med luften i luftinntaket i et water injection system?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    }
+  ]
+}

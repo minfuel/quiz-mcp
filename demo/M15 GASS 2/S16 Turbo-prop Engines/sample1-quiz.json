@@ -1,0 +1,71 @@
+{
+  "id": "quiz-M15 Gass 2-S16-level-2",
+  "title": "M15 GASS 2 - S16 Turbo-prop Engines - Level 2",
+  "description": "Quiz for M15 GASS 2 chapter S16 Turbo-prop Engines level 2",
+  "questions": [
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "**266. Hvorfor har turbo-prop (TPE) motorer en reduksjons gearboks?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "**267. Hvorfor har turbo-prop motorer en torquemeter?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "**268. Hva er hestekrefter?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "**269. Hvordan kan piloten kontrollere en turbo prop motor?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    }
+  ]
+}

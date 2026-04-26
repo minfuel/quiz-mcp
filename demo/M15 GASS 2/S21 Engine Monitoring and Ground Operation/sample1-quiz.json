@@ -1,0 +1,391 @@
+{
+  "id": "quiz-M15 Gass 2-S21-level-3",
+  "title": "M15 GASS 2 - S21 Engine Monitoring and Ground Operation - Level 3",
+  "description": "Quiz for M15 GASS 2 chapter S21 Engine Monitoring and Ground Operation level 3",
+  "questions": [
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "314. Hvilken rekkefølge skal du se på disse instrumentene?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "**315. Hva mener vi med en operation cycle på en gassturbin motor?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "**316. Hva er typisk on-condition maintenance på en gassturbin motor?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "**317. Hva er trend monitoring?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "318. Hvilke tre typer boroskop kan vi bruke til å sjekke gassturbin motoren innvendig, og når bruker vi disse?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "319. Nevn noen rutine inspeksjoner på gassturbin motoren",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "320. Nevn noen non-rutine inspeksjoner på gassturbin motoren",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "321. Hva inspiserer vi under en cold section inspeksjon?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "322. Hva inspiserer vi på en hot section inspeksjon?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "323. Hvordan trimmer vi en gassturbin motor?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "324. Hvorfor skal N1 red limit ikke skal overskrides?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "325. Hvorfor skal EGT red limit ikke overskrides?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "327. Når aktiveres tenning systemet under oppstart?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "**328. Når åpnes HP fuel shut off valve ved oppstart?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "**329. Hvordan kan du se at motoren har fått tenning?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "**330. Hva skjer når motoren er nådd self sustaining speed?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "**334. Hvordan kan du se at motoren har en hung start?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "**335. Hva kan være årsaken til hung start?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "**336. Hvordan kan du se at motoren har en wet start?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "**337. Hva kan årsaken være til at en får en wet start?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "**338. Hvordan kan du se at motoren har fått en hot start?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "**339. Hva kan årsaken være til en hot start?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "340. Hvilken inspeksjon vil du ta dersom motoren har hatt en overspeed?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "341. Hvilken inspeksjon vil du ta dersom du har hatt over temperatur på motoren?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    }
+  ]
+}

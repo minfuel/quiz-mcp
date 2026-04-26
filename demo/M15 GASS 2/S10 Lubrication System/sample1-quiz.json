@@ -1,0 +1,39 @@
+{
+  "id": "quiz-M15 Gass 2-S10-level-2",
+  "title": "M15 GASS 2 - S10 Lubrication System - Level 2",
+  "description": "Quiz for M15 GASS 2 chapter S10 Lubrication System level 2",
+  "questions": [
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "((656f91f1-5328-4a97-a2d0-4359909a90ae))",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "Hva er en augmentor?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    }
+  ]
+}

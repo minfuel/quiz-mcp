@@ -48,6 +48,12 @@
                     "type": "number",
                     "minimum": 0
                   },
+                  "explanations": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
                   "attachments": {
                     "type": "array",
                     "items": {

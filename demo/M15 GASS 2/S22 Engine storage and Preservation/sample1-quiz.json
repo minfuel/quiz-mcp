@@ -1,0 +1,39 @@
+{
+  "id": "quiz-M15 Gass 2-S22-level-2",
+  "title": "M15 GASS 2 - S22 Engine storage and Preservation - Level 2",
+  "description": "Quiz for M15 GASS 2 chapter S22 Engine storage and Preservation level 2",
+  "questions": [
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "**342. Hva må en gjøre med motoren dersom den skal lagres i ca en mnd og motoren er montert på flyet?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "**343. Hva skal en gjøre med motoren dersom den skal langtids lagres (flere mnd)?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    }
+  ]
+}

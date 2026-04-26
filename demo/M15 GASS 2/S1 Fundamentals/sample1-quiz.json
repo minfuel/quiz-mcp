@@ -1,0 +1,39 @@
+{
+  "id": "quiz-M15 Gass 2-S1-level-2",
+  "title": "M15 GASS 2 - S1 Fundamentals - Level 2",
+  "description": "Quiz for M15 GASS 2 chapter S1 Fundamentals level 2",
+  "questions": [
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "**3. Dersom lufttettheten blir mindre vil thrusten/ skyvekraften på motoren….**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "**4. Hvilken utforming har en diffusor? (konvergent/divergent)**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    }
+  ]
+}

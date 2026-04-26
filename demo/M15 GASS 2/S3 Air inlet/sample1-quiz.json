@@ -1,0 +1,23 @@
+{
+  "id": "quiz-M15 Gass 2-S3-level-2",
+  "title": "M15 GASS 2 - S3 Air inlet - Level 2",
+  "description": "Quiz for M15 GASS 2 chapter S3 Air inlet level 2",
+  "questions": [
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "I hvilke hastighetsområder opererer fly når vi snakker om: «Subsonic», «Transonic»,«Supersonic» og «Hypersonic»?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ]
+    }
+  ]
+}
