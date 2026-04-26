@@ -5,82 +5,328 @@
   "questions": [
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-425",
       "text": "Forklar om hastighet i aksial kompressor",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-425-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-425-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-426",
       "text": "hvor er høyest statisk trykk?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-426-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-426-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
-      "text": "forklar om fri kobling - lite,\nram luft",
+      "id": "q-427",
+      "text": "forklar om fri kobling - lite, ram luft",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-427-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-427-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-428",
       "text": "hva forteller newtons tredje lov?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-428-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-428-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "This reaction force is known as thrust. Newton's third law of motion: **Every action has an equal but opposite reaction**."
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-429",
+      "text": "**23  Hva er forskjellen må gross thrust og net thrust?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-429-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-429-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "{{embed }}"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-430",
+      "text": "**24  Hvilke hovedseksjoner består en turbo jet motor av?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-430-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-430-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "{{embed }}"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-431",
+      "text": "**25  Hvor er det varmeste stedet i en jet motor uten etterbrenner?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-431-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-431-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "Det varmeste stedet i en jetmotor uten etterbrenner er i forbrenningskammeret. Her blandes luft og drivstoff og antennes, og temperaturen kan nå opptil 1 500 grader Celsius."
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-432",
+      "text": "26  Hvor skjer den største trykkoppbyggingen i en gassturbinmotor?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-432-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-432-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "Den største trykkoppbyggingen i en gassturbinmotor skjer i kompressoren. Kompressoren består av en rekke skovler som roterer rundt en aksel. Luften suges inn i kompressoren gjennom luftinntak, og skovlene komprimerer luften til et høyere trykk og lavere volum."
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-433",
+      "text": "**27  Hva er den mest kritiske temperaturen i en gassturbin motor?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-433-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-433-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "og er avhengig av CIT",
+        "INCREASING TIT IMPROVE EFFICIENCY MORE ENERGY EXTRACTED",
+        "![image.png](../assets/image_1697019564388_0.png)"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1697019564388_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-434",
+      "text": "**28  Hvor er det høyest trykk i en gassturbin motot?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-434-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-434-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "INNI KOMPRESSOREN"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-435",
+      "text": "29  Hvor har luften høyest hastighet i en tubojet motor?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-435-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-435-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "I EKSOSEN"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-436",
+      "text": "**30  Hvor er har luften høyest hastighet i en turbofan motor?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-436-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-436-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "I VIFTEN ELLER FANEN"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-437",
+      "text": "**31  Hvor er har luften høyest hastighet i en tuboprop motor?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-437-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-437-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "PROPELLEN FORAN HAR HØYEST HASTIGHET"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-438",
+      "text": "**32  Hva er thrust rating?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-438-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-438-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "MAKSIMAL KRAFTEN EN GASSTURBIN KAN PRODUSERE MÅLES I kN",
+        "MTO (  ) - maks frakt løfte flyet fra bakken",
+        "MCT (  ) -kraften trengt å holde fly i luften"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-439",
+      "text": "**33  Hvilke moder har vi på thrust rating?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-439-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-439-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
-      "text": "**28  Hvor er det høyest trykk i en gassturbin motot?**",
+      "id": "q-440",
+      "text": "**34  Hvorfor har vi flat rating av motoren?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-440-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-440-opt-2",
           "label": "False"
         }
+      ],
+      "explanations": [
+        "motoren operer med lavere thrust enn den Max thrust ratingen",
+        "spare drivstoff, redusere støy, forlenge motorens levetid"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-441",
+      "text": "**35  Hva måler vi thrust i?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-441-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-441-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "dette måles i knots, eller mach"
       ]
     }
   ]

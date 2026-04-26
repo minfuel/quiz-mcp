@@ -5,18 +5,450 @@
   "questions": [
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-505",
+      "text": "**89  Hvilke to hovedtyper turbin finnes det?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-505-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-505-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "radial/sentrifugal -\n![image.png](../assets/image_1701840402948_0.png) ![image.png](../assets/image_1701840424833_0.png)",
+        "axial - sender i aksens retning\n![image.png](../assets/image_1701840499420_0.png) ![image.png](../assets/image_1701840518211_0.png){:height 158, :width 159}"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701840402948_0.png",
+            "alt": "image.png"
+          },
+          {
+            "id": "att-2",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701840424833_0.png",
+            "alt": "image.png"
+          },
+          {
+            "id": "att-3",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701840499420_0.png",
+            "alt": "image.png"
+          },
+          {
+            "id": "att-4",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701840518211_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-506",
+      "text": "**90  Hva er oppgaven til turbinen?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-506-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-506-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "convert"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-507",
+      "text": "**91  Hvordan virker en impuls turbin?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-507-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-507-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "turbiner har målet å ta så mye kraft ut av turbinene",
+        "disse er lite aerodynamisk fordi de skal fange så mye luft, og dermed krafta (scoop shaped)",
+        "![image.png](../assets/image_1698925609009_0.png){:height 162, :width 186}"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1698925609009_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-508",
+      "text": "**92  Hvordan virker en reaction turbin?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-508-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-508-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "disse er mer aeorodynamisk",
+        "![image.png](../assets/image_1698925683502_0.png){:height 257, :width 331}"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1698925683502_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-509",
+      "text": "**93  Hva vil det si at et turbin blad kryper/ creeping?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-509-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-509-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "turbin blad blir varm og ekspanderer seg",
+        "because of",
+        "highest at start cause this is the maximum power",
+        "normal operation there is little creeping"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-510",
+      "text": "**94  Når er det størst fare for at turbin bladene kryper?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-510-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-510-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "pilots should keep"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-511",
+      "text": "**95  Hvordan blir turbin bladene kjølet?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-511-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-511-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1698926608948_0.png)",
+        "av FADEC\n![image.png](../assets/image_1698926017537_0.png)",
+        "![image.png](../assets/image_1699435318323_0.png)"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1698926608948_0.png",
+            "alt": "image.png"
+          },
+          {
+            "id": "att-2",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1698926017537_0.png",
+            "alt": "image.png"
+          },
+          {
+            "id": "att-3",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1699435318323_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-512",
+      "text": "**96  Hvorfor kjøler vi turbinbladene?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-512-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-512-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "livslengde øker - økt effektivitet"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-513",
+      "text": "**97  Hva er clearance control?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-513-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-513-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "ved å kjøle casingen\n![image.png](../assets/image_1699435539578_0.png){:height 170, :width 178}",
+        ", thus"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1699435539578_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-514",
+      "text": "**98  Hvorfor har noen motorer clearance control?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-514-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-514-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        ", thus"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-515",
+      "text": "**99  Hva er fordelen med at turbin stator har tagential frame struts**",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1fc-7117-4cd7-913b-1c60e9c2164f-opt-1",
+          "label": "((654b59b1-6ee2-4232-ac7e-5f45da730a21)) -  ((654b5a7d-2c87-448b-a944-b9f1523aedb7))"
+        },
+        {
+          "id": "69edc1fc-7117-4cd7-913b-1c60e9c2164f-opt-2",
+          "label": "((654b59b3-68f9-4cd8-9070-05ba2b0eb044)) - minimize stress caused by thermal expansion, at high expansition hub rotates"
+        }
+      ],
+      "explanations": [
+        "2 types of frame struts:\n*  -\n![image.png](../assets/image_1699437046094_0.png)\n*  - minimize stress caused by thermal expansion, at high expansition hub rotates\n![image.png](../assets/image_1699437073326_0.png)"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1699437046094_0.png",
+            "alt": "image.png"
+          },
+          {
+            "id": "att-2",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1699437073326_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-516",
+      "text": "**Hva er passiv clearance control?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-516-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-516-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "luft er ført inn og kjøler hele tingen\n![image.png](../assets/image_1699435742678_0.png){:height 217, :width 387}",
+        "the opposive active ccs is controlled with FADEC"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1699435742678_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-517",
+      "text": "**Hva er running torque?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-517-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-517-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "total dreiemoment som oppstår i motoren i drift",
+        "by gas flow from the combustion chamber which  in the turbine",
+        "Running torque is **the key measure of the torque required to keep one part rotating against another**. As a sustained effort this can measure the resistance in a system."
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-518",
+      "text": "Hva er shroud?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-518-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-518-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "montert for å unggå clearance control (systemene), men ikke vanlig brukt, look at the blade tip in the picture, one is open other has rings",
+        "![image.png](../assets/image_1699437358030_0.png){:height 240, :width 275}",
+        "shrouds or the ring or band , air losses, but adds more weight",
+        "often in"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1699437358030_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-519",
       "text": "Hva er en fir tree root/ Jule tre innfestning?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-519-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-519-opt-2",
           "label": "False"
         }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1699437439899_0.png){:height 209, :width 165}\nfir tree root/ Jule tre innfestning"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1699437439899_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-520",
+      "text": "Hva er spesielt med høytrykk turbinen?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-520-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-520-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "hpt driver hpc",
+        "high pressuer turbine driver high pressure compressor",
+        "driver høytrykk compressoren"
       ]
     }
   ]

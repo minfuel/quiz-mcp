@@ -1,0 +1,288 @@
+{
+  "id": "quiz-M15 Gass 2-S9-level-2",
+  "title": "M15 GASS 2 - S9 Lubricants and Fuels - Level 2",
+  "description": "Quiz for M15 GASS 2 chapter S9 Lubricants and Fuels level 2",
+  "questions": [
+    {
+      "_kind": "single_choice",
+      "id": "q-543",
+      "text": "114. Flammepunktet/ flash point til oljen i oljesystemet bør være?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-543-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-543-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        ", resistant to  og"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-544",
+      "text": "115. Hvilke type syntetisk olje er mest brukt på moderne gassturbin motorer ( kommersielle fly)?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-544-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-544-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "- gamle gas turbin fly",
+        "- moderne gas turbin fly, , resistant to  og",
+        "-  brukt i eurofigher(fighter jet)"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-545",
+      "text": "116. Hva er de 4 oppgavene til oljen i oljesystemet?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-545-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-545-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "- oil filter"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-546",
+      "text": "117. Hvilken egenskap ønsker man for en olje brukt i et olje system på en gassturbin motor?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-546-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-546-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1700654171269_0.png){:height 269, :width 200}"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1700654171269_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-547",
+      "text": "118. Hva er betegnelsen på den sivile typen av fuel som brukes?",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1fc-3001-403e-8de0-caab0c983778-opt-1",
+          "label": "A;  freez point -40, same flash point (USA)"
+        },
+        {
+          "id": "69edc1fc-3001-403e-8de0-caab0c983778-opt-2",
+          "label": "A1;  freeze point +47  same flash point()"
+        }
+      ],
+      "explanations": [
+        "(MILITÆR)",
+        "(MILITÆR)",
+        "forskjellen på a og a1:\n* A;  freez point -40, same flash point (USA)\n* A1;  freeze point +47  same flash point()"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-548",
+      "text": "Hva skjer hvis oksygen blander seg med olje?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-548-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-548-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-549",
+      "text": "119. Fuel’s flash point bør være?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-549-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-549-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-550",
+      "text": "120. Fuel’s freez point bør være?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-550-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-550-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "(low as possible)"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-551",
+      "text": "121. Fuel og vann?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-551-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-551-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "(damage the tank)",
+        "hvis vann i tankene, skifter filteret farge",
+        "medisin: regelmessig tømme vann fra tankene og monitoring (  )"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-552",
+      "text": "122. Fare momentene ved fuel er?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-552-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-552-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-553",
+      "text": "Hva er vapor lock?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-553-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-553-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "the air cannot enter the chamber goes the fuel has already ignited and causing a pressure lock"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-554",
+      "text": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/dqr9Az2cTvk?si=WsoaDJ67ztkw5aic&amp;clip=UgkxVt1TBAA5c-DS53oaWI-Fgz3h-feyqitT&amp;clipt=EP-WARjv9gE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-554-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-554-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-555",
+      "text": "Hva menes med volatilitet?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-555-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-555-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "vaporiziness should be as high as possible",
+        "(fuel)"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-556",
+      "text": "Hvilke krav er for fuelen?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-556-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-556-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1700655562646_0.png)"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1700655562646_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    }
+  ]
+}

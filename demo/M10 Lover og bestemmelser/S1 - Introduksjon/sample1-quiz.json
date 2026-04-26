@@ -1,0 +1,758 @@
+{
+  "id": "quiz-M10 Lover og bestemmelser-S1-level-1",
+  "title": "M10 Lover og bestemmelser - S1 - Introduksjon - Level 1",
+  "description": "Quiz for M10 Lover og bestemmelser chapter S1 - Introduksjon level 1",
+  "questions": [
+    {
+      "_kind": "single_choice",
+      "id": "q-109",
+      "text": "1.  Hva er Chicagokonvensjonen? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-109-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-109-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "Chicagokonvensjonen er en internasjonal traktat om sivil luftfart.\nDen ble signert i  i 1944 og trådte i kraft i 1947.\nKonvensjonen etablerte ICAO, som er FNs luftfartsorganisasjon.\nICAO utarbeider standarder og anbefalinger for sikker og effektiv luftfart.\n193 stater er tilsluttet Chicagokonvensjonen."
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-110",
+      "text": "2. Hva er hensikten med Chicagokonvensjonen? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-110-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-110-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-111",
+      "text": "3. Hva betyr ICAO? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-111-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-111-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-112",
+      "text": "4. Hva dannet grunnlaget for ICAO? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-112-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-112-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-113",
+      "text": "5.  Hva er ICAO en del av? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-113-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-113-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-114",
+      "text": "6. Hvilken del av ICAO har det overordnede ansvaret? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-114-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-114-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-115",
+      "text": "7. Hvilken del av ICAO har det utøvende ansvaret? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-115-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-115-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "utøvende/executive"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-116",
+      "text": "8. Hva kalles normene ICAO utgir? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-116-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-116-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-117",
+      "text": "9.  Hva er ECAC? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-117-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-117-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "-"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-118",
+      "text": "10. Hva er JAA? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-118-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-118-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "-"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-119",
+      "text": "11. Hva er EASA? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-119-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-119-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "-"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-120",
+      "text": "12. Hvorfor har vi EASA? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-120-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-120-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-121",
+      "text": "13.  Hvem er medlem i EASA? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-121-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-121-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-122",
+      "text": "14. Er Norge fullverdig medlem av EASA? Hvorfor/hvorfor ikke? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1d2-1a0d-4bce-b37f-093f2b6bf87e-opt-1",
+          "label": "Norge er ikke fullverdig medlem av EASA.** Norge er et EØS-land, og EASA-regelverket er tatt inn i EØS-avtalen. Dette betyr at Norge er underlagt EASAs regler på de fleste områder innen sivil luftfart, inkludert sertifisering av fly, lufthavner og piloter."
+        },
+        {
+          "id": "69edc1d2-1a0d-4bce-b37f-093f2b6bf87e-opt-2",
+          "label": "Norge er imidlertid ikke fullverdig medlem av EASA fordi det ikke er medlem av EU.** Dette betyr at Norge ikke har stemmerett i EASAs organer, og at Norge ikke deltar i EASAs budsjett."
+        },
+        {
+          "id": "69edc1d2-1a0d-4bce-b37f-093f2b6bf87e-opt-3",
+          "label": "Norges tilknytning til EASA er derfor en hybridløsning.** Norge er underlagt EASAs regler, men Norge er ikke et fullverdig medlem av byrået."
+        },
+        {
+          "id": "69edc1d2-1a0d-4bce-b37f-093f2b6bf87e-opt-4",
+          "label": "Her er noen av grunnene til at Norge ikke er fullverdig medlem av EASA:**"
+        },
+        {
+          "id": "69edc1d2-1a0d-4bce-b37f-093f2b6bf87e-opt-5",
+          "label": "**Norge ønsker å bevare sin suverenitet over luftfartssektoren.**"
+        },
+        {
+          "id": "69edc1d2-1a0d-4bce-b37f-093f2b6bf87e-opt-6",
+          "label": "**Norge ønsker å unngå å betale medlemskontingent til EU.**"
+        },
+        {
+          "id": "69edc1d2-1a0d-4bce-b37f-093f2b6bf87e-opt-7",
+          "label": "**Norge ønsker å beholde sin mulighet til å samarbeide med andre land utenfor EU.**"
+        },
+        {
+          "id": "69edc1d2-1a0d-4bce-b37f-093f2b6bf87e-opt-8",
+          "label": "Det er mulig at Norge vil bli fullverdig medlem av EASA i fremtiden.** Dette vil imidlertid kreve at Norge blir medlem av EU."
+        }
+      ],
+      "explanations": [
+        "**Norge er ikke fullverdig medlem av EASA.** Norge er et EØS-land, og EASA-regelverket er tatt inn i EØS-avtalen. Dette betyr at Norge er underlagt EASAs regler på de fleste områder innen sivil luftfart, inkludert sertifisering av fly, lufthavner og piloter.\n**Norge er imidlertid ikke fullverdig medlem av EASA fordi det ikke er medlem av EU.** Dette betyr at Norge ikke har stemmerett i EASAs organer, og at Norge ikke deltar i EASAs budsjett.\n**Norges tilknytning til EASA er derfor en hybridløsning.** Norge er underlagt EASAs regler, men Norge er ikke et fullverdig medlem av byrået.\n**Her er noen av grunnene til at Norge ikke er fullverdig medlem av EASA:**\n* **Norge ønsker å bevare sin suverenitet over luftfartssektoren.**\n* **Norge ønsker å unngå å betale medlemskontingent til EU.**\n* **Norge ønsker å beholde sin mulighet til å samarbeide med andre land utenfor EU.**\n**Det er mulig at Norge vil bli fullverdig medlem av EASA i fremtiden.** Dette vil imidlertid kreve at Norge blir medlem av EU."
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-123",
+      "text": "15. Er Norge forpliktet til å samarbeide med andre luftfartsmyndigheter som er fullverdige medlemmer av EASA? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1d2-ba0d-4436-a94f-0d8001289f7d-opt-1",
+          "label": "Ja, Norge er forpliktet til å samarbeide med andre luftfartsmyndigheter som er fullverdige medlemmer av EASA.** Dette skyldes at Norge er underlagt EASAs regler på de fleste områder innen sivil luftfart. EASAs regler krever at medlemslandene samarbeider med hverandre for å sikre et sikkert og effektivt luftfartssystem."
+        },
+        {
+          "id": "69edc1d2-ba0d-4436-a94f-0d8001289f7d-opt-2",
+          "label": "Norges samarbeid med andre luftfartsmyndigheter kan skje på en rekke måter, for eksempel:**"
+        },
+        {
+          "id": "69edc1d2-ba0d-4436-a94f-0d8001289f7d-opt-3",
+          "label": "**Utveksling av informasjon og erfaringer**"
+        },
+        {
+          "id": "69edc1d2-ba0d-4436-a94f-0d8001289f7d-opt-4",
+          "label": "**Samarbeid om inspeksjoner og tilsyn**"
+        },
+        {
+          "id": "69edc1d2-ba0d-4436-a94f-0d8001289f7d-opt-5",
+          "label": "**Samarbeid om utvikling av nye regler og standarder**"
+        },
+        {
+          "id": "69edc1d2-ba0d-4436-a94f-0d8001289f7d-opt-6",
+          "label": "Norge har et særlig tett samarbeid med Sverige og Danmark, som også er EØS-land.** Disse tre landene har inngått en felles avtale om samarbeid innen sivil luftfart."
+        },
+        {
+          "id": "69edc1d2-ba0d-4436-a94f-0d8001289f7d-opt-7",
+          "label": "Norge er også medlem av en rekke internasjonale luftfartsorganisasjoner, for eksempel International Civil Aviation Organization (ICAO).** Disse organisasjonene fremmer samarbeid og koordinering mellom luftfartsmyndigheter fra hele verden."
+        },
+        {
+          "id": "69edc1d2-ba0d-4436-a94f-0d8001289f7d-opt-8",
+          "label": "Her er noen eksempler på hvordan Norge samarbeider med andre luftfartsmyndigheter:**"
+        },
+        {
+          "id": "69edc1d2-ba0d-4436-a94f-0d8001289f7d-opt-9",
+          "label": "**Norge samarbeider med Sverige og Danmark om å utføre felles inspeksjoner av fly og lufthavner.**"
+        },
+        {
+          "id": "69edc1d2-ba0d-4436-a94f-0d8001289f7d-opt-10",
+          "label": "**Norge samarbeider med EASA om å utvikle nye regler for lufttrafikkkontroll.**"
+        },
+        {
+          "id": "69edc1d2-ba0d-4436-a94f-0d8001289f7d-opt-11",
+          "label": "**Norge samarbeider med ICAO om å fremme sikkerhet i internasjonal sivil luftfart.**"
+        },
+        {
+          "id": "69edc1d2-ba0d-4436-a94f-0d8001289f7d-opt-12",
+          "label": "Norges samarbeid med andre luftfartsmyndigheter er viktig for å sikre et sikkert og effektivt luftfartssystem i Norge og i resten av verden.**"
+        }
+      ],
+      "explanations": [
+        "**Ja, Norge er forpliktet til å samarbeide med andre luftfartsmyndigheter som er fullverdige medlemmer av EASA.** Dette skyldes at Norge er underlagt EASAs regler på de fleste områder innen sivil luftfart. EASAs regler krever at medlemslandene samarbeider med hverandre for å sikre et sikkert og effektivt luftfartssystem.\n**Norges samarbeid med andre luftfartsmyndigheter kan skje på en rekke måter, for eksempel:**\n* **Utveksling av informasjon og erfaringer**\n* **Samarbeid om inspeksjoner og tilsyn**\n* **Samarbeid om utvikling av nye regler og standarder**\n**Norge har et særlig tett samarbeid med Sverige og Danmark, som også er EØS-land.** Disse tre landene har inngått en felles avtale om samarbeid innen sivil luftfart.\n**Norge er også medlem av en rekke internasjonale luftfartsorganisasjoner, for eksempel International Civil Aviation Organization (ICAO).** Disse organisasjonene fremmer samarbeid og koordinering mellom luftfartsmyndigheter fra hele verden.\n**Her er noen eksempler på hvordan Norge samarbeider med andre luftfartsmyndigheter:**\n* **Norge samarbeider med Sverige og Danmark om å utføre felles inspeksjoner av fly og lufthavner.**\n* **Norge samarbeider med EASA om å utvikle nye regler for lufttrafikkkontroll.**\n* **Norge samarbeider med ICAO om å fremme sikkerhet i internasjonal sivil luftfart.**\n**Norges samarbeid med andre luftfartsmyndigheter er viktig for å sikre et sikkert og effektivt luftfartssystem i Norge og i resten av verden.**"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-124",
+      "text": "16. Hva er oppgaven til EASA Management Board? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-124-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-124-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        ",",
+        "de stemmer for lover som er foreslått av"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-125",
+      "text": "17.  Hva er oppgaven til Advisory Body of Interested Parties? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-125-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-125-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "og deres interesser"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-126",
+      "text": "18. Hva er FAA? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-126-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-126-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "), USA's luftfarttilsynet"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-127",
+      "text": "19. (EU) No. 1321/2014 er en Implementing Regulation, hva er Implementing Regulations (IR)? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1d2-4215-4c4e-9a89-c7b91abbbbd5-opt-1",
+          "label": "Here is a simpler explanation:**"
+        },
+        {
+          "id": "69edc1d2-4215-4c4e-9a89-c7b91abbbbd5-opt-2",
+          "label": "Hard law** is like a law that must be followed. It is written down and has legal consequences if it is not followed."
+        },
+        {
+          "id": "69edc1d2-4215-4c4e-9a89-c7b91abbbbd5-opt-3",
+          "label": "Soft law** is more like a recommendation or a guideline. It is not legally binding, but it is still important to follow because it is based on best practices and expert advice."
+        },
+        {
+          "id": "69edc1d2-4215-4c4e-9a89-c7b91abbbbd5-opt-4",
+          "label": "Ex. of hard law in EASA include:**"
+        },
+        {
+          "id": "69edc1d2-4215-4c4e-9a89-c7b91abbbbd5-opt-5",
+          "label": "Implementing Regulations"
+        },
+        {
+          "id": "69edc1d2-4215-4c4e-9a89-c7b91abbbbd5-opt-6",
+          "label": "Commission Regulations"
+        },
+        {
+          "id": "69edc1d2-4215-4c4e-9a89-c7b91abbbbd5-opt-7",
+          "label": "Airworthiness Directives"
+        },
+        {
+          "id": "69edc1d2-4215-4c4e-9a89-c7b91abbbbd5-opt-8",
+          "label": "Ex. of soft law in EASA include:**"
+        },
+        {
+          "id": "69edc1d2-4215-4c4e-9a89-c7b91abbbbd5-opt-9",
+          "label": "Acceptable Means of Compliance (AMCs)"
+        },
+        {
+          "id": "69edc1d2-4215-4c4e-9a89-c7b91abbbbd5-opt-10",
+          "label": "Guidance Material (GM)"
+        },
+        {
+          "id": "69edc1d2-4215-4c4e-9a89-c7b91abbbbd5-opt-11",
+          "label": "Information Bulletins (IBs)"
+        }
+      ],
+      "explanations": [
+        "forordninger betyr regulation",
+        "**Here is a simpler explanation:**\n**Hard law** is like a law that must be followed. It is written down and has legal consequences if it is not followed.\n**Soft law** is more like a recommendation or a guideline. It is not legally binding, but it is still important to follow because it is based on best practices and expert advice.\n**Ex. of hard law in EASA include:**\n* Implementing Regulations\n* Commission Regulations\n* Airworthiness Directives\n**Ex. of soft law in EASA include:**\n* Acceptable Means of Compliance (AMCs)\n* Guidance Material (GM)\n* Information Bulletins (IBs)",
+        ". Disse er  utgitt av EU myndigheter (  )",
+        "Eksempel på en hard law er `Continuing Airworthiness`- , som er under emne fra `Basic Regulation`- :\n![image.png](../assets/image_1697785014632_0.png)\nkilde:"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1697785014632_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-128",
+      "text": "20. Hva er AMC (Acceptable Means of Compliance)? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1d2-b88a-4454-b5d6-8777048b7060-opt-1",
+          "label": "AMC-er (Acceptable Means of Compliance)** er eksempler på hvordan man kan oppfylle kravene i EASA-reglene. De er ikke lovpålagt å følge, men de er en enkel måte å vise at man overholder reglene."
+        },
+        {
+          "id": "69edc1d2-b88a-4454-b5d6-8777048b7060-opt-2",
+          "label": "*overholder betyr complying*"
+        },
+        {
+          "id": "69edc1d2-b88a-4454-b5d6-8777048b7060-opt-3",
+          "label": "GM-er (Guidance Material)**  er veiledning og anbefalinger for hvordan man kan oppfylle kravene i EASA-reglene. De er ikke lovpålagt å følge, men de er nyttige for å forstå reglene og hvordan man kan overholde dem."
+        },
+        {
+          "id": "69edc1d2-b88a-4454-b5d6-8777048b7060-opt-4",
+          "label": "Både AMC-er og GM-er er viktige for å sikre at luftfarten i Europa er trygg og effektiv.**"
+        },
+        {
+          "id": "69edc1d2-b88a-4454-b5d6-8777048b7060-opt-5",
+          "label": "Eksempel:**"
+        },
+        {
+          "id": "69edc1d2-b88a-4454-b5d6-8777048b7060-opt-6",
+          "label": "En AMC kan for eksempel spesifisere hvilke tekniske spesifikasjoner som må oppfylles for at et fly skal være godkjent for bruk i EU."
+        },
+        {
+          "id": "69edc1d2-b88a-4454-b5d6-8777048b7060-opt-7",
+          "label": "En GM kan for eksempel inneholde eksempler på hvordan man kan utføre en sikkerhetsinspeksjon av et fly."
+        },
+        {
+          "id": "69edc1d2-b88a-4454-b5d6-8777048b7060-opt-8",
+          "label": "AMC-er og GM-er er tilgjengelige på EASAs nettsider.**"
+        }
+      ],
+      "explanations": [
+        "En type soft law (  )",
+        "**AMC-er (Acceptable Means of Compliance)** er eksempler på hvordan man kan oppfylle kravene i EASA-reglene. De er ikke lovpålagt å følge, men de er en enkel måte å vise at man overholder reglene.\n* *overholder betyr complying*",
+        "**GM-er (Guidance Material)**  er veiledning og anbefalinger for hvordan man kan oppfylle kravene i EASA-reglene. De er ikke lovpålagt å følge, men de er nyttige for å forstå reglene og hvordan man kan overholde dem.",
+        "**Både AMC-er og GM-er er viktige for å sikre at luftfarten i Europa er trygg og effektiv.**",
+        "**Eksempel:**\n* En AMC kan for eksempel spesifisere hvilke tekniske spesifikasjoner som må oppfylles for at et fly skal være godkjent for bruk i EU.\n* En GM kan for eksempel inneholde eksempler på hvordan man kan utføre en sikkerhetsinspeksjon av et fly.",
+        "**AMC-er og GM-er er tilgjengelige på EASAs nettsider.**"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-129",
+      "text": "21. Hva er GM (Guidance Material)? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1d2-4a94-4758-b55c-1ae6ac27fa74-opt-1",
+          "label": "GM-er (Guidance Material)**  er veiledning og anbefalinger for hvordan man kan oppfylle kravene i EASA-reglene. De er ikke lovpålagt å følge, men de er nyttige for å forstå reglene og hvordan man kan overholde dem."
+        },
+        {
+          "id": "69edc1d2-4a94-4758-b55c-1ae6ac27fa74-opt-2",
+          "label": "AMC-er (Acceptable Means of Compliance)** er eksempler på hvordan man kan oppfylle kravene i EASA-reglene. De er ikke lovpålagt å følge, men de er en enkel måte å vise at man overholder reglene."
+        },
+        {
+          "id": "69edc1d2-4a94-4758-b55c-1ae6ac27fa74-opt-3",
+          "label": "*overholder betyr complying*"
+        },
+        {
+          "id": "69edc1d2-4a94-4758-b55c-1ae6ac27fa74-opt-4",
+          "label": "Både AMC-er og GM-er er viktige for å sikre at luftfarten i Europa er trygg og effektiv.**"
+        },
+        {
+          "id": "69edc1d2-4a94-4758-b55c-1ae6ac27fa74-opt-5",
+          "label": "Eksempel:**"
+        },
+        {
+          "id": "69edc1d2-4a94-4758-b55c-1ae6ac27fa74-opt-6",
+          "label": "En AMC kan for eksempel spesifisere hvilke tekniske spesifikasjoner som må oppfylles for at et fly skal være godkjent for bruk i EU."
+        },
+        {
+          "id": "69edc1d2-4a94-4758-b55c-1ae6ac27fa74-opt-7",
+          "label": "En GM kan for eksempel inneholde eksempler på hvordan man kan utføre en sikkerhetsinspeksjon av et fly."
+        },
+        {
+          "id": "69edc1d2-4a94-4758-b55c-1ae6ac27fa74-opt-8",
+          "label": "AMC-er og GM-er er tilgjengelige på EASAs nettsider.**"
+        }
+      ],
+      "explanations": [
+        "En type soft law (  )",
+        "**GM-er (Guidance Material)**  er veiledning og anbefalinger for hvordan man kan oppfylle kravene i EASA-reglene. De er ikke lovpålagt å følge, men de er nyttige for å forstå reglene og hvordan man kan overholde dem.",
+        "**AMC-er (Acceptable Means of Compliance)** er eksempler på hvordan man kan oppfylle kravene i EASA-reglene. De er ikke lovpålagt å følge, men de er en enkel måte å vise at man overholder reglene.\n* *overholder betyr complying*",
+        "**Både AMC-er og GM-er er viktige for å sikre at luftfarten i Europa er trygg og effektiv.**",
+        "**Eksempel:**\n* En AMC kan for eksempel spesifisere hvilke tekniske spesifikasjoner som må oppfylles for at et fly skal være godkjent for bruk i EU.\n* En GM kan for eksempel inneholde eksempler på hvordan man kan utføre en sikkerhetsinspeksjon av et fly.",
+        "**AMC-er og GM-er er tilgjengelige på EASAs nettsider.**"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-130",
+      "text": "22. Forskriftene er bygget opp med Section A og B. Hva er forskjellen på Section A og B? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-130-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-130-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-131",
+      "text": "23. Hva finner vi i (EU) No. 2018/1139? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-131-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-131-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "NO. 748, NO. 965, NO. 1321"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-132",
+      "text": "24. Hva finner vi i (EU) No. 748/2012? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-132-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-132-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "PART-21"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-133",
+      "text": "25. Hva finner vi i (EU) No. 1321/2014? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1d1-d2cd-4a90-b368-1ec743a0b3c7-opt-1",
+          "label": "PART-M A1"
+        },
+        {
+          "id": "69edc1d1-d2cd-4a90-b368-1ec743a0b3c7-opt-2",
+          "label": "PART-145 A2"
+        },
+        {
+          "id": "69edc1d1-d2cd-4a90-b368-1ec743a0b3c7-opt-3",
+          "label": "PART-66 A3"
+        },
+        {
+          "id": "69edc1d1-d2cd-4a90-b368-1ec743a0b3c7-opt-4",
+          "label": "PART-147 A4"
+        }
+      ],
+      "explanations": [
+        "ANNEXES:\n* PART-M A1\n* PART-145 A2\n* PART-66 A3\n* PART-147 A4"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-134",
+      "text": "26. Hva finner vi i (EU) No. 965/2012? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-134-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-134-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "EASA-OPS under operatør"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-135",
+      "text": "27. Hva finner vi i (EU) No. 376/2014? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-135-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-135-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-136",
+      "text": "28. Hva er SMS? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-136-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-136-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-137",
+      "text": "29. Hva mener vi med Just Culture  #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-137-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-137-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "tatt inn i 376/2014",
+        "Just culture er et begrep som refererer til en arbeidskultur hvor ansatte føler seg trygge nok til å rapportere feil eller uhensiktsmessig atferd uten frykt for represalier eller straff. Det handler om å skape et miljø der feil kan læres av og forbedringer kan implementeres, heller enn å skylde eller straffe enkeltpersoner. Just culture balanserer ansvar og korrigerende tiltak for å sikre at organisasjonen lærer av feil og kontinuerlig forbedrer seg, samtidig som den opprettholder ansvarlighet og sikkerhet."
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-138",
+      "text": "![image.png](../assets/image_1697701918029_0.png){:height 379, :width 260} ((6530e032-e89f-45a5-8392-a9f37a449191)) Sett strek mellom de boksene som hører sammen mellom kolonne 1, 2 og 3.  #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-138-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-138-opt-2",
+          "label": "False"
+        }
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1697701918029_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-139",
+      "text": "![image.png](../assets/image_1697702010498_0.png){:height 345, :width 246} ((6530e058-45e2-462a-8d08-cd5c9026b8b5)) #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-139-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-139-opt-2",
+          "label": "False"
+        }
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1697702010498_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    }
+  ]
+}

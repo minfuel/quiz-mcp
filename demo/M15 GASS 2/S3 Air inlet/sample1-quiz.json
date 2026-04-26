@@ -5,18 +5,222 @@
   "questions": [
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-442",
       "text": "I hvilke hastighetsområder opererer fly når vi snakker om: «Subsonic», «Transonic»,«Supersonic» og «Hypersonic»?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-442-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-442-opt-2",
           "label": "False"
         }
+      ],
+      "explanations": [
+        ": 0,73 mach",
+        ": 0,75-1,2 mach",
+        ": 1,2-5",
+        ": 5 ->"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-443",
+      "text": "**Hva skjer med luft hastisghet med disse forskjellige exhauster?**  ![image.png](../assets/image_1698816961978_0.png){:height 96, :width 254} ((6541e3ee-ea34-4d02-b998-2a7e174ed318))",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-443-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-443-opt-2",
+          "label": "False"
+        }
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1698816961978_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-444",
+      "text": "36 Hvilken form har et luftinntak på motorer som flyr under lydens hastighet?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-444-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-444-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "rund og oval form(klaring fra bakken)"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-445",
+      "text": "**37  Hvorfor er forkanten på luftinntaket et kritisk område?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-445-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-445-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "turbulens i luftene kan føre til #surge"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-446",
+      "text": "Hva er ram effekt?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-446-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-446-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "hammered incoming air",
+        "engine’s working fluid - ram effect",
+        "fwd airspeed increase, more air forced into the engine\nknown as ram effect"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-447",
+      "text": "**38  Når motorene går men flyet står stille er ram effekten i luftinntaket…..**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-447-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-447-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "no work near the engine -  unless",
+        "windmill"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-448",
+      "text": "**39  Hva må en ta hensyn til når flyet skal fly over lydens hastighet?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-448-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-448-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "slight mods in the subsonic inlet:"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-449",
+      "text": "**40  Normal shock bølge er…**",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1fd-e4a3-4f4e-9669-5802b822f7ad-opt-1",
+          "label": "In Normal Shock, the wave is right angle to the Flow and its is a one dimensional flow In oblique shock, Shock wave is inclined at an angle to the flow and it is a two dimensional flow**."
+        },
+        {
+          "id": "69edc1fd-e4a3-4f4e-9669-5802b822f7ad-opt-2",
+          "label": "![image.png](../assets/image_1701385170006_0.png){:height 326, :width 467}"
+        }
+      ],
+      "explanations": [
+        "**In Normal Shock, the wave is right angle to the Flow and its is a one dimensional flow In oblique shock, Shock wave is inclined at an angle to the flow and it is a two dimensional flow**.",
+        "* ![image.png](../assets/image_1701385170006_0.png){:height 326, :width 467}"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701385170006_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-450",
+      "text": "**41  Oblique shock bølge er…**",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1fd-b76f-4c32-b26c-1ac9b8a7e4ad-opt-1",
+          "label": "![image.png](../assets/image_1701385126919_0.png){:height 286, :width 470}"
+        }
+      ],
+      "explanations": [
+        "* ![image.png](../assets/image_1701385126919_0.png){:height 286, :width 470}"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701385126919_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-451",
+      "text": "**42  Hvordan forhindres det oppbygging av is i luftinntaket?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-451-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-451-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "-  from compressor"
       ]
     }
   ]

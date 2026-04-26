@@ -1,0 +1,755 @@
+{
+  "id": "quiz-M10 Lover og bestemmelser-S6-level-1",
+  "title": "M10 Lover og bestemmelser - S6 - Part-M - Level 1",
+  "description": "Quiz for M10 Lover og bestemmelser chapter S6 - Part-M level 1",
+  "questions": [
+    {
+      "_kind": "single_choice",
+      "id": "q-277",
+      "text": "I hvilket dokument finner du Part-M? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-277-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-277-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-278",
+      "text": "Hva omhandler Part-M? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-278-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-278-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "og"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-279",
+      "text": "Hvordan er Par-M delt opp? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1cf-99c8-4402-881b-bb269889f381-opt-1",
+          "label": "p-145 or p-CAO"
+        }
+      ],
+      "explanations": [
+        "/",
+        "/",
+        "/",
+        "/",
+        "/\n* p-145 or p-CAO",
+        "/",
+        "/",
+        "/"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-280",
+      "text": "Hvem har ansvaret for kontinuerlig luftdyktighet av luftfartøyet? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-280-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-280-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "eller"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-281",
+      "text": "Før flyvning skal eier forsikre seg om: #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-281-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-281-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "fartøy er",
+        "er i orden",
+        "gyldig",
+        "vedlikehold utført iht til  (  )"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-282",
+      "text": "Hvem kan utføre Pre- Flight Inspeksjon? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-282-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-282-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-283",
+      "text": "Du jobber i en Part 145 organisasjon som har til ansvar å ivareta vedlikeholdet for en operatør. Under vedlikehold så oppdages det en feil på luftfartøyet som kan være til fare for flysikkerheten. Hvordan og til hvem skal en slik hendelsesrapport sendes? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-283-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-283-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "i format godkjent av LTT",
+        "sendes senest  etter oppdaget feil"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-284",
+      "text": "Forskjellen på ervermessig og private? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-284-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-284-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "Ervermessig må ha AOC og tegne kontrakt m/ P-145",
+        "Private kan kun ha P-66, ikke betalt for flyturen"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-285",
+      "text": "For at et luftfartøy skal være kontinuerlig luftdyktig må følgende oppgaver (task) gjennomføres: (se MA301) #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-285-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-285-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "MA 302",
+        "de forskjellige direktiver",
+        "mods og rep",
+        "testflyving hvis vedlikehold påkreves"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-286",
+      "text": "Hva skal et vedlikeholdsprogram inneholde? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-286-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-286-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-287",
+      "text": "Ethvert luftfartøy skal vedlikeholdes i samsvar med et vedlikeholdsprogram. Hvordan/hvem sjekker og godkjenner et slikt vedlikeholdsprogram? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1cf-8f25-493d-a13d-175cb958ffc5-opt-1",
+          "label": "time between overhaul"
+        }
+      ],
+      "explanations": [
+        "vedlikeholdsprogram og endringene",
+        "CAMO eller  organisasjon kan godkjenne vedlikeholdsprosedyr utarbeidet av organisasjon",
+        "![image.png](../assets/image_1714115114737_0.png){:height 168, :width 333}\n* time between overhaul",
+        "[[draws/2024-04-26-09-01-32.excalidraw]]"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1714115114737_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-288",
+      "text": "Når skal det skrives en Certificate of Release to Service (CRS) på et luftfartøy? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-288-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-288-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "vedlikeholdet eller"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-289",
+      "text": "Luftfartøyets dokumentasjon for luftdyktighet skal i tilpasset utstrekking bestå av loggbøker. Hva skal luftfartøyets loggbøker inneholde? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-289-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-289-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "status på compliance/"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-290",
+      "text": "Hva skal gjøres med all dokumentasjon etter at luftfartøyet er tatt ut av permanent tjeneste? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-290-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-290-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-291",
+      "text": "Hvor lenge skal operatøren oppbevare all dokumentasjon og hva skjer med denne dokumentasjonen når luftfartøyet overføres til en annen operatør? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-291-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-291-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-292",
+      "text": "Part-M subpart D sier noe om Maintenance Standard. Hva sier den om krav til verktøy og utstyr? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-292-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-292-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "kontroll ingen"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-293",
+      "text": "Hva skal gjøres med alle feil som ikke utbedres før flyging? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-293-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-293-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "feilene",
+        "MA 305, 306",
+        "innenfor"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-294",
+      "text": "Etter ferdig vedlikehold skal det gjennomføres en generell kontroll. Hva er hensikten med denne kontrollen? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-294-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-294-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "fordi kritisk for sikkerheten"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-295",
+      "text": "Før man monterer en komponent i luftfartøyet så må komponenten sjekkes. Hva må man forvisse/make sure seg om før komponenten monteres på flyet? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-295-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-295-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "og har EASA FORM 1",
+        "merket iht til  (  )"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-296",
+      "text": "Når skal en komponent anses som ubrukelig? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-296-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-296-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-297",
+      "text": "Hva omhandler Part-M Subpart-F? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-297-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-297-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "- Combined Airworthiness Organisation",
+        "-",
+        "f.eks klubbfly"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-298",
+      "text": "Hva er CAMO? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-298-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-298-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "godkjenningen er en del av AOC"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-299",
+      "text": "Approval Certificate til CAMO er en del av? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-299-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-299-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "bekrefter at en organisasjon, en CAMO, oppfyller nødvendige krav for å drive vedlikeholds- og luftdyktighetsstyring for luftfartøy",
+        "AOC"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-300",
+      "text": "Hva er oppgaven til CAMO? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-300-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-300-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-301",
+      "text": "Hva er CAME? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-301-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-301-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "s av CAMO"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-302",
+      "text": "Hva skal CAME inneholde? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-302-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-302-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1714115114737_0.png){:height 182, :width 454}"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1714115114737_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-303",
+      "text": "Hvilke krav stilles til personellet i CAMO? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-303-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-303-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "ansette",
+        "ansette ansvarlig person eller gruppe  (må ikke jobbe i P-145)  . han er over Accountable Manager",
+        "ved LT",
+        "+"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-304",
+      "text": "Hva er kravene til ARS (Air Worthiness Review Staff)? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1ce-7215-481e-8212-365fdc4d6625-opt-1",
+          "label": "((662b6b0a-28d7-4b67-acaa-903da199dd92))"
+        },
+        {
+          "id": "69edc1ce-7215-481e-8212-365fdc4d6625-opt-2",
+          "label": "((662b6b4f-6d9b-4148-bfc9-81bf48d444fc))"
+        },
+        {
+          "id": "69edc1ce-7215-481e-8212-365fdc4d6625-opt-3",
+          "label": "((662b6b2c-3577-4ccf-99f0-bb7095e1da95))"
+        }
+      ],
+      "explanations": [
+        "*\n*\n*"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-305",
+      "text": "Hvordan kan CAMO forsikre seg at flyet er luftdyktig (MA708)? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-305-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-305-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1714123067301_0.png){:height 188, :width 321}\n![image.png](../assets/image_1714123089683_0.png){:height 185, :width 324}\ns."
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1714123067301_0.png",
+            "alt": "image.png"
+          },
+          {
+            "id": "att-2",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1714123089683_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-306",
+      "text": "Hva er Airworthiness Review? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-306-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-306-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "som gjennomføres av godkjente organisasjon for å verifisere:\nalle desse punkter(  )"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-307",
+      "text": "Hva granskes på en Airworthiness Review? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-307-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-307-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-308",
+      "text": "Hvem og hvordan utstedes et ARC (Airworthiness Review Certification)? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-308-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-308-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-309",
+      "text": "Hva er EASA form 15a og 15b? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-309-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-309-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-310",
+      "text": "Hvor lenge er ARC gyldig? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-310-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-310-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-311",
+      "text": "Hvem kan utstede en ARC? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-311-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-311-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "Part M Subpart G/ CAMO kan utføre dette, hvis",
+        "(indipendent)"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-312",
+      "text": "Hva er EASA form 25? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-312-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-312-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-313",
+      "text": "Hva må søker gjøre når en overfører et registrert luftfartøy innen EU? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-313-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-313-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-314",
+      "text": "Hva må søkeren gjøre når han importerer et luftfartøy inn i et EU land? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1ce-7a2d-4f5c-920e-1db5058ccf77-opt-1",
+          "label": "LT skal kunne inspisere"
+        },
+        {
+          "id": "69edc1ce-7a2d-4f5c-920e-1db5058ccf77-opt-2",
+          "label": "LT utsedet nytt ((66346fdc-b76d-46c8-b9c8-2f8934d94d45))/ARC"
+        },
+        {
+          "id": "69edc1ce-7a2d-4f5c-920e-1db5058ccf77-opt-3",
+          "label": "LT ustede granskingsbevis ift, luftdyktighet - gjelder 1 år"
+        }
+      ],
+      "explanations": [
+        "godkjent CAMO Part-M organisasjon til å utføre AR og se vedlikehold utføres",
+        "s\n* LT skal kunne inspisere\n* LT utsedet nytt /ARC\n* LT ustede granskingsbevis ift, luftdyktighet - gjelder 1 år"
+      ]
+    }
+  ]
+}

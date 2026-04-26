@@ -1,0 +1,204 @@
+{
+  "id": "quiz-M15 Gass 2-S20-level-2",
+  "title": "M15 GASS 2 - S20 Fire Protection Systems - Level 2",
+  "description": "Quiz for M15 GASS 2 chapter S20 Fire Protection Systems level 2",
+  "questions": [
+    {
+      "_kind": "single_choice",
+      "id": "q-770",
+      "text": "**302. Hva er continuous loop?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-770-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-770-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "T"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-771",
+      "text": "**303. Hva vil det si at en motor har dual loop?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-771-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-771-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "og"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-772",
+      "text": "304. Hvilke type sensorer finner du på moderne gassturbinmotor?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-772-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-772-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-773",
+      "text": "305. Hva er forskjellen på disse to sensorene?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-773-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-773-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "/Element -",
+        "-",
+        "-"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-774",
+      "text": "306. Fan elementene detekterer brann/luft lekkasje i hvilket område?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-774-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-774-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-775",
+      "text": "307. Core elementene detekterer brann/luft lekkasje i hvilket område?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-775-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-775-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-776",
+      "text": "308. Pylon elementene detekterer brann/luft lekkasje i hvilket område?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-776-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-776-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-777",
+      "text": "309. Hvilke krave stilles til brannslukking av motoren?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-777-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-777-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "switch/",
+        "/two halon fire extinguishers to one engine"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-778",
+      "text": "**310. Hva skjer når du drar fire handle i cockpit?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-778-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-778-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "/two halon fire extinguishers to one engine"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-779",
+      "text": "**311. Hvordan får du avfyrt HRD flaskene?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1fa-5627-4a98-8624-e60fe72b97f2-opt-1",
+          "label": "IDG closed"
+        },
+        {
+          "id": "69edc1fa-5627-4a98-8624-e60fe72b97f2-opt-2",
+          "label": "Bleed air valve closed"
+        },
+        {
+          "id": "69edc1fa-5627-4a98-8624-e60fe72b97f2-opt-3",
+          "label": "fuel shut-off valve closed"
+        },
+        {
+          "id": "69edc1fa-5627-4a98-8624-e60fe72b97f2-opt-4",
+          "label": "hydraulic valve closed"
+        },
+        {
+          "id": "69edc1fa-5627-4a98-8624-e60fe72b97f2-opt-5",
+          "label": "CWS get signal, updates ECAM displays"
+        },
+        {
+          "id": "69edc1fa-5627-4a98-8624-e60fe72b97f2-opt-6",
+          "label": "two suibs armed (lights indicate this)"
+        }
+      ],
+      "explanations": [
+        "pilot ,  on fire push button, button press :\n* IDG closed\n* Bleed air valve closed\n* fuel shut-off valve closed\n* hydraulic valve closed\n* CWS get signal, updates ECAM displays\n* two suibs armed (lights indicate this)\nsends el. signal that heats squib and halon catridge explodes. AMBER is now shown, wait s, discharge 2nd bottle, check valve avoids the 2nd bottles halon to go to the first one"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,951 @@
+{
+  "id": "quiz-M10 Lover og bestemmelser-SLett-level-1",
+  "title": "M10 Lover og bestemmelser - SLett blanding - Level 1",
+  "description": "Quiz for M10 Lover og bestemmelser chapter SLett blanding level 1",
+  "questions": [
+    {
+      "_kind": "single_choice",
+      "id": "q-343",
+      "text": "Hvilken dokumentasjon skal alltid være med under flyving?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-343-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-343-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-344",
+      "text": "Hvilken rolle har ICAO og hvordan er de organisert?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-344-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-344-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-345",
+      "text": "Hva legger du i forkortelsene EASA-OPS?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-345-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-345-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-346",
+      "text": "Hvorfor har et verksted inngangskontroll på deler, og hva er arbeidsoppgavene til denne kontrollen?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-346-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-346-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-347",
+      "text": "Hva er kriteriene for å få hel gruppe inn i AML?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-347-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-347-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-348",
+      "text": "Hvilke luftfartøy er dette gjeldende for (hele grupper)?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-348-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-348-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-349",
+      "text": "Det er feil på et luftfartøy. Du skal klargjøre det basert på MEL. Men finner ikke feilen beskrevet i systemet. Hva gjør du videre?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-349-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-349-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-350",
+      "text": "En Acc Manager i et PART-145 verksted viktigste funksjon ift, flyteknisk er….?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-350-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-350-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-351",
+      "text": "Kan du forklare forskjellen mellom AD og Service Bulletins?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-351-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-351-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-352",
+      "text": "Hva er forskjellen på planlagt og ikke planlagt vedlikehold?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-352-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-352-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-353",
+      "text": "Hvilken rolle har EASA?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-353-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-353-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-354",
+      "text": "Hvorfor er det et fag som er obligatorisk (lover og regler) i all flyteknisk utdanning?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-354-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-354-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-355",
+      "text": "Hvor finner du forskriftene som forteller om utslipp og støy?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-355-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-355-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-356",
+      "text": "Hvilke byggeforskrifter har vi på Large Rotorcraft?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-356-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-356-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-357",
+      "text": "Hvorfor ble ICAO etablert?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-357-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-357-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-358",
+      "text": "Hvilke privilegier kan Cat A-personell inneha?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-358-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-358-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-359",
+      "text": "Kan en B1.1 også inneha Cat A-privilegier på luftfartøy som ikke er innført i AML?  Når må AML utstedes på nytt?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-359-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-359-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-360",
+      "text": "Hva er arbeidsoppgavene til CAMO?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-360-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-360-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-361",
+      "text": "Hva må en EU-OPS ha ift vedlikehold?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-361-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-361-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "EU-OPS er den gamle ordningen og er erstattet av EASA-OPS",
+        "EU-OPS Harmoniserte driftsreglene for kommersiell lufttransport innenfor  EU",
+        "ift vedlikehold må disse for å drive kommersiell ha en kontrakt med en PART-145 verksted (CRS)",
+        "ikke nok med p-66 (kun hvis ikke erversmessig)",
+        "vedlikeholdsprogram må være godkjent av LTTA"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-362",
+      "text": "Hva er en AOC og hvem må ha dette?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-362-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-362-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-363",
+      "text": "Hva må ligge til grunne før registreringsbeviset (Certificate of Registration) kan utstedes?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-363-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-363-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-364",
+      "text": "Hvem utsteder Certificate of Registration?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-364-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-364-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-365",
+      "text": "Hva slags inspeksjon kan en flykaptein utføre, og medfører det enkel feilretting?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-365-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-365-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-366",
+      "text": "En komponent kommer tilbake fra overhaling. Hvilke dokumenter forventer du følger med?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-366-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-366-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-367",
+      "text": "Hvor lang gyldighet har en Radiokonsesjon for luftfartøy?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-367-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-367-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-368",
+      "text": "Hvem utgir Radiokonsesjon for luftfartøy, og når må det eventuelt fornyes?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-368-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-368-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "ingen gydighetstid",
+        "søkes på ny når nytt utstyr"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-369",
+      "text": "Hvorfor veies luftfartøy med jevne intervaller?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-369-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-369-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-370",
+      "text": "Hvilken nytte har vi av veieskjema?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-370-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-370-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "brukes til å regne nye"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-371",
+      "text": "Hvilke undergrupper har B1?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-371-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-371-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-372",
+      "text": "Hva er miljøbeviset forankret i?",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1ce-6e3d-44ea-8dbc-1b1a4492006a-opt-1",
+          "label": "subsonisk"
+        },
+        {
+          "id": "69edc1ce-6e3d-44ea-8dbc-1b1a4492006a-opt-2",
+          "label": "supersonisk"
+        },
+        {
+          "id": "69edc1ce-6e3d-44ea-8dbc-1b1a4492006a-opt-3",
+          "label": "helikopter"
+        },
+        {
+          "id": "69edc1ce-6e3d-44ea-8dbc-1b1a4492006a-opt-4",
+          "label": "propell fly"
+        }
+      ],
+      "explanations": [
+        "miljøveviset/",
+        "kan gis unntak f.eks historiske fly",
+        "gyldig til stor inngrep i fartøyet",
+        "gis ut basert på:\n* subsonisk\n* supersonisk\n* helikopter\n* propell fly"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-373",
+      "text": "Hvilken undergruppe har kategori-A?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-373-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-373-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-374",
+      "text": "Hvilken undergruppe har B2?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-374-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-374-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-375",
+      "text": "Hvilke godkjenninger må en bedrift inneha som skal designe og produsere luftfartøy og/eller deler ha? Og hvilke forskrifter må de etterleve?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-375-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-375-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-376",
+      "text": "Hva er det som synliggjør hvor lenge vi kan operere med en feil basert på MEL?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-376-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-376-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-377",
+      "text": "Hvem utsteder CRS fra basevedlikehold?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-377-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-377-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-378",
+      "text": "Hvordan blir man en kategori-C person?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-378-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-378-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-379",
+      "text": "Hva legger du i forkortelsen CRS?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-379-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-379-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-380",
+      "text": "Hvordan behandler du en del som er ut-montert fra et luftfartøy?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-380-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-380-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-381",
+      "text": "Er det noen krav til kalibrering av verktøy brukt på luftfartøy? Er svaret ja, hvordan vil du arrangere det i et verksted? Er svaret nei, begrunn det.",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-381-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-381-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-382",
+      "text": "Hvilken rolle har kvalitetsavdelingen i et verksted?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-382-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-382-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-383",
+      "text": "For at luftfartøyet skal være luftdyktig må det inneha et Certificate of Airworthiness (C of R)? Hvor lenge/hvilke kriterier er det som skal være tilstede for at det er gyldig?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-383-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-383-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-384",
+      "text": "Hva er oppgaven til Airworthiness Review Staff (ARS) og hvor er disse personene hentet fra?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-384-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-384-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "ARS",
+        "de er ansatt i CAMO, men ikke inneha stilling i område hen gransker"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-385",
+      "text": "Før Airworthiness Review Certificate (ARC) blir utstedt må en gransknings utføres. Hva går denne granskningen ut på?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-385-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-385-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-386",
+      "text": "Hvilken rolle har kvalitetsavdelingen i en CAMO?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-386-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-386-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-387",
+      "text": "Kan du forklare hvorfor enkelte luftfartøy i tillegg til typesertifikat har STC?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-387-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-387-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-388",
+      "text": "Hvis det er krav til språkkunnskap for en AML-søker, kan du redegjøre for det?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-388-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-388-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-389",
+      "text": "Hva sier EASA om personlige sertifikat på komponenter?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-389-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-389-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-390",
+      "text": "Hvilke luftfartøy typer trenger ETOPS godkjenning?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-390-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-390-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-391",
+      "text": "Kan du forklare forskjellen på luftfartøy hvor det kreves godkjent typekurs og de som ikke trenger det?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-391-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-391-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-392",
+      "text": "I AML skal luftfartøy klassifiseres i tre grupper: gruppe 1, gruppe 2 og gruppe 3. Hvilke luftfartøy ligger i disse tre gruppene?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-392-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-392-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-393",
+      "text": "Hva må man tilfredsstille for å få en fabrikkgruppe?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-393-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-393-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-394",
+      "text": "Hva må man tilfredsstille for å få en hel gruppe?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-394-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-394-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-395",
+      "text": "Hvilke luftfartøytyper kan bare få fabrikkgrupper?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-395-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-395-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-396",
+      "text": "Hva er minimum vedlikeholds erfaring for innføring av første luftfartøytype i AML? Hva med luftfartøytype nr 2",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-396-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-396-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-397",
+      "text": "En komplett grunnutdanning må gjennomføres over max........... år?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-397-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-397-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-398",
+      "text": "Hva med vedlikeholds praksis, er det noen tidsfrister?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-398-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-398-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-399",
+      "text": "Hva heter håndboken til CAMO, Part 145 og Part 147?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-399-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-399-opt-2",
+          "label": "False"
+        }
+      ]
+    }
+  ]
+}

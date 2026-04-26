@@ -1,0 +1,373 @@
+{
+  "id": "quiz-M10 Lover og bestemmelser-S5-level-1",
+  "title": "M10 Lover og bestemmelser - S5 - Part-21 - Level 1",
+  "description": "Quiz for M10 Lover og bestemmelser chapter S5 - Part-21 level 1",
+  "questions": [
+    {
+      "_kind": "single_choice",
+      "id": "q-257",
+      "text": "I hvilket dokument finner du Part-21? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-257-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-257-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-258",
+      "text": "Hva omhandler Part-21? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-258-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-258-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-259",
+      "text": "Hva er TC (Type Certificate)? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-259-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-259-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "certifying of",
+        "TC/DS - type certificate datasheet\ninneholder flytype og alle motor som kan brukes"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-260",
+      "text": "Hvem utsteder TC? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-260-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-260-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "LTT"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-261",
+      "text": "Hvem eier TC? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-261-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-261-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "eies av fabrikanten - sikrer produktet fortsetter å oppfylle alle relevante sikkerhets- og forskriftskrav",
+        "TC er",
+        "STC er"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-262",
+      "text": "Hva er STC? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1cf-e47f-4779-930d-1a73077cce0e-opt-1",
+          "label": "vanlig fly er 3 år"
+        }
+      ],
+      "explanations": [
+        "ustedt hvis en modifikasjon er gjort på TC",
+        "* vanlig fly er 3 år"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-263",
+      "text": "Hva er DOA? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-263-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-263-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "Design Organisation Approval",
+        "godkjent av LTT til å"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-264",
+      "text": "Hva er POA? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-264-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-264-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "Production organisasjon Approval"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-265",
+      "text": "Hva er CS (Certification Specification)? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-265-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-265-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "CS-25 store fly",
+        "det er specifikasjon om hvordan flyet skal designes"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-266",
+      "text": "Hvor finner vi kravene til miljøbestemmelser? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-266-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-266-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-267",
+      "text": "Hva er CofA? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-267-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-267-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-268",
+      "text": "Hva er Restricted CofA? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-268-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-268-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "cofa,cofr,miljø/noise -> LT/CAA",
+        "ARC -> caa/camo",
+        "radio -> Nkom",
+        "weights/balance -> TC/CAMO/P66"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-269",
+      "text": "Hva er Permit to Fly (PtF)? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-269-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-269-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-270",
+      "text": "Hva er ARC? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-270-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-270-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "dette er en luftdyktighetsbevis for fly som er brukt til ny fly eller har oprinnelse fra et ikke-medlemsland",
+        "bruker Form 15 og er slags EU bil kontroll som utføres hvert år av CAMO's egen indipendenter"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-271",
+      "text": "Når kan en luftfartsmyndighet utstede Certificate of Registration? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-271-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-271-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-272",
+      "text": "Hva er Bill of Sale? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-272-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-272-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "dette er en"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-273",
+      "text": "Hvem utsteder Certification of Environmental Quality-Noise Certificate #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-273-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-273-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-274",
+      "text": "Hvor finner vi krav til masse og balanse dokumentasjon? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-274-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-274-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-275",
+      "text": "Hvem utsteder Aircraft Radio Station Licence (Radiokonsesjon for luftfartøy) #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-275-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-275-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-276",
+      "text": "![](../assets/Aspose.Words.19416a84-4cfd-45e8-ba7c-96d3f0d42991.073.png) # Dette  flyet  skal  selges  og  brukers  i  kommersiell  luftfart. Hvilke godkjenninger  må  produsenten  ha  og  hvilke  godkjenninger  må luftfartøyet ha?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-276-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-276-opt-2",
+          "label": "False"
+        }
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/Aspose.Words.19416a84-4cfd-45e8-ba7c-96d3f0d42991.073.png",
+            "alt": "Aspose.Words.19416a84-4cfd-45e8-ba7c-96d3f0d42991.073.png"
+          }
+        ]
+      ]
+    }
+  ]
+}

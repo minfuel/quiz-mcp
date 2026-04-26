@@ -5,34 +5,245 @@
   "questions": [
     {
       "_kind": "single_choice",
-      "id": "q-0",
-      "text": "111. Hvilke opp belastninger tar et rulle lager",
+      "id": "q-533",
+      "text": "110. Hvilke belastninger tar et kule lager opp?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-533-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-533-opt-2",
           "label": "False"
         }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1686493443763_0.png){:height 207, :width 259}",
+        "støtte opp radialt og aksial",
+        "{{embed }}",
+        "{{embed }}"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1686493443763_0.png",
+            "alt": "image.png"
+          }
+        ]
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-534",
+      "text": "Hva er oppgaven til olje?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-534-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-534-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "kjøling"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-535",
+      "text": "Hva er en spline?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-535-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-535-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1700644964586_0.png){:height 217, :width 240}"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1700644964586_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-536",
+      "text": "111. Hvilke opp belastninger tar et rulle lager",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-536-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-536-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "støtte opp alt radialt",
+        "{{embed }}"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-537",
       "text": "Hvilke lager tar opp thrusten?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-537-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-537-opt-2",
           "label": "False"
         }
+      ],
+      "explanations": [
+        "de fremre bearing tar opp thrusten",
+        "den bakre er støtte"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-538",
+      "text": "112. Hva er fordelen med en Carbon pakning?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-538-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-538-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "tåler farlige kjemikaler"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-539",
+      "text": "113. Hva er en Labyrint seal?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-539-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-539-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "a type of seals like carbon seals",
+        "![image.png](../assets/image_1700647952653_0.png){:height 49, :width 73}",
+        "![image.png](../assets/image_1701861021447_0.png)"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1700647952653_0.png",
+            "alt": "image.png"
+          },
+          {
+            "id": "att-2",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701861021447_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-540",
+      "text": "Hvilke metode er brukt for Accesory units attachments?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-540-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-540-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "quck attachement disassebly (som et bajonett feste-hurtig kobling)"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-541",
+      "text": "Hva er en oil dampened lager?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-541-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-541-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1700646616251_0.png)"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1700646616251_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-542",
+      "text": "Hva er last chance filter?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-542-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-542-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "stor nok at oljen trenger ut, lite nok å ikke slippe små partikler inn"
       ]
     }
   ]

@@ -5,512 +5,1179 @@
   "questions": [
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-584",
+      "text": "Forskjellen på transmitter og transducer?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-584-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-584-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "tranducer - analog -> elecktric",
+        "transmitter - sender bare signalet"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-585",
+      "text": "143. Hva er motor fuelsystemer delt i?",
+      "score": 1,
+      "options": [
+        {
+          "id": "65e8710f-047a-404e-b1e7-8c93d720624d-opt-1",
+          "label": "((65c290cb-7016-46bc-b7ff-b0c4e3fd7647))"
+        },
+        {
+          "id": "65e8710f-047a-404e-b1e7-8c93d720624d-opt-2",
+          "label": "((65c290e0-8377-4606-af5a-2bc98ed0f84b)) - ((65c290e6-7039-432b-a125-0927c7c4a1e1))"
+        },
+        {
+          "id": "65e8710f-047a-404e-b1e7-8c93d720624d-opt-3",
+          "label": "((65c290f0-8832-44d2-88fe-7cec03eabcfd)) - ((65c290f9-0b00-4df0-8cc5-06b679f832c6))"
+        }
+      ],
+      "explanations": [
+        "*\n*  -\n*  -"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-586",
+      "text": "144. De to stegene til fuel pumpene?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-586-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-586-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1710318506287_0.png)",
+        "same housing, 1 driveshaft"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1710318506287_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-587",
+      "text": "Hva kalles roterende delen i en axial kompressor?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-587-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-587-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "impeller"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-588",
+      "text": "145. Nevn de to type HP pumpene?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-588-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-588-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-589",
+      "text": "146. Hvilken oppgave har shear section på en fuel pump?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-589-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-589-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "shear section is normally on  to  protect the component when you loose oil/fuel for lubrication and being driven into unormal operating conditions"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-590",
+      "text": "147. Hvilken oppgave har Pressurizing and dump valve?",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1fb-f383-498e-8815-89b890ffddb9-opt-1",
+          "label": "demand for fuel is low= fue flows through the primary manifold,"
+        },
+        {
+          "id": "69edc1fb-f383-498e-8815-89b890ffddb9-opt-2",
+          "label": "demand for fuel is high =  pressurization valve opens,  deliver fuel to the secondary manifold."
+        }
+      ],
+      "explanations": [
+        "dump valves are used to reduce pressure in a (intake) system",
+        "used in duplex nozzle engine\nAt engine start, **fuel control** send pres signal to pressurization valve to close dump valve, opening fuel passage\n* demand for fuel is low= fue flows through the primary manifold,\n* demand for fuel is high =  pressurization valve opens,  deliver fuel to the secondary manifold.",
+        "At engine shutdown,  dump valve  opens to drain fuel from the manifolds.",
+        "![image.png](../assets/image_1710319371325_0.png)"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1710319371325_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-591",
+      "text": "Hvorfor har vi fuelnozzler?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-591-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-591-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "nozzler atomiserer brensle, desto flere oksygen blanding, bedre forbrenning, mindre brensel bruk"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-592",
+      "text": "148. Det er to hovedtyper fuelnozzler. Hva heter disse?",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1fb-68d0-4a37-9477-f172169c2fe4-opt-1",
+          "label": "((659e6207-bae9-4ed1-bc36-8937329a2610))"
+        },
+        {
+          "id": "69edc1fb-68d0-4a37-9477-f172169c2fe4-opt-2",
+          "label": "fuel manifold valve"
+        },
+        {
+          "id": "69edc1fb-68d0-4a37-9477-f172169c2fe4-opt-3",
+          "label": "flow divider valve"
+        },
+        {
+          "id": "69edc1fb-68d0-4a37-9477-f172169c2fe4-opt-4",
+          "label": "fuel flow transmitter - monitoring av hvor mye fuel vi bruker"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1704879694782_0.png){:height 161, :width 219}\n*",
+        "- brensel suges ut av luften\n![image.png](../assets/image_1704879602178_0.png){:height 201, :width 137}",
+        "1 fuel manifold, da brukes duplex nozzle",
+        "![image.png](../assets/image_1704879323285_0.png){:height 144, :width 253}\n* fuel manifold valve\n* flow divider valve\n* fuel flow transmitter - monitoring av hvor mye fuel vi bruker",
+        "[[draws/2024-01-10-10-31-21.excalidraw]]"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1704879694782_0.png",
+            "alt": "image.png"
+          },
+          {
+            "id": "att-2",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1704879602178_0.png",
+            "alt": "image.png"
+          },
+          {
+            "id": "att-3",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1704879323285_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-593",
+      "text": "149. Hva er oppgaven til Secondary fuel systemet (høytrykksbrennstoff systemet)?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-593-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-593-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-594",
+      "text": "150. Hva er en multistage fuel pump?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-594-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-594-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "lp-stage, hp-stage"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-595",
+      "text": "151. Hvor er fuel flow transmitter montert?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-595-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-595-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1707254126728_0.png)\nthis transmitt info about fuel to the cockpit"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1707254126728_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-596",
+      "text": "152. Hvor er fuel filter montert?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-596-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-596-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1707250168023_0.png){:height 254, :width 491}"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1707250168023_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-597",
+      "text": "153. Ved bruk av simplex nozzles må man ta hensyn til?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-597-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-597-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "only gives good atomization on . f.eks cannot supply enough fuel cause orifice is too small",
+        "simplex nozzle - masse rør, mye vekt"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-598",
+      "text": "154. Hva er de 2 Engine Operating Conditions?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-598-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-598-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "- cruise",
+        "- takeoff, landing, descend"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-599",
+      "text": "155. Hvor ligger flow divider enheten i en duplex singel line fuel nozzle?",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1fb-a61a-4d61-bea4-1f43ad7e82c0-opt-1",
+          "label": "fuel manifold valve"
+        },
+        {
+          "id": "69edc1fb-a61a-4d61-bea4-1f43ad7e82c0-opt-2",
+          "label": "flow divider valve"
+        },
+        {
+          "id": "69edc1fb-a61a-4d61-bea4-1f43ad7e82c0-opt-3",
+          "label": "fuel flow transmitter - monitoring av hvor mye fuel vi bruker"
+        }
+      ],
+      "explanations": [
+        "ligger i nozzle på duplex nozzle",
+        "på duplex nozzle med 2 prim og sec fuel , sitter etter fuel flow transmitter",
+        "![image.png](../assets/image_1704879323285_0.png){:height 144, :width 253}\n* fuel manifold valve\n* flow divider valve\n* fuel flow transmitter - monitoring av hvor mye fuel vi bruker",
+        "[[draws/2024-01-10-10-31-21.excalidraw]]"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1704879323285_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-600",
+      "text": "I Hvilke fuel manifolder er det fuel i under idle (lave motorsettinger)?",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1fb-7e7e-4098-bf54-5be1ce19affa-opt-1",
+          "label": "demand for fuel is low= fuel flows through the **primary manifold**,"
+        },
+        {
+          "id": "69edc1fb-7e7e-4098-bf54-5be1ce19affa-opt-2",
+          "label": "demand for fuel is high =  pressurization valve opens,  deliver fuel to the secondary manifold."
+        }
+      ],
+      "explanations": [
+        "idle ligger rundt-",
+        "![image.png](../assets/image_1710320392965_0.png){:height 54, :width 111} ![image.png](../assets/image_1710320417977_0.png){:height 70, :width 107}",
+        "turtallet øker fordi motoren trenger mer kraft",
+        "used in duplex nozzle engine\nAt engine start, **fuel control** send pres signal to pressurization valve to close dump valve, opening fuel passage\n* demand for fuel is low= fuel flows through the **primary manifold**,\n* demand for fuel is high =  pressurization valve opens,  deliver fuel to the secondary manifold.\nAt engine shutdown,  dump valve  opens to drain fuel from the manifolds.",
+        "![image.png](../assets/image_1710319371325_0.png)"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1710320392965_0.png",
+            "alt": "image.png"
+          },
+          {
+            "id": "att-2",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1710320417977_0.png",
+            "alt": "image.png"
+          },
+          {
+            "id": "att-3",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1710319371325_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-601",
       "text": "156. Hvilke fuel manifolder er det fuel i under høye motorsettinger?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-601-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-601-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-602",
+      "text": "Hva er run-out?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-602-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-602-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "sjekke kondisjonen på motoren, kjøre den deretter kutt av fuel og mål tid det tart til full stans"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-603",
       "text": "157. Hva er den mest kritiske temperaturen i en gass turbine motor?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-603-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-603-opt-2",
           "label": "False"
         }
+      ],
+      "explanations": [
+        "turbininntakstemperaturen (TIT)"
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-604",
       "text": "TLA måles av?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-604-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-604-opt-2",
           "label": "False"
         }
+      ],
+      "explanations": [
+        "synchro motor/ resolver"
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-605",
       "text": "158. Hvordan ”føler” en hydromekanisk fuel control  RPM (turtallet)?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-605-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-605-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-606",
+      "text": "159. Hva er hoved oppgaven til fuel nozzle?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-606-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-606-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "supply metered fuel to , atomize fuel so it vaporizes and bruns as quick as possible"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-607",
+      "text": "160. Hvorfor er Fuel manifold har normalt shroudet?",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1fb-ea13-47b7-a14f-bca08e0427ba-opt-1",
+          "label": "((65c2baf0-e055-4666-acd3-d2e50013a378))"
+        },
+        {
+          "id": "69edc1fb-ea13-47b7-a14f-bca08e0427ba-opt-2",
+          "label": "((65c2baea-5897-461d-9aed-3d39cc78e15a)) (o-ring in the ends)"
+        }
+      ],
+      "explanations": [
+        "this  , two methods used\n*\n*  (o-ring in the ends)"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-608",
       "text": "161. Hva skjer viss A kanalen til Fadec systemet feiler?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-608-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-608-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-609",
       "text": "162. Engine med FADEC System har følgende komponenter?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-609-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-609-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-610",
       "text": "163. Hvordan kan du teste ECU (engine control unit) på et FADEC system?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-610-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-610-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-611",
+      "text": "164. Hvorfor er Fuel filter normalt utstyrt med relief valves?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-611-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-611-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "/bypass valve. alle filter har dette"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-612",
       "text": "165. Fault messages mottatt av electronic control unit ECU I et FADEC system vil?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-612-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-612-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-613",
       "text": "166. Power management delen i en ECU kalkulerer thrust basert på?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-613-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-613-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-614",
+      "text": "167. The power management section i ECU, sender thrust command signalet til?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-614-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-614-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-615",
       "text": "168. Input til Governing og limit section I en ECU vil være?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-615-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-615-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-616",
+      "text": "169. Channel in command mottar et signal fra en føler som har en annen verdi enn det den andre channel mottat fra lik sensor. Hva skjer?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-616-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-616-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "hvis kanal A har kjør i siste tur, switche de til neste tur"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-617",
+      "text": "170. ECU får sin elektriske energi fra?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-617-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-617-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-618",
+      "text": "171. Hva inneholder fuel metering unit FMU/HMU?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-618-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-618-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "computing section"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-619",
       "text": "172. Hvorfor brukes duplex nozzles?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-619-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-619-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-620",
       "text": "Når byttes fra duplex?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-620-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-620-opt-2",
           "label": "False"
         }
+      ],
+      "explanations": [
+        "flow divider bestemmer"
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-621",
       "text": "173. Hva er forskjellen mellom ECU og EIU?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-621-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-621-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-622",
       "text": "174. Hva er hensikten med flyweight governor i en HMU/ FMU?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-622-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-622-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-623",
       "text": "175. På hvilke motorer kan du finne en egen flow divider valve i et engine fuel system?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-623-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-623-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-624",
+      "text": "176. Hvem av de følgende parameterne er normalt holdt konstant for fuel metering?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-624-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-624-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-625",
+      "text": "177. Hvilke fordeler gir FADEC oss ved teknisk feilsøking?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-625-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-625-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-626",
       "text": "178. Hvilken fordel gir FADEC oss ved motortesting?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-626-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-626-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-627",
       "text": "179. Hvilken fordel gir FADEC til piloten under flight?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-627-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-627-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-628",
       "text": "180. Hva er fordelene ved FADEC?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-628-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-628-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-629",
       "text": "181. Under oppstart med en motor som er utstyrt med FADEC brennstoffkontroll er den i ferd med å få en overtemp. Hva skjer?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-629-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-629-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-630",
+      "text": "182. Hvor mange elektroniske channels har FADEC",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-630-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-630-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-631",
       "text": "183. Hvorfor er det koblet et rør fra fuel metering unit tilbake til inlet på fuel pumpen?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-631-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-631-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-632",
+      "text": "184. Hva er approach idle?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-632-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-632-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "usually used in go arounds when  is met"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-633",
       "text": "185. Forklar hva skjer med fuel metering valve under en akselerasjon",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-633-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-633-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-634",
       "text": "186. Forklar hva skjer med fuel metering valve under en deakselerasjon",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-634-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-634-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-635",
       "text": "187. Når er det fare for flameout på en gassturbin motor?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-635-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-635-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-636",
       "text": "188. Når er det fare for overspeed/overtemperatur på en gassturbin motor?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-636-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-636-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-637",
       "text": "189. Når er det fare for kompressor stall/surge på en gassturbin motor?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-637-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-637-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-638",
       "text": "190. Hva er konstant thrust kontroll?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-638-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-638-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-639",
       "text": "191. Hva er konstant speed kontroll?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-639-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-639-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-640",
       "text": "192. Forklar fuel metering funksjonen i en fuel kontroll",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-640-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-640-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-641",
       "text": "193. Forklar computing funksjonen i en fuel kontroll",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-641-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-641-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-642",
       "text": "194. Forklar governing and limiting funksjonen i en fuel kontroll",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-642-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-642-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-643",
       "text": "195. Hva er PMC- Power management computer?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-643-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-643-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-644",
       "text": "196. Hva er en semi elektronisk fuel kontroll?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-644-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-644-opt-2",
           "label": "False"
         }
       ]

@@ -1,0 +1,572 @@
+{
+  "id": "quiz-M10 Lover og bestemmelser-S7-level-1",
+  "title": "M10 Lover og bestemmelser - S7 - 10.7a) og b) - Level 1",
+  "description": "Quiz for M10 Lover og bestemmelser chapter S7 - 10.7a) og b) level 1",
+  "questions": [
+    {
+      "_kind": "single_choice",
+      "id": "q-315",
+      "text": "Hva er en AD-note? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-315-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-315-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "et myndighetdokoment (fra EASA eller FAA)"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-316",
+      "text": "Hvem sender ut en AD-note? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-316-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-316-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "oppdaget feil raporteres -> EASA usteder, eller FAA (EASA implementerer)"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-317",
+      "text": "Hva skal en AD-note inneholde? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-317-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-317-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-318",
+      "text": "Er operatøren forpliktet til å utføre AD-note? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-318-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-318-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "Ja"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-319",
+      "text": "Hva er en S/B? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-319-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-319-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "-"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-320",
+      "text": "Hvem sender ut S/B? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-320-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-320-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "modifikasjon, utskifting av del, eller spesielle insp"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-321",
+      "text": "Hva er MMEL? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-321-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-321-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "e"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-322",
+      "text": "Hvem lager/gir ut MMEL? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-322-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-322-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "e"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-323",
+      "text": "Hva er MEL? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-323-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-323-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "MEL er utarbeidet fra MMEL",
+        "M"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-324",
+      "text": "Hvordan er MEL delt opp? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-324-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-324-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "(antall tillatt å ha med)",
+        "(O) (M)"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-325",
+      "text": "Hva er en kategori A MEL? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-325-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-325-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-326",
+      "text": "Hva er en kategori B MEL? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-326-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-326-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "shall be repaired within:"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-327",
+      "text": "Hva er en kategori C MEL? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-327-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-327-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "shall be repaired within:"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-328",
+      "text": "Hva er en kategori D MEL? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-328-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-328-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "shall be repaired within:"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-329",
+      "text": "I MEL finner vi symbolene (M) og (O), hva står disse for? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-329-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-329-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "(M) -",
+        "(O) -"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-330",
+      "text": "Når skal det foretas en Maintenance Check Flight? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1ce-f08c-448b-a8f3-b6fa8717df02-opt-1",
+          "label": "((663472a7-e8e4-480a-9e9d-fbb3c4061886))"
+        },
+        {
+          "id": "69edc1ce-f08c-448b-a8f3-b6fa8717df02-opt-2",
+          "label": "operatør ansvarlig for dette - autorisert folk gjør jobben"
+        }
+      ],
+      "explanations": [
+        ", har egen flight manual",
+        "f.eks\n*\n* operatør ansvarlig for dette - autorisert folk gjør jobben"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-331",
+      "text": "Hva er AWO (All Weather Operations)? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-331-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-331-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "all weather operations -",
+        "must be approved for this"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-332",
+      "text": "Hva er kravene til AWO? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-332-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-332-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "- aerodome,aircraft, flight crew, operator must be trained and authorized for AWO"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-333",
+      "text": "Hva er de forskjellige kategoriene til AWO? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1ce-a24b-4356-ad8d-c132f922d675-opt-1",
+          "label": "decision height"
+        },
+        {
+          "id": "69edc1ce-a24b-4356-ad8d-c132f922d675-opt-2",
+          "label": "runway visual range"
+        }
+      ],
+      "explanations": [
+        "- aerodome,aircraft, flight crew, operator must be authorized for AWO",
+        "- ILS, MLS",
+        "- ILS, MLS",
+        "A,B,C",
+        "![image.png](../assets/image_1717604280907_0.png){:height 131, :width 225}\n* decision height\n* runway visual range"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1717604280907_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-334",
+      "text": "Hva er ETOPS? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-334-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-334-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-335",
+      "text": "Hvem gjelder ETOPS for? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-335-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-335-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "eller fly i slalomløype alltid sikker at man er innenfor 60 min fra flyplass"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-336",
+      "text": "Hvordan får selskapene ETOPS godkjenning? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1ce-51f6-48d2-8716-ab94488703d3-opt-1",
+          "label": "selskapet sikkerher historikk"
+        },
+        {
+          "id": "69edc1ce-51f6-48d2-8716-ab94488703d3-opt-2",
+          "label": "tidligere ytelse"
+        },
+        {
+          "id": "69edc1ce-51f6-48d2-8716-ab94488703d3-opt-3",
+          "label": "opplæring av flight crew, flight dispatcher, vedlikeholdspersonell"
+        },
+        {
+          "id": "69edc1ce-51f6-48d2-8716-ab94488703d3-opt-4",
+          "label": "Vedlikeholdsprogrammer m/ hensyn til pålitelighet"
+        },
+        {
+          "id": "69edc1ce-51f6-48d2-8716-ab94488703d3-opt-5",
+          "label": "ETOPS-flightene(120min-> 180min)"
+        }
+      ],
+      "explanations": [
+        "av LTT",
+        "basert på:\n* selskapet sikkerher historikk\n* tidligere ytelse\n* opplæring av flight crew, flight dispatcher, vedlikeholdspersonell\n*  Vedlikeholdsprogrammer m/ hensyn til pålitelighet\n* ETOPS-flightene(120min-> 180min)"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-337",
+      "text": "Hva skjer med ETOPS godkjenningen dersom et selskap har mange In-Flight Shutdown på motorene sine? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-337-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-337-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        ", derfor bruker selskapene ETOPS-flight når det er strengt nødvendig"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-338",
+      "text": "Nevn noen krav til vedlikehold for ETOPS. #",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1ce-edad-4984-9860-87aec0c70208-opt-1",
+          "label": "første 60 min er NON-ETOPS (verification test)"
+        }
+      ],
+      "explanations": [
+        "skal ha dobbel signering av CRS, og lik systemet vedlikehold utføres av forskjellige",
+        "pilot kan ikke utføre dette (TEKNIKER)",
+        "(samme person)",
+        "=\n* første 60 min er NON-ETOPS (verification test)"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-339",
+      "text": "Nevn noen kav til menneskelige faktorer for ETOPS. #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-339-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-339-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "(kan gjøre det m/ /60 min)"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-340",
+      "text": "Nevn noen krav til overvåking for ETOPS. #",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1ce-4261-4da0-bf5a-8e0383e3c0d2-opt-1",
+          "label": "oljeforbruk - loggført og kalkulert i statistikk til å se om motoren er \"syk\" eller normal"
+        },
+        {
+          "id": "69edc1ce-4261-4da0-bf5a-8e0383e3c0d2-opt-2",
+          "label": "ECM - EGT, N1,N2 (helsen til motoren)"
+        }
+      ],
+      "explanations": [
+        "/\n* oljeforbruk - loggført og kalkulert i statistikk til å se om motoren er \"syk\" eller normal\n* ECM - EGT, N1,N2 (helsen til motoren)"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-341",
+      "text": "Er det ETOPS krav til teknisk personell? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1ce-aff2-49ae-b8fa-84f5ddb04ba7-opt-1",
+          "label": "ETOPS maintenance program"
+        },
+        {
+          "id": "69edc1ce-aff2-49ae-b8fa-84f5ddb04ba7-opt-2",
+          "label": "prosedyrer for oljeforbruk"
+        },
+        {
+          "id": "69edc1ce-aff2-49ae-b8fa-84f5ddb04ba7-opt-3",
+          "label": "((6661e5e2-6d62-4106-8d86-f14e2f7dcf82))"
+        }
+      ],
+      "explanations": [
+        "* ETOPS maintenance program\n* prosedyrer for oljeforbruk\n*"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-342",
+      "text": "**Hva slags forhold er det mellom Part-21, Part-M og Part-145?** ![](../assets/Aspose.Words.19416a84-4cfd-45e8-ba7c-96d3f0d42991.074.jpeg){:height 184, :width 242} * Hvem utsteder? * Hvem har ansvaret for at det blir gjort? * Hvem utfører? |        |       | |  TC |  CofA | | STC | ARC | | Maintenance Program | Registreringsbevis | | S/B | Miljødyktighetsbevis | | AD notes | Masse og Balanse Dokumentasjon | | Gangtid | | | Snag | Radiokonsensjon | | AMM, IPC, WDM, CMM, SRM, FIM… | MMEL/MEL | |         | CDL | #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-342-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-342-opt-2",
+          "label": "False"
+        }
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/Aspose.Words.19416a84-4cfd-45e8-ba7c-96d3f0d42991.074.jpeg",
+            "alt": "Aspose.Words.19416a84-4cfd-45e8-ba7c-96d3f0d42991.074.jpeg"
+          }
+        ]
+      ]
+    }
+  ]
+}

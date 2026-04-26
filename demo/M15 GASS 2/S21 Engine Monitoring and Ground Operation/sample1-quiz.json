@@ -5,384 +5,567 @@
   "questions": [
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-780",
+      "text": "**312. Hva er viktig å gjøre før en starter opp motorene på flyet?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1fa-2a25-41b7-8bca-7d02836a844c-opt-1",
+          "label": "((661f8696-0756-4c02-a117-a94b7b8e84a4)) er på"
+        },
+        {
+          "id": "69edc1fa-2a25-41b7-8bca-7d02836a844c-opt-2",
+          "label": "((661f86c6-3cd1-4683-9b29-1fd668791136)) installed"
+        },
+        {
+          "id": "69edc1fa-2a25-41b7-8bca-7d02836a844c-opt-3",
+          "label": "((661f870b-36a4-48d9-bfc7-52e1393e1ada)) removed"
+        },
+        {
+          "id": "69edc1fa-2a25-41b7-8bca-7d02836a844c-opt-4",
+          "label": "((661f876e-8597-4c74-a759-c9be2aedd859)) clear"
+        },
+        {
+          "id": "69edc1fa-2a25-41b7-8bca-7d02836a844c-opt-5",
+          "label": "((661f8781-85c7-4801-948e-668ed049f848)) secured"
+        },
+        {
+          "id": "69edc1fa-2a25-41b7-8bca-7d02836a844c-opt-6",
+          "label": "((661f8784-42d9-4a99-b764-cf84e237b8c2)) clear/FOD"
+        },
+        {
+          "id": "69edc1fa-2a25-41b7-8bca-7d02836a844c-opt-7",
+          "label": "TLB  ((661f8cdc-c07a-431f-a277-5e25efb0bcb7)) checked"
+        },
+        {
+          "id": "69edc1fa-2a25-41b7-8bca-7d02836a844c-opt-8",
+          "label": "((661f8d14-1ac3-4a59-bcd0-e450884261b7))/fullfills electrical and pneumatic need for engine start, power from APU ON"
+        },
+        {
+          "id": "69edc1fa-2a25-41b7-8bca-7d02836a844c-opt-9",
+          "label": "((661f8d77-2c7f-45b5-a227-8261e550fccb)) performed"
+        },
+        {
+          "id": "69edc1fa-2a25-41b7-8bca-7d02836a844c-opt-10",
+          "label": "((661f8d7b-1992-4c50-8366-0bb52b561576)) on check press"
+        },
+        {
+          "id": "69edc1fa-2a25-41b7-8bca-7d02836a844c-opt-11",
+          "label": "((661f8db5-eaf9-48e6-a594-4f2ba7dd921c))/stay clear lights  ON"
+        }
+      ],
+      "explanations": [
+        "outside check list:\n*  er på\n*  installed\n*  removed\n*  clear\n*  secured\n*  clear/FOD",
+        "cockpit:\n* TLB   checked\n* /fullfills electrical and pneumatic need for engine start, power from APU ON\n*  performed\n*  on check press\n* /stay clear lights  ON"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-781",
+      "text": "Types of starting modes?",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1fa-b13b-4ec5-9a7c-450820f4fe6a-opt-1",
+          "label": "wet motoring - open starter valve, N2 speed over 15% - fuel low indication increase-> turn off"
+        },
+        {
+          "id": "69edc1fa-b13b-4ec5-9a7c-450820f4fe6a-opt-2",
+          "label": "dry motoring - remove remaining fuel from combustion chamber, ((6656ffa6-ec04-4a00-8c8a-3c194d3a2d67))"
+        }
+      ],
+      "explanations": [
+        "- FADEC/ECU, aborts any out of limit errors",
+        "- ,  ignition off, only starter system\n* wet motoring - open starter valve, N2 speed over 15% - fuel low indication increase-> turn off\n* dry motoring - remove remaining fuel from combustion chamber,"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-782",
+      "text": "313. Hva er de 3 hovedinstrumentene en følger med på under oppstart av motoren?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-782-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-782-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "-",
+        "(rpm) -",
+        "10,20,32-33"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-783",
       "text": "314. Hvilken rekkefølge skal du se på disse instrumentene?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-783-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-783-opt-2",
           "label": "False"
         }
+      ],
+      "explanations": [
+        "egt, n2,"
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-784",
       "text": "**315. Hva mener vi med en operation cycle på en gassturbin motor?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-784-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-784-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-785",
       "text": "**316. Hva er typisk on-condition maintenance på en gassturbin motor?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-785-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-785-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-786",
       "text": "**317. Hva er trend monitoring?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-786-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-786-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-787",
       "text": "318. Hvilke tre typer boroskop kan vi bruke til å sjekke gassturbin motoren innvendig, og når bruker vi disse?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-787-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-787-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-788",
       "text": "319. Nevn noen rutine inspeksjoner på gassturbin motoren",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-788-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-788-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-789",
       "text": "320. Nevn noen non-rutine inspeksjoner på gassturbin motoren",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-789-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-789-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-790",
       "text": "321. Hva inspiserer vi under en cold section inspeksjon?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-790-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-790-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-791",
       "text": "322. Hva inspiserer vi på en hot section inspeksjon?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-791-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-791-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-792",
       "text": "323. Hvordan trimmer vi en gassturbin motor?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-792-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-792-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-793",
       "text": "324. Hvorfor skal N1 red limit ikke skal overskrides?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-793-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-793-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-794",
       "text": "325. Hvorfor skal EGT red limit ikke overskrides?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-794-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-794-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-795",
+      "text": "326. Dersom engine speed fluktuerer og EGT øker kan dette være indikasjon på hva?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-795-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-795-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "stall på vei til surge"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-796",
       "text": "327. Når aktiveres tenning systemet under oppstart?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-796-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-796-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-797",
       "text": "**328. Når åpnes HP fuel shut off valve ved oppstart?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-797-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-797-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-798",
       "text": "**329. Hvordan kan du se at motoren har fått tenning?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-798-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-798-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-799",
       "text": "**330. Hva skjer når motoren er nådd self sustaining speed?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-799-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-799-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-800",
+      "text": "**331. Hva er Wet motoring?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-800-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-800-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "to check if there is fuel flow",
+        "mode to crank",
+        "(2mins)",
+        "N2 speed over",
+        "starts fuel flow",
+        "if fuel flow indication enginer master switch to off"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-801",
+      "text": "**332. Hva er Dry motoring?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-801-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-801-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "-",
+        "uten fuel eller noe",
+        "brukes vaskin av motor"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-802",
+      "text": "**333. Hvorfor skal en alltid kjøre en dry motoring etter en wet motoring?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-802-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-802-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "after we had a wet motoring (check if there is fuel flow)"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-803",
       "text": "**334. Hvordan kan du se at motoren har en hung start?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-803-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-803-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-804",
       "text": "**335. Hva kan være årsaken til hung start?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-804-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-804-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-805",
       "text": "**336. Hvordan kan du se at motoren har en wet start?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-805-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-805-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-806",
       "text": "**337. Hva kan årsaken være til at en får en wet start?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-806-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-806-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-807",
       "text": "**338. Hvordan kan du se at motoren har fått en hot start?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-807-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-807-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-808",
       "text": "**339. Hva kan årsaken være til en hot start?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-808-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-808-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-809",
       "text": "340. Hvilken inspeksjon vil du ta dersom motoren har hatt en overspeed?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-809-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-809-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-810",
       "text": "341. Hvilken inspeksjon vil du ta dersom du har hatt over temperatur på motoren?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-810-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-810-opt-2",
           "label": "False"
         }
       ]

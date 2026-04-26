@@ -1,0 +1,266 @@
+{
+  "id": "quiz-M9 Human Factors-S5-level-1",
+  "title": "M9 Human Factors - S5 Physical environment - Level 1",
+  "description": "Quiz for M9 Human Factors chapter S5 Physical environment level 1",
+  "questions": [
+    {
+      "_kind": "single_choice",
+      "id": "q-93",
+      "text": "1. Hvilke elementer ligger I begrepet fysisk arbeidsmiljø? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-93-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-93-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-94",
+      "text": "2. List opp 5 punkter som er negativt med støy på arbeidsplassen. #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-94-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-94-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "if you cannot hear conversation, means use ear protection:"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-95",
+      "text": "3. The resulting fumes can be categorised as unpleasant and hazardous to health.... Forklar litt rundt disse disse.. #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-95-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-95-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "- often aware because they",
+        "motivation and perfomance is lowered",
+        "![image.png](../assets/image_1704962670845_0.png){:height 137, :width 225}"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1704962670845_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-96",
+      "text": "4. Hva er forskjellen mellom naturlig og kunstig lys i forhold til bruk som arbeidslys? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-96-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-96-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "naturlig: bra for gjengjenning av farger",
+        "kunstig lys: great efficiency"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-97",
+      "text": "5. Hvilken lyskilde har best \"light efficiency? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-97-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-97-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "artificial light"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-98",
+      "text": "6. Vår optimale sone for å yte best er når temp og fuktighet ligger mellom hvilke verdier? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-98-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-98-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1707986370937_0.png){:height 202, :width 170}"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1707986370937_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-99",
+      "text": "7. Hva sier EASA om «the working environment for line maintenance\" ? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-99-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-99-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-100",
+      "text": "8. Bruk av vibrerende verktøy fører til #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-100-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-100-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "benken man står på er også level"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-101",
+      "text": "9. Hva er WFS? i forhold til presisisjonsarbeid! #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-101-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-101-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-102",
+      "text": "10. Infra sonic waves frekvens? Skadepotensiale? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-102-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-102-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "(<20, \"less than 20\".)"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-103",
+      "text": "11. Ultra sonic waves frekvens? Skadepotensiale? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-103-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-103-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "(>20, greater than 20)"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-104",
+      "text": "12. En kilde til slike soniske bølger er? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-104-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-104-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-105",
+      "text": "13. Når arbeid utføres på trange steder der plassen er begrenset bør vi gjøre følgende? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-105-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-105-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "god planlegging",
+        "contact collegue if uneasy, cut zones for panicking people"
+      ]
+    }
+  ]
+}

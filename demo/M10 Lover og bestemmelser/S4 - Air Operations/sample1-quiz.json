@@ -1,0 +1,413 @@
+{
+  "id": "quiz-M10 Lover og bestemmelser-S4-level-1",
+  "title": "M10 Lover og bestemmelser - S4 - Air Operations - Level 1",
+  "description": "Quiz for M10 Lover og bestemmelser chapter S4 - Air Operations level 1",
+  "questions": [
+    {
+      "_kind": "single_choice",
+      "id": "q-238",
+      "text": "Hva omhandler Commision Regulation (EU) No 965/2012? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-238-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-238-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "de som blir betalt for turene"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-239",
+      "text": "Hva er EASA-OPS? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-239-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-239-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "av komplekse luftfartøy"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-240",
+      "text": "Hva beskriver Part-ARO? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-240-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-240-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-241",
+      "text": "Hva beskriver Part-ORO? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-241-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-241-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-242",
+      "text": "Hva beskriver Part-CAT? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-242-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-242-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "s"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-243",
+      "text": "Hva beskriver Part-SPA? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-243-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-243-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "ting som lavsisktoperasjone (LVO)  eller farlig gods, ambulanse (HEMS)",
+        "gis av LTT"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-244",
+      "text": "Hva beskriver Part-NCC og NCO? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-244-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-244-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "NCC - ikke ervevsmessigflygning med komplekse luftfartøy",
+        "NCO - IKKE ERVERSMESSIGE M/ IKKE KOMPLEKSE LUFTFARTØY"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-245",
+      "text": "Hva beskriver Part-SPO? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-245-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-245-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "hvis du skal transportere noe annet enn gods og personell, som overvåkingflygning, fallskjermdrop, oppvisningflygning"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-246",
+      "text": "Hva er ervervsmessig luftfart? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-246-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-246-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "detter er betyr du får betalt for flyturen enten er offentlig eller privat"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-247",
+      "text": "Hva er AOC? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-247-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-247-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "Air Operator Certificate",
+        "det må ustedesnår noen vi få betalt(komersielle) av flyturen de utfører"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-248",
+      "text": "Hvem utsteder AOC? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-248-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-248-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        ", LTT"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-249",
+      "text": "Hva skal til for at et luftfartsforetak skal få utstede og opprettholde sin AOC? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-249-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-249-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "AOC->OM"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-250",
+      "text": "Beskriv hva slags forhold et luftfartsforetak/operatør må ha til  Part-M og Part-145 #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-250-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-250-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "CAMO/Part->CAME",
+        "P-145->MOE",
+        "P-147->MTOE (maintance training organization exposition)",
+        "![image.png](../assets/image_1707468421022_0.png){:height 205, :width 373}",
+        "[[draws/2024-02-09-09-41-15.excalidraw]]"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1707468421022_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-251",
+      "text": "Hva er OM? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-251-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-251-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "Operations Manual/",
+        "flyselskap lager dette"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-252",
+      "text": "Hva inneholder OM? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-252-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-252-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "Operations Manual/",
+        "![image.png](../assets/image_1707467721082_0.png){:height 110, :width 363}",
+        "lages av operatøren"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1707467721082_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-253",
+      "text": "Hvilke dokumenter skal til en hver tid være med om bord i flyet? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-253-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-253-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        ">> **CofR.** ->  _CAA-N_",
+        "Dokumenter:\n![image.png](../assets/image_1707467438631_0.png){:height 147, :width 412}",
+        "Håndboker og Informasjon:\n![image.png](../assets/image_1707467471489_0.png){:height 350, :width 380}"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1707467438631_0.png",
+            "alt": "image.png"
+          },
+          {
+            "id": "att-2",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1707467471489_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-254",
+      "text": "Hva er MEL? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-254-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-254-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "MMEL - master MEL:",
+        "det er selskapet lager sin egen utfra MMEL",
+        "går mer på systemer du kan ikke fly med - dager frist"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-255",
+      "text": "Hva er CDL? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-255-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-255-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "fabrikantens velger dette",
+        "luftdyktig eller ikke"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-256",
+      "text": "Hvilke krav stille til Aircraft Placarding? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-256-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-256-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "diise er nødutgang som kan kuttes i tilfelle det er ulykker i trange rom hvor det er mekanikere eller brannvesen, må kutte for å få ut passasjer"
+      ]
+    }
+  ]
+}

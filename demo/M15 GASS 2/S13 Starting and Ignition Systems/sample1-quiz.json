@@ -5,240 +5,487 @@
   "questions": [
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-653",
+      "text": "205. Hvordan får FADEC systemet signaler om throttle posisjon?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-653-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-653-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-654",
+      "text": "206. Hva er oppgaven til friction brake i throttle kabel systemet?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-654-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-654-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-655",
+      "text": "207. Hvordan styrer auto throttle / autothrust motoren?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-655-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-655-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-656",
+      "text": "208. Hva er oppgaven til throttle interlock systemet?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-656-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-656-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-657",
+      "text": "Hva er viktig å tenke på med jobb på Ignition system?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-657-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-657-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "HMS,AC og DC,beryllium"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-658",
       "text": "209. Hvordan kan piloten se at starteren til motoren går?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-658-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-658-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-659",
+      "text": "210. Hvorfor har starteren en clutch?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-659-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-659-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-660",
+      "text": "**211. Hvilke type clutcher kan en starter ha?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-660-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-660-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-661",
+      "text": "**212. Hvor lenge må starteren være innkoplet?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-661-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-661-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "kommer til self sustaining speed  ~70% av 100%"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-662",
+      "text": "**213. Hvilke type startere kan en motor ha?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-662-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-662-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "kjemisk starter - hydrazine send inn tilført oksygen og roterer (nødstarter)",
+        "starter"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-663",
+      "text": "**214. Kan vi operere thrust reversers når throttle er over** **idle?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-663-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-663-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "Ja"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-664",
       "text": "**215. Når man prøver å reversere et 4 motors fly blir den ene ytre motoren stående i stowed. Hva skjer?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-664-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-664-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-665",
+      "text": "**216. Hva er start ignition?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-665-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-665-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "ekvensen vi har når vi starter motoren"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-666",
+      "text": "**217. Hva er continous ignition?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-666-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-666-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "can activated when engine running"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-667",
       "text": "**218. Hva er hovedkomponentene i tenningssystemet?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-667-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-667-opt-2",
           "label": "False"
         }
+      ],
+      "explanations": [
+        "og  switches"
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-668",
       "text": "219. Hva er oppgaven til hovedkomponentene i tenningssystemet?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-668-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-668-opt-2",
           "label": "False"
         }
+      ],
+      "explanations": [
+        "og  switches"
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-669",
       "text": "220. Hvor mye energi er det i tenningssystemet?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-669-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-669-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-670",
       "text": "20J or 220 joule ??",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-670-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-670-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-671",
       "text": "**221. Hvorfor er det en safety resistor inne i exiter?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-671-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-671-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-672",
       "text": "**222. Hvorfor er det en discharge resistor inne i exciter?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-672-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-672-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-673",
       "text": "**223. Hvor mange tennplugger er det som regel på en gassturbin motor?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-673-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-673-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-674",
       "text": "224. Hvordan lager tennpluggen en gnist?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-674-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-674-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-675",
       "text": "**225. Hva skal man sjekke under vedlikehold når man inspiserer en tennplugg?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-675-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-675-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-676",
+      "text": "**226. Hvordan er en ignition lead kjølet?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-676-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-676-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "sekundær luften er med",
+        "![image.png](../assets/image_1710926803693_0.png)"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1710926803693_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-677",
       "text": "**227. Når er begge ignition systemer aktive på de fleste motorer?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-677-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-677-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-678",
       "text": "228. Hva er oppgaven til exciter i tennings systemet?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-678-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-678-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-679",
       "text": "229. Hva er Ignition lead?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-679-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-679-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-680",
       "text": "**230. Tenningssystemet på fly har en energi på?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-680-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-680-opt-2",
           "label": "False"
         }
       ]

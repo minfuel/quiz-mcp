@@ -5,178 +5,524 @@
   "questions": [
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-681",
+      "text": "231. Hvilket instrument er alltid det øverste av motorinstrumentene i cockpit?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-681-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-681-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "-  (primary motor indikasjon)",
+        "||AIRBUS|BOEING|\n|EPI (primary EI)        ESI (secondary EI)| ![image.png](../assets/image_1716970946380_0.png) | ![image.png](../assets/image_1716970973347_0.png) |"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1716970946380_0.png",
+            "alt": "image.png"
+          },
+          {
+            "id": "att-2",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1716970973347_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-682",
       "text": "232. Hvilke indikasjoner er primary motor indikasjon?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "69edc1fb-b658-4f17-8fc7-c3c95c7a54ea-opt-1",
+          "label": "((65fab31a-90b2-4328-902b-c179be048d86))"
+        },
+        {
+          "id": "69edc1fb-b658-4f17-8fc7-c3c95c7a54ea-opt-2",
+          "label": "((65fab324-0f40-4062-b921-b0d7bfb42c64))"
+        }
+      ],
+      "explanations": [
+        ":\n*\n*"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-683",
+      "text": "**233. Hvilke indikasjoner er secondary motor indikasjoner?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1fb-b59c-4b55-8c30-3f0f25a04571-opt-1",
+          "label": "O ((65fab3aa-87ef-4b04-a5ba-237c8d5babbd)): quantity,press,temp"
+        },
+        {
+          "id": "69edc1fb-b59c-4b55-8c30-3f0f25a04571-opt-2",
+          "label": "((65fab39f-5189-4334-b4d5-215e10b6a493)): blades, bearing"
+        }
+      ],
+      "explanations": [
+        "også kalt for n",
+        "viser:\n* O : quantity,press,temp\n* : blades, bearing"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-684",
+      "text": "**234. Hva brukes trend monitoring systemet på motoren til?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-684-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-684-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "ACMS",
+        "by",
+        "thermodynamic\nmechanic-dynamic\noil consumtion"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-685",
+      "text": "235. Hva overvåker Thermodynamic analyse i engine trend monitoring systemet?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-685-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-685-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-686",
+      "text": "236. Hva indikeres Rotorspeed i cockpit med?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-686-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-686-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "n1 ->\nn2 ->",
+        "vist som prosent"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-687",
       "text": "**237. Hvor sitter en tachometer generator?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-687-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-687-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-688",
       "text": "**238. Hvordan generere en tachometer generator spenning?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-688-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-688-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-689",
       "text": "239. En variable reluctance speed sensor måler rotorens hastighet ved hjelp av? #car",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-689-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-689-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-690",
       "text": "240. Hva heter motorinstrumentene som indikerer rotor speed i cockpit?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-690-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-690-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-691",
       "text": "241. Hvordan indikeres en exceedance i cockpit?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-691-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-691-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-692",
       "text": "**242. Hvordan lagres en Exceedence indikasjon?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-692-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-692-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-693",
+      "text": "**243. Hva er EPR?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-693-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-693-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-694",
       "text": "**244. Hva bruker EPR transmitteren transduceren til?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-694-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-694-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-695",
       "text": "245. Hvordan indikerer FADEC motorene EPR?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-695-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-695-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-696",
+      "text": "246. Hvilke sensorer brukes til å måle EGT?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-696-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-696-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-697",
+      "text": "247. Hvordan er sensorene i EGT systemet koblet?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-697-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-697-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-698",
+      "text": "248. Hvorfor er de koblet på denne måten?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-698-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-698-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-699",
       "text": "249. Fuel flow indikeres i cockpit ! ((6657158c-0120-4da5-9d92-7e0d0b5b668f))",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-699-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-699-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-700",
+      "text": "**250. Hvordan måle fuel flow?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-700-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-700-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "- mellom FCU og fuel nozzles"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-701",
+      "text": "2 types?? vane/impeller type",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-701-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-701-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-702",
+      "text": "**251. Hva er oppgaven til oil press transmitteren?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-702-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-702-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "send oil info to"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-703",
       "text": "252. Hvordan er motstanden i magnetic chip detector når det fester seg spon til den?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-703-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-703-opt-2",
           "label": "False"
         }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-704",
+      "text": "253. Hva menes med mechanic – dynamic analysis i Engine trend monitoring?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-704-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-704-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-705",
+      "text": "254. Hva er et phonic wheel?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-705-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-705-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "ABS, bruker ultra lyd",
+        "leser antall tenner på aksel og hvor fort",
+        "måler turtall N1, alternativ er reluctans (målerhvert fan som passerer)",
+        "accompanied by a vibration sensor"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-706",
+      "text": "Typer måter å måle torque?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-706-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-706-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "piezo electric",
+        "mål blad vinkel"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-707",
+      "text": "**255. Hvor sitter Fuel flow transmitteren?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-707-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-707-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-708",
+      "text": "**256. Hva brukes for å** **indiker effekten en turboprop leverer?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-708-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-708-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "torque"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-709",
+      "text": "**257. Hva er Spectrometric Oil Analyse Program ( SOAP)**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-709-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-709-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "en test as olje til å se forurensede materiaker eller legering"
       ]
     }
   ]

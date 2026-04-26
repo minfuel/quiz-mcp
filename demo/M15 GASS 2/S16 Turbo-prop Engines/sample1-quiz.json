@@ -5,66 +5,161 @@
   "questions": [
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-721",
       "text": "**266. Hvorfor har turbo-prop (TPE) motorer en reduksjons gearboks?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-721-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-721-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-722",
       "text": "**267. Hvorfor har turbo-prop motorer en torquemeter?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-722-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-722-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-723",
+      "text": "Hva er forsjellen mellom TPE og TSE",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1fb-7baf-44ae-b53d-13bac8f9c007-opt-1",
+          "label": "((660d2578-f6e3-4929-b1f7-7475945f68d4)) - ((660d257e-2213-4785-930e-b8b7b556f99a))"
+        },
+        {
+          "id": "69edc1fb-7baf-44ae-b53d-13bac8f9c007-opt-2",
+          "label": "((660d2736-40ee-4240-b1ef-2627ee450e1d))"
+        },
+        {
+          "id": "69edc1fb-7baf-44ae-b53d-13bac8f9c007-opt-3",
+          "label": "((660d271a-4cb1-43d5-ae26-b26a9f0807b0)) reduction gear part of transmission"
+        },
+        {
+          "id": "69edc1fb-7baf-44ae-b53d-13bac8f9c007-opt-4",
+          "label": "thrust tramsittet to ftshat"
+        }
+      ],
+      "explanations": [
+        "TPE:\n*  -\n*",
+        "TSE:\n*  reduction gear part of transmission\n* thrust tramsittet to ftshat"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-724",
       "text": "**268. Hva er hestekrefter?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-724-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-724-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-725",
+      "text": "Forklar single shaft VS friturbin",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-725-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-725-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "tungt start, propeller går i motorstart, motorstopp påvirkning"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-726",
+      "text": "Hva er EGT margin?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-726-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-726-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "original EGT from factory contra EGT on the normal engine"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-727",
       "text": "**269. Hvordan kan piloten kontrollere en turbo prop motor?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-727-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-727-opt-2",
           "label": "False"
         }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-728",
+      "text": "**270. Hvordan er forholdet turtall, fuel flow og temperatur på en turbo prop motor?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-728-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-728-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1710936779586_0.png){:height 297, :width 421}\nfigur"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1710936779586_0.png",
+            "alt": "image.png"
+          }
+        ]
       ]
     }
   ]

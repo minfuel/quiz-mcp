@@ -5,34 +5,341 @@
   "questions": [
     {
       "_kind": "single_choice",
-      "id": "q-0",
-      "text": "**300. Hvordan er engine drain system på motoren?**",
+      "id": "q-756",
+      "text": "**291. Hva er Engine nacelle?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-756-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-756-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "the engine nacelle has the following sections:\n![image.png](../assets/image_1712748725869_0.png){:height 166, :width 272}\nfan reverser cowling & core cowling = thrust reverser cowling on some engine"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1712748725869_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-757",
+      "text": "**292. Hvorfor har motoren engine nacelle?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-757-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-757-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-758",
+      "text": "**293. Hva er viktig å ta hensyn til når du åpner motor cowlinger?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-758-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-758-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-759",
+      "text": "Hva er torquebox?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-759-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-759-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1712748029199_0.png){:height 170, :width 192}",
+        "combination of  ribs and  to distribute the torque, or twisting forces"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1712748029199_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-760",
+      "text": "**294. Hva er pylon?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-760-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-760-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1712748029199_0.png){:height 170, :width 192}",
+        "strut/",
+        ", carries"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1712748029199_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-761",
+      "text": "**295. Hva er firewall?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-761-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-761-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1712748029199_0.png){:height 170, :width 192}",
+        "lagd av",
+        "python (walls and cladding)"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1712748029199_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-762",
+      "text": "**296. Hva er firewall laget av?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-762-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-762-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-763",
+      "text": "Nevn alle motorfeste konfigurasjon?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-763-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-763-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "wing mounted engines -",
+        "side-mounted engines - engines on",
+        "stablilizer mounted engine -"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-764",
+      "text": "Hva er QEC?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-764-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-764-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "Quick engine change"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-765",
+      "text": "297. Hvor sitter fremre motorfeste på en turbo-fan motor?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-765-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-765-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1712749587084_0.png){:height 162, :width 219}"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1712749587084_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-766",
+      "text": "**298. Hvilke belastninger tar et motorfeste opp?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-766-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-766-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        ",\n, ,"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-767",
+      "text": "**299. Hvilke motorfeste tar opp thurst belastningen?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-767-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-767-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1712749989068_0.png){:height 175, :width 223}",
+        "- engine thrust force or  transferred by the"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1712749989068_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-768",
+      "text": "**300. Hvordan er engine drain system på motoren?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-768-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-768-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1715721921187_0.png){:height 141, :width 243}",
+        "- collect the fluid",
+        "- end of drain line",
+        "- fluids overboard",
+        "/  - store fluid leaks"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1715721921187_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-769",
       "text": "**301. Dersom det drypper mye fuel/olje ut av engine drain mast, hva gjør du?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-769-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-769-opt-2",
           "label": "False"
         }
+      ],
+      "explanations": [
+        "w/ bottle on drain mast & drain"
       ]
     }
   ]

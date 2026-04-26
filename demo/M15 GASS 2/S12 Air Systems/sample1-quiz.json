@@ -5,18 +5,152 @@
   "questions": [
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-645",
+      "text": "197. Engine Air System består av følgende 3 systemer?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-645-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-645-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-646",
+      "text": "198. Hvilke systemer kan være installert for å hindre stall?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-646-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-646-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "-  using"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-647",
+      "text": "199. Hvorfor har noen motorer compressor bleed valves?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-647-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-647-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "like"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-648",
+      "text": "200. Hva er engine cooling system?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-648-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-648-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-649",
       "text": "201. **Hvilken luft brukes for å kjøle motor rommet?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-649-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-649-opt-2",
           "label": "False"
         }
+      ],
+      "explanations": [
+        "-  (descreased effieciency)",
+        "compressed air from compressor"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-650",
+      "text": "202. Hva menes med pressure balancing?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-650-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-650-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "part of cooling system (internal air system)",
+        "\"Pressure balancing\" refererer til en metode for å redusere aksialbelastningen på trykklagerne i motoren. Dette gjøres ved å utligne trykket internt i motoren for å forhindre uønskede krefter som kan påvirke motorens ytelse og pålitelighet."
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-651",
+      "text": "203. Hva er forskjellen på aktiv og passiv cleareance control?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-651-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-651-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "passiv - airflow cannot be switched off, supports active clearance",
+        "active - cooling air control valves"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-652",
+      "text": "204. Kan man bare ha ACC på turbin?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-652-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-652-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "Control System",
+        "ja, fordi de passive"
       ]
     }
   ]

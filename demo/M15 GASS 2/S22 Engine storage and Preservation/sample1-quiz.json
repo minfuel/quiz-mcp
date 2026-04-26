@@ -5,34 +5,46 @@
   "questions": [
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-811",
       "text": "**342. Hva må en gjøre med motoren dersom den skal lagres i ca en mnd og motoren er montert på flyet?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-811-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-811-opt-2",
           "label": "False"
         }
+      ],
+      "explanations": [
+        "*\n*  on engine & pitot, inlets/outlets, NACA inlets",
+        "~30 days operation test (eller må  lagres iht AMM)\n* check & fill (preservation) oil\n* operate engine 20 mins",
+        "~30-365 må lagre fuel og olje separat\n* remove fuel & supply preservation oil at 50 psi\n* do a dry motoring check 30 sec & wet 5 sec\n*  VBV flaps closed\n* silica gel bags in inlet and outlet\n* cover w/ foil for transpo\nupto 1yr",
+        "at engine cover\n* blue = humid below 30%\n* darker = hmid over 30%"
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-812",
       "text": "**343. Hva skal en gjøre med motoren dersom den skal langtids lagres (flere mnd)?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-812-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-812-opt-2",
           "label": "False"
         }
+      ],
+      "explanations": [
+        "*\n*  on engine & pitot, inlets/outlets, NACA inlets",
+        "~30 days operation test (eller må  lagres iht AMM)\n* check & fill (preservation) oil\n* operate engine 20 mins",
+        "~30-365 må lagre fuel og olje separat\n* remove fuel & supply preservation oil at 50 psi\n* do a dry motoring check 30 sec & wet 5 sec\n*  VBV flaps closed\n* silica gel bags in inlet and outlet\n* cover w/ foil for transpo\nupto 1yr",
+        "at engine cover\n* blue = humid below 30%\n* darker = hmid over 30%"
       ]
     }
   ]

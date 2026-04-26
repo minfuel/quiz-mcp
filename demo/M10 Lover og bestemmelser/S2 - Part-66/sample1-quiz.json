@@ -5,18 +5,1369 @@
   "questions": [
     {
       "_kind": "single_choice",
-      "id": "q-0",
-      "text": "??Kan en Part-66 AML utstedes uten å være luftfartøy typerettet? #archive-card\nlogseq.order-list-type:: number\ncard-last-interval:: 1.73\ncard-repeats:: 1\ncard-ease-factor:: 2.36\ncard-next-schedule:: 2024-06-08T21:06:46.530Z\ncard-last-reviewed:: 2024-06-07T04:06:46.530Z\ncard-last-score:: 3\ncollapsed:: true",
+      "id": "q-140",
+      "text": "I hvilket dokument finner du Part-66? #",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-140-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-140-opt-2",
           "label": "False"
         }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-141",
+      "text": "Hva omhandler Part-66? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-141-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-141-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "Detter er for å certifying av staff",
+        "Tar opp sertifikatkategorier og luftfartøygrupper"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-142",
+      "text": "Hva er AML? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-142-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-142-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "Dette er delt inni kategorier som A, B",
+        "Flysertifikat, aircraft maintance licence, aldergrense få ustedelse er 18 år",
+        "man kan ikke signere som certifying staff, må være 21 år for å få CRS (  )",
+        "fullført part-147 kurs (Praksis 2år, 3år)",
+        "75%",
+        "utløper 10år",
+        "kan tas privat (5år)",
+        "Blank AML - gyldig 5år, utstedt av LT/CAA-NAA",
+        "hvis ikke fornyet, mister du alle certifikater, da kontaktes LT og de lager plan hvordan du får et nytt uten å kursene igjen",
+        "CRS tas av bedrifter",
+        "AML tas av CAA",
+        "(5år fornylse)"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-143",
+      "text": "Hvem utsteder AML? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-143-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-143-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-144",
+      "text": "Hvilke hovedkategorier har vi for AML? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-144-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-144-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        ",",
+        ",",
+        ",",
+        ",",
+        ","
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-145",
+      "text": "B1.1 og B1.3 er sertifikater for? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1d1-0ce6-41de-934f-3f1cb8af49ee-opt-1",
+          "label": "1 turbinfly"
+        },
+        {
+          "id": "69edc1d1-0ce6-41de-934f-3f1cb8af49ee-opt-2",
+          "label": "3 turbin helikopter"
+        }
+      ],
+      "explanations": [
+        "1.1 turbinfly\n2 stempelfly\n1.3 turbin helikopter\n4 stempel heli"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-146",
+      "text": "B1.2 og B1.4 er sertifikater for? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1d1-4e84-40aa-a61e-9a62b68bc5da-opt-1",
+          "label": "1 turbin fly"
+        },
+        {
+          "id": "69edc1d1-4e84-40aa-a61e-9a62b68bc5da-opt-2",
+          "label": "2 stempel fly"
+        },
+        {
+          "id": "69edc1d1-4e84-40aa-a61e-9a62b68bc5da-opt-3",
+          "label": "3 turbin helikopter"
+        },
+        {
+          "id": "69edc1d1-4e84-40aa-a61e-9a62b68bc5da-opt-4",
+          "label": "4 stempel helikopter"
+        }
+      ],
+      "explanations": [
+        "1.1 turbin fly\n1.2 stempel fly\n1.3 turbin helikopter\n1.4 stempel helikopter"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-147",
+      "text": "B2 er sertifikat for? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-147-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-147-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-148",
+      "text": "B3 er sertifikat for? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-148-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-148-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-149",
+      "text": "B2L er sertifikat for? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1d1-3758-46a0-a0d3-8245ff8ab913-opt-1",
+          "label": "((6543c5cb-85e1-468b-adbe-dbfd47a77a57))"
+        },
+        {
+          "id": "69edc1d1-3758-46a0-a0d3-8245ff8ab913-opt-2",
+          "label": "((6543c5ce-2230-4b96-820e-eceff4e556d3))"
+        },
+        {
+          "id": "69edc1d1-3758-46a0-a0d3-8245ff8ab913-opt-3",
+          "label": "((6543c5d0-859f-41c4-b227-d75217d9f0d6))"
+        },
+        {
+          "id": "69edc1d1-3758-46a0-a0d3-8245ff8ab913-opt-4",
+          "label": "((6543c5d2-6edf-470e-8b00-e8f2b5dde827))"
+        },
+        {
+          "id": "69edc1d1-3758-46a0-a0d3-8245ff8ab913-opt-5",
+          "label": "((6543c5d7-4cb9-4027-b5cc-9e62d63f4a4b))"
+        }
+      ],
+      "explanations": [
+        "*\n*\n*\n*\n*"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-150",
+      "text": "L er sertifikat for? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-150-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-150-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        ","
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-151",
+      "text": "Hva er viktig med B2L og L? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-151-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-151-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "luftfart"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-152",
+      "text": "Hvordan søker du om en AML? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1d1-d174-4214-b26f-4a2bda4cc6b7-opt-1",
+          "label": "b1, b1.4, b2L,a,b3:"
+        },
+        {
+          "id": "69edc1d1-d174-4214-b26f-4a2bda4cc6b7-opt-2",
+          "label": "b2, b1.1,b1.3"
+        },
+        {
+          "id": "69edc1d1-d174-4214-b26f-4a2bda4cc6b7-opt-3",
+          "label": "L"
+        },
+        {
+          "id": "69edc1d1-d174-4214-b26f-4a2bda4cc6b7-opt-4",
+          "label": "C"
+        }
+      ],
+      "explanations": [
+        "sendes til luftfarttilsynet, må  ha bestått modulene i  (grunn utdanning), på Part-147 eller CAA, innen , modulene bortfalle",
+        "du må vedlikeholdserfaring også\n* b1, b1.4, b2L,a,b3:\n3 år - praksis på operativt fly\n2 år - praksis + teknisk trening,\n1 år - praksis på operativt fly + skole(part-147)\n* b2, b1.1,b1.3\n5 år - praksis på operativt fly\n3 år - praksis på operativt fly + teknisk trening\n2 år - praksis på operativt fly + skole(part-147)\n* L\n2 år - praksis på operativt fly\n1 år - praksis på operativt fly (kan ikke utføre  )\n* C\n3 år - praksis på **stor** operativt fly (b2,b1.1,b1.3)\n5 år - praksis på **stor** operativt fly (b1.1,b1.4)\n3 år - praksis **ikke** på **stor** operativt fly, (b1,b2-part 145)\n3 år - akademisk + 6 måned praksis"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-153",
+      "text": "Hvor gammel må man være for å få utstedet en AML? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-153-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-153-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "og CRS 21 år"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-154",
+      "text": "Hva er arbeidsområdet (privilegier) for kategori A? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-154-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-154-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-155",
+      "text": "Hva er arbeidsområdet (privilegier) for kategori B1? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-155-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-155-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-156",
+      "text": "CRS?? man må ha dette for å signere ut ferdig arbeid med AMC som",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-156-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-156-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-157",
+      "text": "Hva er arbeidsområdet (privilegier) for kategori B2? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-157-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-157-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "kan jobbe på både , ingen kategori A",
+        "arbeidsområde er:"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-158",
+      "text": "Hva er arbeidsområdet (privilegier) for kategori B3? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-158-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-158-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-159",
+      "text": "Hva er arbeidsområdet (privilegier) for kategori B2L? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-159-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-159-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-160",
+      "text": "Hva er arbeidsområdet (privilegier) for kategori L? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-160-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-160-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-161",
+      "text": "Hva er arbeidsområdet (privilegier) for kategori C? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-161-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-161-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "eller store fly"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-162",
+      "text": "Er det krav til språkkunnskaper for kategori C personell, i så tilfelle hvilken? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-162-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-162-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-163",
+      "text": "Hva er en Part-66 Basic Grunnutdanning? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-163-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-163-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "faller bort"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-164",
+      "text": "Hva er kravene til å bestå en Part-66 Basic Grunnutdanning? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-164-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-164-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-165",
+      "text": "Hva er kravene til vedlikeholds erfaring i Basic Grunnutdanningen? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-165-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-165-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-166",
+      "text": "Hvor lang tid har du på å bestå Basic Grunnutdanningen, teori og vedlikeholds erfaring? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-166-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-166-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-167",
+      "text": "Må kategori C-personell ha en Part-66 AML? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-167-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-167-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "Nei,"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-168",
+      "text": "Hvilke krav stilles for at du skal kunne opprettholde din AML? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-168-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-168-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-169",
+      "text": "Hvem har ansvar for at de opplysningene som er påført sertifikatet er de samme som de som finnes hos luftfartsmyndighetene og hvordan gjøres dette? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-169-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-169-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-170",
+      "text": "??Kan en Part-66 AML utstedes uten å være luftfartøy typerettet? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-170-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-170-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "Ja, blank AML kalles dette",
+        "men, for å signere for fly ferdig  eller"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-171",
+      "text": "Hva vil det si å få utstedt en «blank» AML? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-171-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-171-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "EASA Form 19 sendes til CAA, (without type\nrating)\nMin. age: 18",
+        "skole",
+        "Part-147 approved courses and",
+        "Examination in Part 147 or",
+        "Examination in Competent Authority or",
+        "National examination Credits",
+        "Gain basic experience:",
+        "Duration depends on completed training;",
+        "completion Part-147 approved course or",
+        "completion national training (‘skilled worker’)",
+        "In aircraft maintenance organisation or under supervision of\nindependent Certifying Staff and",
+        "On operating aircraft and",
+        "Shall be practical experience; and",
+        "Recent experience in (sub)category needed; and",
+        "Could be Civil/not civil experience; and",
+        "Shall be representative cross section of tasks; and",
+        "Shall be acceptable to Competent Authority; and",
+        "Shall be properly recorded (e.g.. logbook"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-172",
+      "text": "**TYPE RATING** Hva er Type Rating? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-172-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-172-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "dette er sertifisering på AML som sier at fører av AML kan utøve CRS (signere ut flyet) på spesifikk fly"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-173",
+      "text": "Må kategori A personell ha fullt typekurs på flytypen for å få CRS? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-173-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-173-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "Nei, kategori A personell trenger ikke å ha fullt typekurs på flytypen for å få CRS. Det er nok å ha en   eller en system rating.",
+        "CRS-sertifikatet er gyldig i 5 år. For å fornye CRS-sertifikatet må AMC-holderen gjennomføre et oppfriskningsprogram som består av teoretisk og praktisk opplæring."
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-174",
+      "text": "Forklar forskjellen på fabrikkgruppe og full gruppe, da med tanke på innføring i Part 66 AML. #",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1d1-4333-4cbe-9870-146f54b858ba-opt-1",
+          "label": "Fabrikkgruppe** er en gruppe med personell som er autorisert av produsenten av luftfartøyet til å utføre vedlikehold og reparasjon på luftfartøyet. Fabrikkgruppen er vanligvis sammensatt av teknikere som er utdannet og sertifisert av produsenten."
+        },
+        {
+          "id": "69edc1d1-4333-4cbe-9870-146f54b858ba-opt-2",
+          "label": "Full gruppe** er en gruppe med personell som er autorisert av luftfartsmyndigheten til å utføre vedlikehold og reparasjon på luftfartøy. Full gruppen kan bestå av teknikere som er utdannet og sertifisert av produsenten, eller teknikere som er utdannet og sertifisert av en annen tredjepart."
+        },
+        {
+          "id": "69edc1d1-4333-4cbe-9870-146f54b858ba-opt-3",
+          "label": "Kravene til fabrikkgruppe**"
+        },
+        {
+          "id": "69edc1d1-4333-4cbe-9870-146f54b858ba-opt-4",
+          "label": "Teknikerne må være utdannet og sertifisert av produsenten av luftfartøyet."
+        },
+        {
+          "id": "69edc1d1-4333-4cbe-9870-146f54b858ba-opt-5",
+          "label": "Teknikerne må ha erfaring med vedlikehold og reparasjon av luftfartøy av samme type."
+        },
+        {
+          "id": "69edc1d1-4333-4cbe-9870-146f54b858ba-opt-6",
+          "label": "Teknikerne må ha tilgang til relevante instruksjoner og tekniske data fra produsenten."
+        },
+        {
+          "id": "69edc1d1-4333-4cbe-9870-146f54b858ba-opt-7",
+          "label": "Kravene til full gruppe**"
+        },
+        {
+          "id": "69edc1d1-4333-4cbe-9870-146f54b858ba-opt-8",
+          "label": "Teknikerne må være utdannet og sertifisert av en tredjepart."
+        },
+        {
+          "id": "69edc1d1-4333-4cbe-9870-146f54b858ba-opt-9",
+          "label": "Teknikerne må ha erfaring med vedlikehold og reparasjon av luftfartøy av samme type."
+        },
+        {
+          "id": "69edc1d1-4333-4cbe-9870-146f54b858ba-opt-10",
+          "label": "Teknikerne må ha tilgang til relevante instruksjoner og tekniske data fra produsenten."
+        },
+        {
+          "id": "69edc1d1-4333-4cbe-9870-146f54b858ba-opt-11",
+          "label": "Forskjellen mellom fabrikkgruppe og full gruppe**"
+        },
+        {
+          "id": "69edc1d1-4333-4cbe-9870-146f54b858ba-opt-12",
+          "label": "Hvilken gruppe som er best for et bestemt luftfartøy, avhenger av en rekke faktorer, for eksempel typen luftfartøy, kompleksiteten til vedlikeholdet eller reparasjonen som skal utføres, og budsjettet.**"
+        }
+      ],
+      "explanations": [
+        "Fabrikkgruppe og full gruppe er to begreper som brukes i Part 66 AML for å beskrive hvilke typer personell som kan utføre vedlikehold og reparasjon av luftfartøy.\n**Fabrikkgruppe** er en gruppe med personell som er autorisert av produsenten av luftfartøyet til å utføre vedlikehold og reparasjon på luftfartøyet. Fabrikkgruppen er vanligvis sammensatt av teknikere som er utdannet og sertifisert av produsenten.\n**Full gruppe** er en gruppe med personell som er autorisert av luftfartsmyndigheten til å utføre vedlikehold og reparasjon på luftfartøy. Full gruppen kan bestå av teknikere som er utdannet og sertifisert av produsenten, eller teknikere som er utdannet og sertifisert av en annen tredjepart.\nI Norge er det Luftfartstilsynet som er luftfartsmyndigheten. Luftfartstilsynet har gitt ut en forskrift som beskriver kravene til fabrikkgruppe og full gruppe.\n**Kravene til fabrikkgruppe**\n* Teknikerne må være utdannet og sertifisert av produsenten av luftfartøyet.\n* Teknikerne må ha erfaring med vedlikehold og reparasjon av luftfartøy av samme type.\n* Teknikerne må ha tilgang til relevante instruksjoner og tekniske data fra produsenten.\n**Kravene til full gruppe**\n* Teknikerne må være utdannet og sertifisert av en tredjepart.\n* Teknikerne må ha erfaring med vedlikehold og reparasjon av luftfartøy av samme type.\n* Teknikerne må ha tilgang til relevante instruksjoner og tekniske data fra produsenten.\n**Forskjellen mellom fabrikkgruppe og full gruppe**\nDen største forskjellen mellom fabrikkgruppe og full gruppe er at fabrikkgruppen er autorisert av produsenten av luftfartøyet, mens full gruppen er autorisert av luftfartsmyndigheten.\nDette betyr at fabrikkgruppen har direkte tilgang til informasjon og instruksjoner fra produsenten. Dette kan være en fordel i noen tilfeller, for eksempel hvis det oppstår problemer med et luftfartøy som bare produsenten har kunnskap om hvordan man skal løse.\nFull gruppen har imidlertid også noen fordeler. For eksempel kan full gruppen være billigere enn fabrikkgruppen, og de kan være mer tilgjengelige.\n**Hvilken gruppe som er best for et bestemt luftfartøy, avhenger av en rekke faktorer, for eksempel typen luftfartøy, kompleksiteten til vedlikeholdet eller reparasjonen som skal utføres, og budsjettet.**"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-175",
+      "text": "Hva må til for å få en fabrikkgruppe innført i Part-66 AML? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-175-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-175-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-176",
+      "text": "Hva må til for å få en full gruppe innført i et Part 66 AML? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-176-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-176-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-177",
+      "text": "Hvilken gruppe luftfartøy kan en få full gruppe sertifikat? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-177-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-177-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "alle grupper untatt gruppe 1,2 kan du få full gruppe\n![image.png](../assets/image_1698998063737_0.png){:height 203, :width 345}",
+        "gruppe 3 - ikke store transport fly eller helikopter\ngruppe 4- lette fly"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1698998063737_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-178",
+      "text": "Hvilken gruppe luftfartøy kan en få fabrikkgruppesertifikat? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-178-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-178-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "alle grupper untatt gruppe siden det tungt fly",
+        "123",
+        "![image.png](../assets/image_1698998063737_0.png){:height 203, :width 345}"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1698998063737_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-179",
+      "text": "Redegjør for kriteriene for de luftfartøy der det forlanges godkjent kurs og hver type blir innført i Part 66 AML. #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-179-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-179-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-180",
+      "text": "**CRS** Hva står betegnelsen CRS for? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-180-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-180-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-181",
+      "text": "Hva menes med CRS?, #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-181-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-181-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "personer som har fått dette fra bedriften kan nå"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-182",
+      "text": "Hva er kravene til å få en CRS? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-182-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-182-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "De med CRS, må kunne vise AML sin innen 24 time til myndigheten",
+        "komponentene er ikke part 66, men nasjonale standarder: , FLYET MÅ VÆRE (ikke luftdiktig)",
+        "m"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-183",
+      "text": "Hvem utsteder CRS? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-183-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-183-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "godkent part-145, VERKSTED, m"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-184",
+      "text": "Hvilke privilegier får du ved å ha en CRS? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1d1-9171-417d-ac15-77424aba6a43-opt-1",
+          "label": "Du kan utføre vedlikehold og reparasjon av luftfartøy i samsvar med de relevante bestemmelsene i Part-66."
+        },
+        {
+          "id": "69edc1d1-9171-417d-ac15-77424aba6a43-opt-2",
+          "label": "Du kan utføre vedlikehold og reparasjon på luftfartøy som er registrert i Norge."
+        },
+        {
+          "id": "69edc1d1-9171-417d-ac15-77424aba6a43-opt-3",
+          "label": "Du kan utføre vedlikehold og reparasjon på luftfartøy som er registrert i andre land, hvis du har den nødvendige autorisasjonen fra luftfartsmyndigheten i det landet."
+        },
+        {
+          "id": "69edc1d1-9171-417d-ac15-77424aba6a43-opt-4",
+          "label": "Kravene til CRS-sertifikat**"
+        },
+        {
+          "id": "69edc1d1-9171-417d-ac15-77424aba6a43-opt-5",
+          "label": "Du må ha fullført en godkjent utdanningsprogram i vedlikehold og reparasjon av luftfartøy."
+        },
+        {
+          "id": "69edc1d1-9171-417d-ac15-77424aba6a43-opt-6",
+          "label": "Du må ha minst to års relevant arbeidserfaring."
+        },
+        {
+          "id": "69edc1d1-9171-417d-ac15-77424aba6a43-opt-7",
+          "label": "Du må bestå en teoretisk og praktisk eksamen."
+        },
+        {
+          "id": "69edc1d1-9171-417d-ac15-77424aba6a43-opt-8",
+          "label": "Typer CRS-sertifikat**"
+        },
+        {
+          "id": "69edc1d1-9171-417d-ac15-77424aba6a43-opt-9",
+          "label": "**CRS-A** gir deg autorisasjon til å utføre vedlikehold og reparasjon på luftfartøy av alle typer."
+        },
+        {
+          "id": "69edc1d1-9171-417d-ac15-77424aba6a43-opt-10",
+          "label": "**CRS-B** gir deg autorisasjon til å utføre vedlikehold og reparasjon på luftfartøy av en bestemt type."
+        },
+        {
+          "id": "69edc1d1-9171-417d-ac15-77424aba6a43-opt-11",
+          "label": "Hvordan søke om CRS-sertifikat**"
+        }
+      ],
+      "explanations": [
+        "En CRS, eller Certificate of Registration of Staff, er et sertifikat som utstedes av luftfartsmyndigheten til personell som er autorisert til å utføre vedlikehold og reparasjon av luftfartøy.\nIfølge Part-66 AML gir en CRS deg følgende privilegier:\n* Du kan utføre vedlikehold og reparasjon av luftfartøy i samsvar med de relevante bestemmelsene i Part-66.\n* Du kan utføre vedlikehold og reparasjon på luftfartøy som er registrert i Norge.\n* Du kan utføre vedlikehold og reparasjon på luftfartøy som er registrert i andre land, hvis du har den nødvendige autorisasjonen fra luftfartsmyndigheten i det landet.\nCRS-sertifikatet er gyldig i fem år. For å fornye sertifikatet må du oppfylle de samme kravene som du måtte oppfylle for å opprinnelig få sertifikatet.\n**Kravene til CRS-sertifikat**\nFor å få CRS-sertifikat må du oppfylle følgende krav:\n* Du må ha fullført en godkjent utdanningsprogram i vedlikehold og reparasjon av luftfartøy.\n* Du må ha minst to års relevant arbeidserfaring.\n* Du må bestå en teoretisk og praktisk eksamen.\n**Typer CRS-sertifikat**\nDet finnes to typer CRS-sertifikater:\n* **CRS-A** gir deg autorisasjon til å utføre vedlikehold og reparasjon på luftfartøy av alle typer.\n* **CRS-B** gir deg autorisasjon til å utføre vedlikehold og reparasjon på luftfartøy av en bestemt type.\nFor å få CRS-A-sertifikat må du ha fullført en godkjent utdanningsprogram i vedlikehold og reparasjon av luftfartøy, og du må ha minst to års relevant arbeidserfaring. Du må også bestå en teoretisk og praktisk eksamen.\nFor å få CRS-B-sertifikat må du ha fullført en godkjent utdanningsprogram i vedlikehold og reparasjon av luftfartøy, og du må ha minst to års relevant arbeidserfaring på den aktuelle luftfartøytypen. Du må også bestå en teoretisk og praktisk eksamen.\n**Hvordan søke om CRS-sertifikat**\nFor å søke om CRS-sertifikat må du fylle ut en søknad og sende den til luftfartsmyndigheten. I søknaden må du oppgi informasjon om din utdanning, arbeidserfaring og kvalifikasjoner. Du må også legge ved kopier av relevante dokumenter, for eksempel vitnemål, arbeidsattester og eksamenssertifiseringer.\nLuftfartsmyndigheten vil vurdere søknaden din og avgjøre om du oppfyller kravene til CRS-sertifikat. Hvis du oppfyller kravene, vil luftfartsmyndigheten utstede deg et sertifikat."
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-185",
+      "text": "Hvor i Part-66 finner vi krav til sertifikat når en skal jobbe på komponenter? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-185-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-185-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "komponentene er ikke part 66, men nasjonale standarder: , FLYET MÅ VÆRE (ikke luftdiktig)"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-186",
+      "text": "Hva er forholdet mellom Part-66 og Part-145? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-186-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-186-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "part-66, er certifying staff",
+        "part-145, er godkjent vedlikeholdsbedrift"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-187",
+      "text": "Hva er forholdet mellom Part-66 og Part-147? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-187-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-187-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "part-66, er certifying staff",
+        "part-147, er godkjent undervisning kurs, for å ta modulene"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-188",
+      "text": "#### ((65165b19-adc6-46b9-b782-bce8f2b6693a)) ![image.png](../assets/image_1695963920408_0.png){:height 333, :width 231} #",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1d0-a835-4227-bd36-fca64dae5ef3-opt-1",
+          "label": "Hvordan få en Part-66 AML**"
+        },
+        {
+          "id": "69edc1d0-a835-4227-bd36-fca64dae5ef3-opt-2",
+          "label": "**Alder:** Du må ha fylt 18 år."
+        },
+        {
+          "id": "69edc1d0-a835-4227-bd36-fca64dae5ef3-opt-3",
+          "label": "**Utdanning:** Du må ha fullført en godkjent utdanningsprogram i vedlikehold og reparasjon av luftfartøy. Utdannelsesprogrammene er vanligvis delt inn i to faser:"
+        },
+        {
+          "id": "69edc1d0-a835-4227-bd36-fca64dae5ef3-opt-4",
+          "label": "**Fase 1** - Grunnutdanning"
+        },
+        {
+          "id": "69edc1d0-a835-4227-bd36-fca64dae5ef3-opt-5",
+          "label": "**Fase 2** - Spesialisering"
+        },
+        {
+          "id": "69edc1d0-a835-4227-bd36-fca64dae5ef3-opt-6",
+          "label": "**Erfaring:** Du må ha minst to års relevant arbeidserfaring. Relevant arbeidserfaring er definert som arbeid som involverer vedlikehold og reparasjon av luftfartøy."
+        },
+        {
+          "id": "69edc1d0-a835-4227-bd36-fca64dae5ef3-opt-7",
+          "label": "**Eksamen:** Du må bestå en teoretisk og praktisk eksamen."
+        },
+        {
+          "id": "69edc1d0-a835-4227-bd36-fca64dae5ef3-opt-8",
+          "label": "Søknadsprosessen**"
+        },
+        {
+          "id": "69edc1d0-a835-4227-bd36-fca64dae5ef3-opt-9",
+          "label": "Sertifikatet**"
+        },
+        {
+          "id": "69edc1d0-a835-4227-bd36-fca64dae5ef3-opt-10",
+          "label": "Typer Part-66 AML**"
+        },
+        {
+          "id": "69edc1d0-a835-4227-bd36-fca64dae5ef3-opt-11",
+          "label": "**A** - Autorisert til å utføre vedlikehold og reparasjon på alle typer luftfartøy."
+        },
+        {
+          "id": "69edc1d0-a835-4227-bd36-fca64dae5ef3-opt-12",
+          "label": "**B1.1** - Autorisert til å utføre vedlikehold og reparasjon på flygende vinger."
+        },
+        {
+          "id": "69edc1d0-a835-4227-bd36-fca64dae5ef3-opt-13",
+          "label": "**B1.2** - Autorisert til å utføre vedlikehold og reparasjon på helikoptere."
+        },
+        {
+          "id": "69edc1d0-a835-4227-bd36-fca64dae5ef3-opt-14",
+          "label": "**B1.3** - Autorisert til å utføre vedlikehold og reparasjon på propellfly."
+        },
+        {
+          "id": "69edc1d0-a835-4227-bd36-fca64dae5ef3-opt-15",
+          "label": "**B1.4** - Autorisert til å utføre vedlikehold og reparasjon på jetfly."
+        },
+        {
+          "id": "69edc1d0-a835-4227-bd36-fca64dae5ef3-opt-16",
+          "label": "Kravene til hver kategori**"
+        },
+        {
+          "id": "69edc1d0-a835-4227-bd36-fca64dae5ef3-opt-17",
+          "label": "Eksempel på hvordan du kan oppfylle kravene til Part-66 AML**"
+        },
+        {
+          "id": "69edc1d0-a835-4227-bd36-fca64dae5ef3-opt-18",
+          "label": "Fullføre en godkjent utdanningsprogram i vedlikehold og reparasjon av luftfartøy, for eksempel en bachelorgrad i luftfartsteknologi."
+        },
+        {
+          "id": "69edc1d0-a835-4227-bd36-fca64dae5ef3-opt-19",
+          "label": "Arbeide som flytekniker i minst to år."
+        },
+        {
+          "id": "69edc1d0-a835-4227-bd36-fca64dae5ef3-opt-20",
+          "label": "Bestå en teoretisk og praktisk eksamen i Part-66."
+        },
+        {
+          "id": "69edc1d0-a835-4227-bd36-fca64dae5ef3-opt-21",
+          "label": "Fullføre en godkjent utdanningsprogram i vedlikehold og reparasjon av luftfartøy, for eksempel en fagskoleutdanning i flyteknikk."
+        },
+        {
+          "id": "69edc1d0-a835-4227-bd36-fca64dae5ef3-opt-22",
+          "label": "Arbeide som flytekniker i minst to år."
+        },
+        {
+          "id": "69edc1d0-a835-4227-bd36-fca64dae5ef3-opt-23",
+          "label": "Bestå en teoretisk og praktisk eksamen i Part-66."
+        },
+        {
+          "id": "69edc1d0-a835-4227-bd36-fca64dae5ef3-opt-24",
+          "label": "Fullføre en godkjent utdanningsprogram i vedlikehold og reparasjon av luftfartøy, for eksempel en fagskoleutdanning i helikopterteknikk."
+        },
+        {
+          "id": "69edc1d0-a835-4227-bd36-fca64dae5ef3-opt-25",
+          "label": "Arbeide som helikoptertekniker i minst to år."
+        },
+        {
+          "id": "69edc1d0-a835-4227-bd36-fca64dae5ef3-opt-26",
+          "label": "Bestå en teoretisk og praktisk eksamen i Part-66."
+        },
+        {
+          "id": "69edc1d0-a835-4227-bd36-fca64dae5ef3-opt-27",
+          "label": "Konklusjon**"
+        }
+      ],
+      "explanations": [
+        "**Hvordan få en Part-66 AML**\nFor å få en Part-66 AML må du oppfylle følgende krav:\n* **Alder:** Du må ha fylt 18 år.\n* **Utdanning:** Du må ha fullført en godkjent utdanningsprogram i vedlikehold og reparasjon av luftfartøy. Utdannelsesprogrammene er vanligvis delt inn i to faser:\n* **Fase 1** - Grunnutdanning\n* **Fase 2** - Spesialisering\nI fase 1 får du grunnleggende kunnskap om vedlikehold og reparasjon av luftfartøy. I fase 2 får du spesialisert kunnskap om en bestemt type luftfartøy eller komponent.\n* **Erfaring:** Du må ha minst to års relevant arbeidserfaring. Relevant arbeidserfaring er definert som arbeid som involverer vedlikehold og reparasjon av luftfartøy.\n* **Eksamen:** Du må bestå en teoretisk og praktisk eksamen.\n**Søknadsprosessen**\nFor å søke om en Part-66 AML må du fylle ut en søknad og sende den til Luftfartstilsynet. I søknaden må du oppgi informasjon om din utdanning, arbeidserfaring og kvalifikasjoner. Du må også legge ved kopier av relevante dokumenter, for eksempel vitnemål, arbeidsattester og eksamenssertifiseringer.\nLuftfartstilsynet vil vurdere søknaden din og avgjøre om du oppfyller kravene til Part-66 AML. Hvis du oppfyller kravene, vil Luftfartstilsynet utstede deg et sertifikat.\n**Sertifikatet**\nEn Part-66 AML er gyldig i fem år. For å fornye sertifikatet må du oppfylle de samme kravene som du måtte oppfylle for å opprinnelig få sertifikatet.\n**Typer Part-66 AML**\nDet finnes fem kategorier av Part-66 AML:\n* **A** - Autorisert til å utføre vedlikehold og reparasjon på alle typer luftfartøy.\n* **B1.1** - Autorisert til å utføre vedlikehold og reparasjon på flygende vinger.\n* **B1.2** - Autorisert til å utføre vedlikehold og reparasjon på helikoptere.\n* **B1.3** - Autorisert til å utføre vedlikehold og reparasjon på propellfly.\n* **B1.4** - Autorisert til å utføre vedlikehold og reparasjon på jetfly.\n**Kravene til hver kategori**\nKravene til hver kategori av Part-66 AML er forskjellige. De spesifiserer hvilken type utdanning, arbeidserfaring og kvalifikasjoner som er nødvendige for å få sertifikatet.\n**Eksempel på hvordan du kan oppfylle kravene til Part-66 AML**\nFor å oppfylle kravene til en Part-66 AML i kategori **A**, kan du for eksempel:\n* Fullføre en godkjent utdanningsprogram i vedlikehold og reparasjon av luftfartøy, for eksempel en bachelorgrad i luftfartsteknologi.\n* Arbeide som flytekniker i minst to år.\n* Bestå en teoretisk og praktisk eksamen i Part-66.\nFor å oppfylle kravene til en Part-66 AML i kategori **B1.1**, kan du for eksempel:\n* Fullføre en godkjent utdanningsprogram i vedlikehold og reparasjon av luftfartøy, for eksempel en fagskoleutdanning i flyteknikk.\n* Arbeide som flytekniker i minst to år.\n* Bestå en teoretisk og praktisk eksamen i Part-66.\nFor å oppfylle kravene til en Part-66 AML i kategori **B1.2**, kan du for eksempel:\n* Fullføre en godkjent utdanningsprogram i vedlikehold og reparasjon av luftfartøy, for eksempel en fagskoleutdanning i helikopterteknikk.\n* Arbeide som helikoptertekniker i minst to år.\n* Bestå en teoretisk og praktisk eksamen i Part-66.\n**Konklusjon**\nEn Part-66 AML er et viktig sertifikat for personer som ønsker å jobbe som flytekniker. Sertifikatet gir deg autorisasjon til å utføre vedlikehold og reparasjon av luftfartøy."
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1695963920408_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-189",
+      "text": "#### ((65165b39-9654-45ab-961d-7b7c3ee7ffbd)) ![image.png](../assets/image_1695964041858_0.png){:height 398, :width 262} #",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1d0-be39-4533-b206-24d29c90f71a-opt-1",
+          "label": "Du må ha fyllt 18 år."
+        },
+        {
+          "id": "69edc1d0-be39-4533-b206-24d29c90f71a-opt-2",
+          "label": "Du må ha fullført en godkjent utdanningsprogram i vedlikehold og reparasjon av luftfartøy."
+        },
+        {
+          "id": "69edc1d0-be39-4533-b206-24d29c90f71a-opt-3",
+          "label": "Du må ha minst to års relevant arbeidserfaring."
+        },
+        {
+          "id": "69edc1d0-be39-4533-b206-24d29c90f71a-opt-4",
+          "label": "Du må bestå en teoretisk og praktisk eksamen."
+        },
+        {
+          "id": "69edc1d0-be39-4533-b206-24d29c90f71a-opt-5",
+          "label": "Part-66 AML-kategorier**"
+        },
+        {
+          "id": "69edc1d0-be39-4533-b206-24d29c90f71a-opt-6",
+          "label": "**A** - Autorisert til å utføre vedlikehold og reparasjon på alle typer luftfartøy."
+        },
+        {
+          "id": "69edc1d0-be39-4533-b206-24d29c90f71a-opt-7",
+          "label": "**B1.1** - Autorisert til å utføre vedlikehold og reparasjon på flygende vinger."
+        },
+        {
+          "id": "69edc1d0-be39-4533-b206-24d29c90f71a-opt-8",
+          "label": "**B1.2** - Autorisert til å utføre vedlikehold og reparasjon på helikoptere."
+        },
+        {
+          "id": "69edc1d0-be39-4533-b206-24d29c90f71a-opt-9",
+          "label": "**B1.3** - Autorisert til å utføre vedlikehold og reparasjon på propellfly."
+        },
+        {
+          "id": "69edc1d0-be39-4533-b206-24d29c90f71a-opt-10",
+          "label": "**B1.4** - Autorisert til å utføre vedlikehold og reparasjon på jetfly."
+        },
+        {
+          "id": "69edc1d0-be39-4533-b206-24d29c90f71a-opt-11",
+          "label": "Part-66 AML-utdannelse**"
+        },
+        {
+          "id": "69edc1d0-be39-4533-b206-24d29c90f71a-opt-12",
+          "label": "**Fase 1** - Grunnutdanning"
+        },
+        {
+          "id": "69edc1d0-be39-4533-b206-24d29c90f71a-opt-13",
+          "label": "**Fase 2** - Spesialisering"
+        },
+        {
+          "id": "69edc1d0-be39-4533-b206-24d29c90f71a-opt-14",
+          "label": "Part-66 AML-eksamener**"
+        },
+        {
+          "id": "69edc1d0-be39-4533-b206-24d29c90f71a-opt-15",
+          "label": "Gyldighet**"
+        },
+        {
+          "id": "69edc1d0-be39-4533-b206-24d29c90f71a-opt-16",
+          "label": "Eksempel på hvordan du kan oppfylle kravene til Part-66 AML**"
+        },
+        {
+          "id": "69edc1d0-be39-4533-b206-24d29c90f71a-opt-17",
+          "label": "Fullføre en godkjent utdanningsprogram i vedlikehold og reparasjon av luftfartøy, for eksempel en bachelorgrad i luftfartsteknologi."
+        },
+        {
+          "id": "69edc1d0-be39-4533-b206-24d29c90f71a-opt-18",
+          "label": "Arbeide som flytekniker i minst to år."
+        },
+        {
+          "id": "69edc1d0-be39-4533-b206-24d29c90f71a-opt-19",
+          "label": "Bestå en teoretisk og praktisk eksamen i Part-66."
+        },
+        {
+          "id": "69edc1d0-be39-4533-b206-24d29c90f71a-opt-20",
+          "label": "Fullføre en godkjent utdanningsprogram i vedlikehold og reparasjon av helikoptere, for eksempel en fagskoleutdanning i helikopterteknikk."
+        },
+        {
+          "id": "69edc1d0-be39-4533-b206-24d29c90f71a-opt-21",
+          "label": "Arbeide som helikoptertekniker i minst to år."
+        },
+        {
+          "id": "69edc1d0-be39-4533-b206-24d29c90f71a-opt-22",
+          "label": "Bestå en teoretisk og praktisk eksamen i Part-66."
+        },
+        {
+          "id": "69edc1d0-be39-4533-b206-24d29c90f71a-opt-23",
+          "label": "Spesifikke krav for hver kategori**"
+        },
+        {
+          "id": "69edc1d0-be39-4533-b206-24d29c90f71a-opt-24",
+          "label": "Fra Part-66 AML til CRS på Line Vedlikehold**"
+        }
+      ],
+      "explanations": [
+        "For å få en Part-66 AML, må du oppfylle følgende krav:\n* Du må ha fyllt 18 år.\n* Du må ha fullført en godkjent utdanningsprogram i vedlikehold og reparasjon av luftfartøy.\n* Du må ha minst to års relevant arbeidserfaring.\n* Du må bestå en teoretisk og praktisk eksamen.\nHvis du oppfyller disse kravene, kan du søke om en Part-66 AML ved å fylle ut en søknad og sende den til Luftfartstilsynet. I søknaden må du oppgi informasjon om din utdanning, arbeidserfaring og kvalifikasjoner. Du må også legge ved kopier av relevante dokumenter, for eksempel vitnemål, arbeidsattester og eksamenssertifiseringer.\nLuftfartstilsynet vil vurdere søknaden din og avgjøre om du oppfyller kravene til Part-66 AML. Hvis du oppfyller kravene, vil Luftfartstilsynet utstede deg et sertifikat.\n**Part-66 AML-kategorier**\nDet finnes fem kategorier av Part-66 AML:\n* **A** - Autorisert til å utføre vedlikehold og reparasjon på alle typer luftfartøy.\n* **B1.1** - Autorisert til å utføre vedlikehold og reparasjon på flygende vinger.\n* **B1.2** - Autorisert til å utføre vedlikehold og reparasjon på helikoptere.\n* **B1.3** - Autorisert til å utføre vedlikehold og reparasjon på propellfly.\n* **B1.4** - Autorisert til å utføre vedlikehold og reparasjon på jetfly.\n**Part-66 AML-utdannelse**\nFor å få en Part-66 AML, må du fullføre en godkjent utdanningsprogram i vedlikehold og reparasjon av luftfartøy. Utdannelsesprogrammene er vanligvis delt inn i to faser:\n* **Fase 1** - Grunnutdanning\n* **Fase 2** - Spesialisering\nI fase 1 får du grunnleggende kunnskap om vedlikehold og reparasjon av luftfartøy. I fase 2 får du spesialisert kunnskap om en bestemt type luftfartøy eller komponent.\n**Part-66 AML-eksamener**\nFor å få en Part-66 AML, må du bestå en teoretisk og praktisk eksamen. Den teoretiske eksamenen tester din kunnskap om de relevante bestemmelsene i Part-66. Den praktiske eksamenen tester din evne til å utføre vedlikehold og reparasjon av luftfartøy.\n**Gyldighet**\nEn Part-66 AML er gyldig i fem år. For å fornye sertifikatet må du oppfylle de samme kravene som du måtte oppfylle for å opprinnelig få sertifikatet.\n**Eksempel på hvordan du kan oppfylle kravene til Part-66 AML**\nFor å oppfylle kravene til en Part-66 AML i kategori **A**, kan du for eksempel:\n* Fullføre en godkjent utdanningsprogram i vedlikehold og reparasjon av luftfartøy, for eksempel en bachelorgrad i luftfartsteknologi.\n* Arbeide som flytekniker i minst to år.\n* Bestå en teoretisk og praktisk eksamen i Part-66.\nFor å oppfylle kravene til en Part-66 AML i kategori **B1.2**, kan du for eksempel:\n* Fullføre en godkjent utdanningsprogram i vedlikehold og reparasjon av helikoptere, for eksempel en fagskoleutdanning i helikopterteknikk.\n* Arbeide som helikoptertekniker i minst to år.\n* Bestå en teoretisk og praktisk eksamen i Part-66.\n**Spesifikke krav for hver kategori**\nFor mer informasjon om spesifikke krav for hver kategori av Part-66 AML, kan du se Luftfartstilsynets forskrift om kontinuerlig luftdyktighet for luftfartøyer og luftfartøyprodukter, -deler og -utstyr.",
+        "**Fra Part-66 AML til CRS på Line Vedlikehold**",
+        "| **Part-66 AML** | **CRS på Line Vedlikehold** |\n| **Alder** | 18 år |\n| **Type Rating** | Ja, for den aktuelle luftfartøytypen |\n| **OJT** | 6 måneder (A), 12 måneder (B1 og B2) eller 18 måneder (B3) |\n| **Gyldighet** | 5 år |\n| **Godkjenning av vedlikeholds-organisasjonen** | Ja, av Luftfartstilsynet |\n| **Krav til fornyelse** | 12 måneders relevant arbeidserfaring |\n| **Utstedes av** | Luftfartstilsynet |\n| **Continous Training** | 30 timer kontinuerlig opplæring hvert år |",
+        "**Forklaring**",
+        "For å få CRS på Line Vedlikehold må du ha en Part-66 AML i relevant kategori. I tillegg må du ha fylt 18 år, ha type rating for den aktuelle luftfartøytypen, og ha minst 6 måneder (A), 12 måneder (B1 og B2) eller 18 måneder (B3) relevant arbeidserfaring. Du må også ha bestått en teoretisk og praktisk eksamen.",
+        "**Alder**",
+        "For å få CRS på Line Vedlikehold må du ha fylt 18 år.",
+        "**Type Rating**",
+        "For å få CRS på Line Vedlikehold må du ha type rating for den aktuelle luftfartøytypen. Type rating er en formell godkjenning som gir deg rett til å utføre vedlikehold og reparasjon på en spesifikk type luftfartøy.",
+        "**OJT**",
+        "OJT står for \"On-the-Job Training\". OJT er en type arbeidserfaring som gir deg praktisk kunnskap om vedlikehold og reparasjon av luftfartøy. For å få CRS på Line Vedlikehold må du ha minst 6 måneder (A), 12 måneder (B1 og B2) eller 18 måneder (B3) OJT.",
+        "**Gyldighet**",
+        "En CRS på Line Vedlikehold er gyldig i fem år. For å fornye sertifikatet må du oppfylle de samme kravene som du måtte oppfylle for å opprinnelig få sertifikatet.",
+        "**Godkjenning av vedlikeholds-organisasjonen**",
+        "En CRS på Line Vedlikehold må være godkjent av Luftfartstilsynet. For å få godkjenning må vedlikeholds-organisasjonen oppfylle visse krav, for eksempel at den har et system for å sikre at CRS-er utfører vedlikehold og reparasjon i henhold til produsentens instruksjoner og Luftfartstilsynets forskrifter.",
+        "**Krav til fornyelse**",
+        "For å fornye en CRS på Line Vedlikehold må du ha 12 måneders relevant arbeidserfaring. Du må også ha bestått en teoretisk og praktisk eksamen.",
+        "**Utstedes av**",
+        "En CRS på Line Vedlikehold utstedes av Luftfartstilsynet.",
+        "**Continous Training**",
+        "For å beholde en CRS på Line Vedlikehold må du gjennomføre 30 timer kontinuerlig opplæring hvert år. Opplæringen skal dekke relevante temaer innen vedlikehold og reparasjon av luftfartøy."
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1695964041858_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-190",
+      "text": "#### ((65165b4a-e193-41b4-a487-4f6e25fe0ecb)) (På Base Vedlikehold vil en B1,B2, og A personell være Supporting Staff de kan ikke gi CRS) ![image.png](../assets/image_1695964014761_0.png){:height 356, :width 255} #",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1d0-4051-43bc-a567-dfbafed87c7e-opt-1",
+          "label": "CRS på BASE Vedlikehold**"
+        },
+        {
+          "id": "69edc1d0-4051-43bc-a567-dfbafed87c7e-opt-2",
+          "label": "Certifying Staff eller Supporting Staff på store Luftfartøy**"
+        },
+        {
+          "id": "69edc1d0-4051-43bc-a567-dfbafed87c7e-opt-3",
+          "label": "Certifying Staff eller Supporting Staff på ikke store Luftfartøy**"
+        },
+        {
+          "id": "69edc1d0-4051-43bc-a567-dfbafed87c7e-opt-4",
+          "label": "Akademisk Utdanning**"
+        },
+        {
+          "id": "69edc1d0-4051-43bc-a567-dfbafed87c7e-opt-5",
+          "label": "Vedlikeholdserfaring**"
+        },
+        {
+          "id": "69edc1d0-4051-43bc-a567-dfbafed87c7e-opt-6",
+          "label": "Forklaring**"
+        },
+        {
+          "id": "69edc1d0-4051-43bc-a567-dfbafed87c7e-opt-7",
+          "label": "For store luftfartøy**"
+        },
+        {
+          "id": "69edc1d0-4051-43bc-a567-dfbafed87c7e-opt-8",
+          "label": "For ikke store luftfartøy**"
+        },
+        {
+          "id": "69edc1d0-4051-43bc-a567-dfbafed87c7e-opt-9",
+          "label": "Eksempel på hvordan du kan oppfylle kravene til CRS på Base Vedlikehold**"
+        },
+        {
+          "id": "69edc1d0-4051-43bc-a567-dfbafed87c7e-opt-10",
+          "label": "Fullføre en godkjent utdanningsprogram i vedlikehold og reparasjon av luftfartøy, for eksempel en bachelorgrad i luftfartsteknologi."
+        },
+        {
+          "id": "69edc1d0-4051-43bc-a567-dfbafed87c7e-opt-11",
+          "label": "Arbeide som flytekniker i minst tre år."
+        },
+        {
+          "id": "69edc1d0-4051-43bc-a567-dfbafed87c7e-opt-12",
+          "label": "Bestå en teoretisk og praktisk eksamen i Part-66."
+        },
+        {
+          "id": "69edc1d0-4051-43bc-a567-dfbafed87c7e-opt-13",
+          "label": "Fullføre en godkjent utdanningsprogram i vedlikehold og reparasjon av luftfartøy, for eksempel en fagskoleutdanning i flyteknikk."
+        },
+        {
+          "id": "69edc1d0-4051-43bc-a567-dfbafed87c7e-opt-14",
+          "label": "Arbeide som flytekniker i minst ett år."
+        },
+        {
+          "id": "69edc1d0-4051-43bc-a567-dfbafed87c7e-opt-15",
+          "label": "Bestå en teoretisk og praktisk eksamen i Part-66."
+        }
+      ],
+      "explanations": [
+        "**CRS på BASE Vedlikehold**\n| **Alder** | **18 år** |\n|---|---|\n| **Utstedes av** | **Luftfartstilsynet** |\n| **Gyldighet** | **5 år** |\n| **Krav til fornyelse** | **12 måneders relevant arbeidserfaring** |\n| **Continous Training** | **30 timer kontinuerlig opplæring hvert år** |\n| **Godkjenning av vedlikeholdsorganisasjonen** | **Ja, av Luftfartstilsynet** |\n**Certifying Staff eller Supporting Staff på store Luftfartøy**\n| **Kategori** | **B1.1** | **B1.3** | **B2** |\n|---|---|---|---|\n| **Antall år** | **3** | **3** | **3** |\n**Certifying Staff eller Supporting Staff på ikke store Luftfartøy**\n| **Kategori** | **B1** | **B2** |\n|---|---|---|\n| **Antall år** | **1** | **1** |\n**Akademisk Utdanning**\n| **Krav** | **Bachelorgrad i luftfartsteknologi eller tilsvarende** |\n|---|---|\n**Vedlikeholdserfaring**\n| **Krav** | **Minimum 50% av vedlikeholdserfaringen må være oppnådd på luftfartøy av den aktuelle typen eller kategorien.** |\n|---|---|\n**Forklaring**\nEn CRS på Base Vedlikehold er en person som er autorisert til å utføre vedlikehold og reparasjon av luftfartøy på base, det vil si på et vedlikeholdsanlegg. En CRS på Base Vedlikehold har ansvar for å utføre vedlikehold og reparasjon i henhold til produsentens instruksjoner og Luftfartstilsynets forskrifter.\nFor å få CRS på Base Vedlikehold må du ha en Part-66 AML i kategori C. I tillegg må du ha fylt 18 år, ha minst 3 års relevant arbeidserfaring, og ha bestått en teoretisk og praktisk eksamen.\n**For store luftfartøy**\nFor å få CRS på Base Vedlikehold for store luftfartøy, må du ha minst 3 års relevant arbeidserfaring. Relevant arbeidserfaring er definert som arbeid som involverer vedlikehold og reparasjon av luftfartøy. Minimum 50% av vedlikeholdserfaringen må være oppnådd på luftfartøy av den aktuelle typen eller kategorien.\n**For ikke store luftfartøy**\nFor å få CRS på Base Vedlikehold for ikke store luftfartøy, må du ha minst 1 års relevant arbeidserfaring. Relevant arbeidserfaring er definert som arbeid som involverer vedlikehold og reparasjon av luftfartøy. Minimum 50% av vedlikeholdserfaringen må være oppnådd på luftfartøy av den aktuelle typen eller kategorien.\n**Eksempel på hvordan du kan oppfylle kravene til CRS på Base Vedlikehold**\nFor å oppfylle kravene til CRS på Base Vedlikehold for store luftfartøy, kan du for eksempel:\n* Fullføre en godkjent utdanningsprogram i vedlikehold og reparasjon av luftfartøy, for eksempel en bachelorgrad i luftfartsteknologi.\n* Arbeide som flytekniker i minst tre år.\n* Bestå en teoretisk og praktisk eksamen i Part-66.\nFor å oppfylle kravene til CRS på Base Vedlikehold for ikke store luftfartøy, kan du for eksempel:\n* Fullføre en godkjent utdanningsprogram i vedlikehold og reparasjon av luftfartøy, for eksempel en fagskoleutdanning i flyteknikk.\n* Arbeide som flytekniker i minst ett år.\n* Bestå en teoretisk og praktisk eksamen i Part-66."
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1695964014761_0.png",
+            "alt": "image.png"
+          }
+        ]
       ]
     }
   ]

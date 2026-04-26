@@ -59,7 +59,7 @@ def fetch_all_pages():
 
 def save_pages_data(pages_data):
     """Save fetched pages to JSON file."""
-    output_file = Path(__file__).parent.parent.parent / "pages_data.json"
+    output_file = Path(__file__).parent / "pages_data.json"
     
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(pages_data, f, indent=2, ensure_ascii=False)

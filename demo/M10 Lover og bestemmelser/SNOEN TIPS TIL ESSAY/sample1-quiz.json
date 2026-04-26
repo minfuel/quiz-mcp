@@ -1,0 +1,78 @@
+{
+  "id": "quiz-M10 Lover og bestemmelser-SNOEN-level-1",
+  "title": "M10 Lover og bestemmelser - SNOEN TIPS TIL ESSAY - Level 1",
+  "description": "Quiz for M10 Lover og bestemmelser chapter SNOEN TIPS TIL ESSAY level 1",
+  "questions": [
+    {
+      "_kind": "single_choice",
+      "id": "q-400",
+      "text": "**Vurderingskriterier:** #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-400-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-400-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "20 min",
+        "Skrive for hånd",
+        "Oppgaven skal skrives som en sammenhengende tekst (ikke punktoppramsing).",
+        "60% av oppgaven bedømmes ut i fra gitte keywords.",
+        "Keywords er nøkkelord som er veldig sentrale i oppgaven",
+        "For å bestå et Essay må du ha minimum 75% av nøkkelordene",
+        "40% av oppgaven bedømmes ut i fra oppgavens helhet.",
+        "Presentasjon",
+        "Logisk oppbygging",
+        "Teknisk språk, terminologi",
+        "Leselighet",
+        "Totalt må man ha 75% for å stå Part-66 kravene på eksamen"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-401",
+      "text": "**Snarvei metoden:** #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-401-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-401-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "Skriv ned alle ord som du kan tenke deg kan være keyword (7min)",
+        "Sorter dem i logisk rekkefølge (3min)",
+        "Skriv 1-2 setninger om hvert keyword (10min)",
+        "Det er lov å skrive flere keyword i en setning dersom det virker logisk."
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-402",
+      "text": "**VIKTIGE ORD OG UTTRYKK:**  # **Forkortelse** **Hva står forkortelse n for** **Hvilken forskrift** **Hvilken organisasjon**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-402-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-402-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "AOC Air Operator Certificate  No 965/2012 Part-ORO  Luftfartsfore taket/ Operatøren\nOM\nCRS\nAML\nMaintenance Organication Approval Certificate\nScoop of Approval\nMEL\nCDL\nMaintenance Program\nSB\nAD-note\nDOA\nPOA\nTC\nSTC\nCS\nCofA\nARC\nPtF\nRegistrerings bevis\nMiljødyktighets bevis-Støy\nMasse og balanse dokumentasjon\nRadiokonsesjon\nEASA Form 1\nCAMO Approval Certificate\nARC"
+      ]
+    }
+  ]
+}

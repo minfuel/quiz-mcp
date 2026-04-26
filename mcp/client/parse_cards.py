@@ -30,6 +30,7 @@ class QuizParser:
     def __init__(self, pages_data: Dict[str, Any]):
         self.pages_data = pages_data
         self.quizzes = {}
+        self.question_counter = 0
     
     def parse_all(self):
         """Parse all module pages."""
@@ -132,16 +133,18 @@ class QuizParser:
         for block in blocks:
             content = block.get("content", "").strip()
             
-            # Skip empty or property-only blocks
-            if not content or "::" in content and not content.startswith("?"):
+            # Skip empty blocks and resource links
+            if not content:
                 continue
-            
-            # Skip resource links
             if content.startswith("book::") or ".pdf" in content:
                 continue
             
+            cleaned_content = self._clean_question_text(content)
+            if not cleaned_content:
+                continue
+            
             # Check if question-like (contains #card tag or question patterns)
-            if "#card" in content or "?" in content:
+            if self._is_question_block(content) or self._is_question_block(cleaned_content):
                 question = self._parse_question(content, block)
                 if question:
                     questions.append(question)
@@ -152,192 +155,140 @@ class QuizParser:
         
         return questions
     
+    def _is_question_block(self, content: str) -> bool:
+        lower = content.lower()
+        return (
+            "#card" in lower
+            or "archive-card" in lower
+            or "?" in content
+            or lower.startswith(("what", "how", "why", "when", "where", "which", "who", "name", "describe", "explain", "list"))
+        )
+    
+    def _clean_question_text(self, content: str) -> str:
+        lines = []
+        for line in content.splitlines():
+            candidate = line.strip()
+            if not candidate:
+                continue
+            if candidate.startswith("collapsed::") or candidate.startswith("id::"):
+                continue
+            if "::" in candidate and not candidate.startswith("!["):
+                continue
+            lines.append(candidate)
+        cleaned = " ".join(lines)
+        cleaned = cleaned.replace("#card", "")
+        cleaned = cleaned.replace("archive-card", "")
+        return cleaned.strip()
+    
+    def _extract_explanations(self, block: Dict) -> List[str]:
+        explanations: List[str] = []
+        for child in block.get("children", []):
+            text = child.get("content", "").strip()
+            if not text:
+                continue
+            if self._is_question_block(text):
+                continue
+            cleaned = self._clean_explanation_text(text)
+            if cleaned:
+                explanations.append(cleaned)
+            explanations.extend(self._extract_explanations(child))
+        return explanations
+    
+    def _clean_explanation_text(self, content: str) -> str:
+        lines = []
+        for line in content.splitlines():
+            candidate = line.strip()
+            if not candidate:
+                continue
+            if candidate.startswith("collapsed::") or candidate.startswith("id::"):
+                continue
+            if "::" in candidate and not candidate.startswith("!["):
+                continue
+            candidate = re.sub(r'\(\([^\)]+\)\)', '', candidate)
+            candidate = candidate.strip()
+            if candidate:
+                lines.append(candidate)
+        return "\n".join(lines)
+    
+    def _detect_kind(self, text: str, block: Dict) -> str:
+        options = self._extract_options(block)
+        if options:
+            if re.search(r'select all|select all that|choose all|check all', text, re.I):
+                return "multiple_choice"
+            if re.search(r'dropdown|choose|select', text, re.I):
+                return "single_choice"
+            return "single_choice"
+        if re.search(r'fill in|fill the gaps|gap', text, re.I):
+            return "fill_gaps"
+        if re.search(r'\b(match|pair)\b', text, re.I):
+            return "match"
+        if re.search(r'\b(arrange|sort|order)\b', text, re.I):
+            return "sorting"
+        if re.search(r'\b(upload|attach|file)\b', text, re.I):
+            return "upload"
+        return "single_choice"
+    
+    def _extract_options(self, block: Dict) -> List[Dict]:
+        option_texts: List[str] = []
+        for child in block.get("children", []):
+            raw = child.get("content", "").strip()
+            if not raw:
+                continue
+            lines = raw.splitlines()
+            for line in lines:
+                stripped = line.strip()
+                if stripped.startswith(('-', '*', '•')):
+                    option_texts.append(re.sub(r'^[\-\*•]+\s*', '', stripped).strip())
+                elif re.match(r'^[0-9]+\.', stripped):
+                    option_texts.append(re.sub(r'^[0-9]+\.\s*', '', stripped).strip())
+        uuid = block.get("uuid", "option")
+        return [
+            {"id": f"{uuid}-opt-{index+1}", "label": option}
+            for index, option in enumerate(option_texts)
+            if option
+        ]
+    
     def _parse_question(self, content: str, block: Dict) -> Optional[Dict]:
         """Parse a question block into quiz format."""
-        # Remove #card tag if present
-        text = content.replace("#card", "").strip()
-        
+        text = self._clean_question_text(content)
         if not text:
             return None
         
-        # Generate ID
-        q_id = f"q-{len([q for qs in self.quizzes.values() for q in qs.get('questions', [])])}"
+        q_id = f"q-{self.question_counter}"
+        self.question_counter += 1
         
-        # Extract explanations from child blocks
-        explanations = self._extract_explanations(block.get("children", []))
+        kind = self._detect_kind(text, block)
+        question: Dict[str, Any] = {
+            "_kind": kind,
+            "id": q_id,
+            "text": text,
+            "score": 1,
+        }
         
-        # Detect question type based on content
-        question_type = self._detect_question_type(text, block)
+        options = self._extract_options(block)
+        if options and kind in {"single_choice", "multiple_choice", "dropdown"}:
+            question["options"] = options
+            if kind == "multiple_choice":
+                question["minSelections"] = 0
+                question["maxSelections"] = len(options)
+            if kind == "dropdown":
+                question["mode"] = "single"
+        elif kind == "single_choice":
+            question["options"] = [
+                {"id": f"{q_id}-opt-1", "label": "True"},
+                {"id": f"{q_id}-opt-2", "label": "False"},
+            ]
         
-        # Parse based on type
-        if question_type == "multiple_choice":
-            question = self._parse_multiple_choice(q_id, text, block)
-        elif question_type == "short_text":
-            question = self._parse_short_text(q_id, text, block)
-        elif question_type == "long_text":
-            question = self._parse_long_text(q_id, text, block)
-        elif question_type == "fill_gaps":
-            question = self._parse_fill_gaps(q_id, text, block)
-        else:
-            # Default to single_choice
-            question = self._parse_single_choice(q_id, text, block)
-        
-        # Add explanations if present
-        if explanations and question:
-            question["explanations"] = explanations
-        
-        # Extract images if present
         attachments = self._extract_images(text)
-        if attachments and question:
+        explanations = self._extract_explanations(block)
+        if explanations:
+            question["explanations"] = explanations
+            if not attachments:
+                attachments = self._extract_images("\n".join(explanations))
+        if attachments:
             question["attachments"] = attachments
         
         return question
-    
-    def _extract_explanations(self, blocks: List[Dict]) -> Optional[List[str]]:
-        """Extract explanation text from child blocks."""
-        explanations = []
-        
-        for block in blocks:
-            content = block.get("content", "").strip()
-            
-            # Skip empty, property-only, and #card blocks
-            if not content or ("::" in content and not content.startswith("?")) or "#card" in content:
-                continue
-            
-            # Skip resource links
-            if content.startswith("book::") or ".pdf" in content:
-                continue
-            
-            explanations.append(content)
-            
-            # Recurse into child blocks
-            child_explanations = self._extract_explanations(block.get("children", []))
-            if child_explanations:
-                explanations.extend(child_explanations)
-        
-        return explanations if explanations else None
-    
-    def _detect_question_type(self, text: str, block: Dict) -> str:
-        """Detect question type from content and structure."""
-        text_lower = text.lower()
-        
-        # Multiple choice: contains options like "A)", "B)", "1)", "2)"
-        if re.search(r'(^|\n)\s*([A-Z]|\d)\)', text):
-            return "multiple_choice"
-        
-        # Fill gaps: contains blanks like "___" or "....."
-        if "___" in text or "...." in text:
-            return "fill_gaps"
-        
-        # Long text: ends with question mark and is relatively long, or has "explain", "describe"
-        if any(word in text_lower for word in ["explain", "describe", "discuss", "elaborate"]):
-            return "long_text"
-        
-        # Short text: simple question without options
-        if "?" in text and not any(word in text_lower for word in ["true", "false", "explain", "describe"]):
-            return "short_text"
-        
-        return "single_choice"
-    
-    def _parse_single_choice(self, q_id: str, text: str, block: Dict) -> Dict:
-        """Parse as single choice (True/False or similar)."""
-        return {
-            "_kind": "single_choice",
-            "id": q_id,
-            "text": text,
-            "score": 1,
-            "options": [
-                {"id": f"{q_id}-opt-1", "label": "True"},
-                {"id": f"{q_id}-opt-2", "label": "False"},
-            ],
-        }
-    
-    def _parse_multiple_choice(self, q_id: str, text: str, block: Dict) -> Dict:
-        """Parse as multiple choice with lettered/numbered options."""
-        # Extract options
-        option_pattern = r'(^|\n)\s*([A-Z]|\d)\)\s*(.+?)(?=(?:\n[A-Z]\)|$))'
-        matches = re.findall(option_pattern, text, re.MULTILINE | re.DOTALL)
-        
-        options = []
-        for idx, (_, label_marker, content) in enumerate(matches):
-            options.append({
-                "id": f"{q_id}-opt-{idx+1}",
-                "label": content.strip(),
-            })
-        
-        if not options:
-            # Fallback to single choice if no options found
-            return self._parse_single_choice(q_id, text, block)
-        
-        return {
-            "_kind": "multiple_choice",
-            "id": q_id,
-            "text": re.sub(option_pattern, '', text).strip(),
-            "score": 1,
-            "options": options,
-            "minSelections": 0,
-            "maxSelections": len(options),
-        }
-    
-    def _parse_short_text(self, q_id: str, text: str, block: Dict) -> Dict:
-        """Parse as short text input."""
-        return {
-            "_kind": "short_text",
-            "id": q_id,
-            "text": text,
-            "score": 1,
-            "placeholder": "Enter answer here",
-            "maxLength": 200,
-        }
-    
-    def _parse_long_text(self, q_id: str, text: str, block: Dict) -> Dict:
-        """Parse as long text input."""
-        return {
-            "_kind": "long_text",
-            "id": q_id,
-            "text": text,
-            "score": 1,
-            "placeholder": "Provide a detailed answer here",
-            "minLength": 10,
-            "maxLength": 5000,
-            "rows": 5,
-        }
-    
-    def _parse_fill_gaps(self, q_id: str, text: str, block: Dict) -> Dict:
-        """Parse as fill gaps (blanks to fill)."""
-        # Split on blanks (___) or (....)
-        parts = re.split(r'(_{3,}|\.*{4,})', text)
-        
-        json_parts = []
-        gap_count = 0
-        
-        for part in parts:
-            if re.match(r'_{3,}|\.*{4,}', part):
-                # This is a gap
-                gap_count += 1
-                json_parts.append({
-                    "_kind": "text_gap",
-                    "gapId": f"{q_id}-gap-{gap_count}",
-                    "placeholder": "Fill in",
-                })
-            elif part.strip():
-                # This is text
-                json_parts.append({
-                    "_kind": "text",
-                    "content": part,
-                })
-        
-        if gap_count == 0:
-            # No gaps found, return as short text
-            return self._parse_short_text(q_id, text, block)
-        
-        return {
-            "_kind": "fill_gaps",
-            "id": q_id,
-            "text": text,
-            "score": 1,
-            "parts": json_parts,
-        }
     
     def _extract_images(self, content: str) -> Optional[List[List[Dict]]]:
         """Extract images from markdown content."""
@@ -430,7 +381,7 @@ class QuizParser:
 
 def main():
     """Main entry point."""
-    pages_file = Path(__file__).parent.parent.parent / "pages_data.json"
+    pages_file = Path(__file__).parent / "pages_data.json"
     
     if not pages_file.exists():
         print(f"Error: {pages_file} not found.")

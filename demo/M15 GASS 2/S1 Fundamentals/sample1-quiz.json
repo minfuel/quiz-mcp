@@ -5,34 +5,415 @@
   "questions": [
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-403",
+      "text": "**1. Hvorfor kalles en gassturbinmotor en reaksjons motor?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-403-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-403-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "Fordi gassturbiner er basert og bygd på newtons 3 lov. “Every action has an equal reaction”"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-404",
+      "text": "**2. Dersom vi øker akselerasjonen på luften gjennom gassturbinmotoren vil …. Thrusten/ skyvekraften….**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-404-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-404-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "Newtons lov mer kraft inn mer kraft ut opptil 0.7 Mach på turbofan"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-405",
       "text": "**3. Dersom lufttettheten blir mindre vil thrusten/ skyvekraften på motoren….**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-405-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-405-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "Hvis lufttetheten blir mindre vil skyvekraft minke"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-406",
+      "text": "**4. Hvilken utforming har en diffusor? (konvergent/divergent)**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-406-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-406-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
-      "text": "**4. Hvilken utforming har en diffusor? (konvergent/divergent)**",
+      "id": "q-407",
+      "text": "**5. Hva er oppgaven til en diffusor?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-407-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-407-opt-2",
           "label": "False"
         }
+      ],
+      "explanations": [
+        "denne gjør klar luften før den går inni flame burning delen, så flammen brenner kontinuerlig ved å redusere luft som har høy hastighet til å bli høyt trykk, men lav hastighet"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-408",
+      "text": "6. Hvilken form har en dyse?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-408-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-408-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "dyse/nozzle\n![image.png](../assets/image_1694000597289_0.png)\nDenne kan har ofte en form som convergent form, men kan komme i divergent form i høy hastighet over mach 1"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1694000597289_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-409",
+      "text": "**7.  Hva er oppgaven til en dyse?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-409-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-409-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "som betyr"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-410",
+      "text": "**8.  Hva er Thrust?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-410-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-410-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "thrust er skyvekraft. kraften"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-411",
+      "text": "**9.  Hvilken motor type er en bypass motor?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-411-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-411-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "en bypass motor er en motor som bruker luften rundt core engine for thrust"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-412",
+      "text": "**10.  Hva er forskjellen på en low-bypass og en high-bypass motor?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-412-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-412-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "low bypass - den første fan blad er liten\nhigh bypass - har den første ute blad veldig stor"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-413",
+      "text": "**11.  Hva er det som lager thrusten på en turbojet motor?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-413-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-413-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "turbojet er det jet som lager thrusten"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-414",
+      "text": "**12  Hva er det som lager thrusten på en turboshaft motor?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-414-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-414-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "turboshaft er det shaften som lager thrusten"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-415",
+      "text": "**13.  Hva er det som lager thrusten på en turbofan motor?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-415-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-415-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "turbofan er det fanen som lager thrusten"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-416",
+      "text": "**14.  Hva er det som lager thrusten på en turboprop motor?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-416-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-416-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "turboprop er propen som lager thrusten"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-417",
+      "text": "**15.  Hva skjer med skyvekraften dersom ut trykket forandrer seg?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-417-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-417-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-418",
+      "text": "**16.  Hva skjer med skyvekraften dersom ute temperaturen forandrer seg?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-418-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-418-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-419",
+      "text": "**17.  Hva skjer med skyvekraften dersom flyet stiger i høyde?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-419-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-419-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-420",
+      "text": "**18.  Hva skjer med skyvekraften dersom flyet øker hastighet?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-420-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-420-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-421",
+      "text": "**19. Hva er fordelen med en prop-fan motor?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-421-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-421-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "Bra ytelse/perfomance enn andre turbo-typer flymotorer"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-422",
+      "text": "**20.  Hva er forskjellen på en modular og en non-modular motor?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-422-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-422-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "modular er lett å modifisere eller reparer"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-423",
+      "text": "**21.  Hvor brukes det titanlegering i en gassturbonmotor?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-423-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-423-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "inn i forbrenningskammeret"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-424",
+      "text": "**22.  Hvilke materialer er brukt i hot section på en gassturbinmotor**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-424-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-424-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "gross thrust -\nnet thrust - total thrust + drag eller tap"
       ]
     }
   ]

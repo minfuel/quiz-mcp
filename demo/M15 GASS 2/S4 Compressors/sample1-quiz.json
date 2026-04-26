@@ -1,0 +1,909 @@
+{
+  "id": "quiz-M15 Gass 2-S4-level-2",
+  "title": "M15 GASS 2 - S4 Compressors - Level 2",
+  "description": "Quiz for M15 GASS 2 chapter S4 Compressors level 2",
+  "questions": [
+    {
+      "_kind": "single_choice",
+      "id": "q-452",
+      "text": "**43  Oppgaven til kompressoren er å……**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-452-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-452-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "Compressor begynner på det roterende delen etter fanen\n![2023-09-20-18-29-04.jpeg](../assets/2023-09-20-18-29-04.jpeg){:height 204, :width 249}",
+        "using"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/2023-09-20-18-29-04.jpeg",
+            "alt": "2023-09-20-18-29-04.jpeg"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-453",
+      "text": "**44  Hvilke to typer kompressorer har man?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-453-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-453-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "to type kompressor",
+        "radial (gammel) / centrifugal flow\n![image.png](../assets/image_1695201972530_0.png){:height 197, :width 198}",
+        "**Multiple stage -||-**\nThe air is centrifuged to the outers and to the next centrifugal compressor\n![image.png](../assets/image_1695202231177_0.png)",
+        "axial flow -\n![image.png](../assets/image_1695202008531_0.png){:height 160, :width 194}",
+        "tapering til bladene behokder luft hastigheten\n![image.png](../assets/image_1695205454319_0.png){:height 206, :width 416}\n12 trinn - over hvert trinn komprimeres luften 1,3 ganger (pressure ratio)\n$1,3^(12)$ =23,3 (233 psi)\nmotoren er lang enn det andre som er stor"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1695201972530_0.png",
+            "alt": "image.png"
+          },
+          {
+            "id": "att-2",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1695202231177_0.png",
+            "alt": "image.png"
+          },
+          {
+            "id": "att-3",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1695202008531_0.png",
+            "alt": "image.png"
+          },
+          {
+            "id": "att-4",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1695205454319_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-454",
+      "text": "**Double face -||- ** Why? vi kan ha luft på begge sider ![image.png](../assets/image_1695208703130_0.png) ((650abb70-6990-464c-b063-5434b8f49e09))",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-454-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-454-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "{{renderer excalidraw, excalidraw-2023-09-20-13-16-35}}"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1695208703130_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-455",
+      "text": "45  Hvilke kompressor type har størst trykkoppbygging over et trinn?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-455-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-455-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "radial (gammel) / centrifugal flow\n![image.png](../assets/image_1695201972530_0.png){:height 197, :width 198}",
+        "**Multiple stage -||-**\nThe air is centrifuged to the outers and to the next centrifugal compressor\n![image.png](../assets/image_1695202231177_0.png)",
+        "Radialkompressorer har størst trykkoppbygging over et trinn. Dette skyldes at de bruker en skovlhjulsmotor til å øke trykket på gassen. Skovhjulene har en rekke blader som roterer rundt en akse. Når gassen passerer mellom bladene, blir den presset utover og oppover. Dette øker trykket på gassen.",
+        "Aksialkompressorer bruker en rotor med en rekke blader til å øke trykket på gassen. Rotorbladene roterer rundt en akse, og gassen passerer gjennom bladene fra en side til den andre. Dette øker trykket på gassen, men ikke like mye som i en radialkompressor.",
+        "En typisk radialkompressor kan øke trykket på gassen med opptil 10 bar over et trinn. En typisk aksialkompressor kan øke trykket på gassen med opptil 5 bar over et trinn.\nI praksis er det vanlig å bruke flere trinn i både radial- og aksialkompressorer for å oppnå det ønskede trykket."
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1695201972530_0.png",
+            "alt": "image.png"
+          },
+          {
+            "id": "att-2",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1695202231177_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-456",
+      "text": "**Double face -||- ** Why? vi kan leha luft på begge sider ![image.png](../assets/image_1695208703130_0.png) ((650abb70-6990-464c-b063-5434b8f49e09))",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-456-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-456-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "{{renderer excalidraw, excalidraw-2023-09-20-13-16-35}}"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1695208703130_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-457",
+      "text": "46  Hastigheten på luften gjennom en aksial kompressor vil ….",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-457-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-457-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "rotor increases the velocity and then slow it down to increase static presure using",
+        "vil **øke** fra inngangen til utgangen. Dette skyldes at luften blir presset gjennom en serie med blader som roterer rundt en akse. Bladene øker trykket på luften, men også hastigheten."
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-458",
+      "text": "Hva er fordeler eller ulemper med Aksial vs Sentrifugal?",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1fc-84aa-4209-a248-e8baff6c55e8-opt-1",
+          "label": "Fordeler/Ulemper**"
+        }
+      ],
+      "explanations": [
+        "**Fordeler/Ulemper**\n![image.png](../assets/image_1695206261817_0.png){:height 193, :width 392}\n(hawker motor) axial + centrifugal = compact med mye kraft.\nHar reverse flow\n|axial|centrifugal|\n|mindre drag (fordi mindre front areal tynnere)|enklere å lage|\n||trenger ikke høy start kraft|\n||komprimere bra i lav fart|"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1695206261817_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-459",
+      "text": "**47  Hva har skjedd med motoren når man har en kompressor stall?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-459-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-459-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "compressor stall - kompressor bladene får ikke luft, mister luft over et eller flere trinn i kompressoren. trykk blir mindre og #surge oppstår (luften pumper framover), eventuel en motor cutout. endrer vi hastigheten til fly veldig fort kan dette oppstå takeoff/landing. Ungås av  gradvis throttling, eller auto systeme i moderne fly (variable vein system - stator  faktis endres [styre auto av FADEC])\nis, fugl, regn, insekter, salt (kompressor vask )\ncomressor i blades:\n![image.png](../assets/image_1695207125848_0.png){:height 250, :width 205}"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1695207125848_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-460",
+      "text": "48  Hva har skjedd med motoren når man har en kompressor surge?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-460-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-460-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "Roterende (Turbulent) luft er ikke bra i motoren siden av bl.a #surge målet er å rette disse ut",
+        "flere blad går i compressor stall og stor trykkfall oppstår så trykket går framover. I moderne fly kan FADEC automatisk flytte på stator bladene for å motvirke surge",
+        "comressor blades under surge:\n![image.png](../assets/image_1695207250453_0.png)",
+        "for å hindre stall og surge har vi:",
+        "compressor bleed valve\n![image.png](../assets/image_1697012213764_0.png){:height 193, :width 278}",
+        "![image.png](../assets/image_1697012313898_0.png)",
+        "variable stator vanes uses servo fuel to change pitch",
+        "![image.png](../assets/image_1697012451447_0.png){:height 150, :width 156}",
+        "Main Engine Control (MEC)",
+        "CIT Sensor tar opp",
+        "ECU - øker motorens effekt",
+        "VBV (bleed valve)",
+        "VSV (stator veins)",
+        "1 - trustbearing",
+        "2-rullelager"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1695207250453_0.png",
+            "alt": "image.png"
+          },
+          {
+            "id": "att-2",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1697012213764_0.png",
+            "alt": "image.png"
+          },
+          {
+            "id": "att-3",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1697012313898_0.png",
+            "alt": "image.png"
+          },
+          {
+            "id": "att-4",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1697012451447_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-461",
+      "text": "49  Når er det størst fare for at vi kan få en kompressor stall?",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1fc-4d10-4231-ae20-282a592cbc03-opt-1",
+          "label": "((65545d67-5a9f-43c5-bedd-9c0d54857014))"
+        },
+        {
+          "id": "69edc1fc-4d10-4231-ae20-282a592cbc03-opt-2",
+          "label": "((65545d74-a002-4912-8ef4-58185249d775))"
+        }
+      ],
+      "explanations": [
+        "2 reasons:\n*\n*",
+        "increasing , causing compressor airflow to decrease"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-462",
+      "text": "50  Hvilken komponent styrer compressor control systemet til motoren?",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1fc-29c9-4c5c-b98e-3f22db4b0914-opt-1",
+          "label": "((65545dc5-dc9d-4c98-8c22-dcd7a17bb5f3))"
+        },
+        {
+          "id": "69edc1fc-29c9-4c5c-b98e-3f22db4b0914-opt-2",
+          "label": "((65545dcb-3c4a-4efe-8fa0-d46ecd2e04c5))"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1700027929473_0.png){:height 87, :width 261}",
+        "Disse brukes å kontrollere:\n*\n*"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1700027929473_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-463",
+      "text": "51  Hva er oppgaven til en bleed valve på en compressor?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-463-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-463-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-464",
+      "text": "**52  Hva er oppgaven til inlet guide vanes?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-464-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-464-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "lufta roterer (er turbulent) ved inngangen og vi monterer stator blades for å  rette disse fram. Også på kompressor er roterende blades\n![2023-09-20-18-36-12.jpeg](../assets/2023-09-20-18-36-12.jpeg)",
+        "inlet guide veins i bypass siden - brukes til rette opp luften som er turbulent i bypass siden spesielt\n![image.png](../assets/image_1695201753510_0.png){:height 291, :width 416}"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/2023-09-20-18-36-12.jpeg",
+            "alt": "2023-09-20-18-36-12.jpeg"
+          },
+          {
+            "id": "att-2",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1695201753510_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-465",
+      "text": "**53  Hva består et compressor trinn av?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-465-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-465-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "Inside the compressor blades level its formed as a divergent\n![image.png](../assets/image_1695206979230_0.png){:height 200, :width 287}"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1695206979230_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-466",
+      "text": "**54  Hva betyr forkortelsen N2**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-466-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-466-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1700027136698_0.png){:height 109, :width 244}"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1700027136698_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-467",
+      "text": "**55  Hva betyr forkortelsen N1?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-467-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-467-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1700027171983_0.png){:height 123, :width 265}"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1700027171983_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-468",
+      "text": "**56  Hvor sitter diffusor seksjonen på en jet motor?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-468-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-468-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1700027297910_0.png){:height 176, :width 196}"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1700027297910_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-469",
+      "text": "**57  Hvordan passerer luften igjennom en aksial-flow compressor?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1fc-27e8-426b-9701-3e9c4520ad9e-opt-1",
+          "label": "((655df101-f5df-40f9-9efb-617ac123d9df))"
+        }
+      ],
+      "explanations": [
+        ":\n*",
+        "![image.png](../assets/image_1700655443608_0.png)"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1700655443608_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-470",
+      "text": "Hva kalles roterende delen i en axial kompressor?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-470-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-470-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "impeller"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-471",
+      "text": "**58  Hva skjer med trykk og hastigheten i luften når den passerer igjennom et compressor stator trinn?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-471-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-471-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "The fluid is accelerated by a row of rotating airfoils or blades (the rotor) and diffused by a row of stationary blades (the stator). The diffusion in the stator converts the **velocity increase gained in the rotor to a pressure increase**"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-472",
+      "text": "**59  Hva skjer med hastighet og trykk når luften passerer igjennom et compressor rotor trinn?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-472-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-472-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "The rotor blades impart velocity and pressure to the gas as the rotor turns, **the velocity being converted to pressure in the stationary blades**. Frequently about half the pressure rise is generated in the rotor blades and half in the stator."
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-473",
+      "text": "60  Hva skjer med temperaturen på lufta når den passerer igjennom compressoren?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-473-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-473-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "lufta blir den komprimert. Dette betyr at lufta blir presset sammen, noe som øker temperaturen"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-474",
+      "text": "61  Hva skjer med hastigheten på lufta når den passerer en compressor?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-474-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-474-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "increase in hastigheten"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-475",
+      "text": "**62  Hva skjer med trykket når luften har passert compressoren?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-475-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-475-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "As air passes through a gas turbine engine, aerodynamic and energy requirements demand changes in the air's velocity and pressure. During compression, **a rise in the air pressure is required**, but not an increase in its velocity."
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-476",
+      "text": "63  Hvorfor har noen spinner cone en soft tip som skaper uballanse når motoren går?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-476-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-476-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1700042537474_0.png)"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1700042537474_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-477",
+      "text": "64  Hvordan er fan bladene montert?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-477-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-477-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-478",
+      "text": "**65  Hvorfor er det malt en hvit spiral på spinner cone?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-478-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-478-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "show crew it is spinning and which direction (very high speed it might look stationary)"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-479",
+      "text": "**66  Hvorfor har en Fan Mid-span shroud**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-479-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-479-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1700042668590_0.png){:height 257, :width 162}"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1700042668590_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-480",
+      "text": "**67  Hva vil det si at fan bladene blir utsatt for air load?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-480-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-480-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "this means when the blades rotate, they experience",
+        "outcomes can"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-481",
+      "text": "68  Hva sentrere Fan bladet etter at det er blitt belastet med stor air load?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-481-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-481-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "opposite to abradable materials, this is stronger ring outside to protect at high speed"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-482",
+      "text": "69  Hva er abradable materiale?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-482-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-482-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "\"Abradable\" refers to **a material or coating that is designed to wear away or be worn down gradually by contact with another surface, typically in a machine or mechanical system**. The purpose of an abradable material is to reduce friction and minimize damage to both surfaces."
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-483",
+      "text": "**70  Hvorfor brukes det abradable material inne i motoren?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-483-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-483-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-484",
+      "text": "**71  Hva er viktig i forhold til bytte av fan blader?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-484-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-484-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-485",
+      "text": "hvordan kan vi forhindre compressor stall og surge?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-485-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-485-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "(not single ones)"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-486",
+      "text": "Hva er oppgaven til conen?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-486-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-486-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1716982433934_0.png){:height 52, :width 63}\nspinner cone holder fast fanen\nmid span shroud fordler kraften fra hver blad til en enhet"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1716982433934_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    }
+  ]
+}

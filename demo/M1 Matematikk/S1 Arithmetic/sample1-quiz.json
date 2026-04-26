@@ -1,0 +1,1770 @@
+{
+  "id": "quiz-M1 Matematikk-S1-level-2",
+  "title": "M1 Matematikk - S1 Arithmetic - Level 2",
+  "description": "Quiz for M1 Matematikk chapter S1 Arithmetic level 2",
+  "questions": [
+    {
+      "_kind": "single_choice",
+      "id": "q-0",
+      "text": "Fyll ut dette: (+) * (+) = ? (+) * (-) = ? (-) * (+) = ? (-) * (-) = ? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-0-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-0-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "(+) * (+) = (+)\n(+) * (-) = (-)\n(-) * (+) = (-)\n(-) * (-) = (+)"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-1",
+      "text": "Hva er rekkefølge of operation? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-1-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-1-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "PA - parantes",
+        "PO - potens",
+        "DI - divisjon",
+        "MA - multiplikasjon",
+        "S - subtraksjon",
+        "pemdas - parantes, eksponent, multiplikasjon,divisjon,addisjon,subtraksjon"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-2",
+      "text": "1a 3+2*(-1) #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-2-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-2-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "```calc\n3+2*(-1)\n```\n3+2*(−1)\n3+(-2)\n3-2\n3−2\n=1"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-3",
+      "text": "1b 3*4+1 (-1)³ - 4 #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-3-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-3-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "```calc\n3*4+1*(-1)^3 -4\n```\n12 +-1-4  -> 12 - 1 -4\n=7"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-4",
+      "text": "1c 4*2+2 (-2) #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-4-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-4-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "```calc\n4*2+2*(-2)\n```\n8 +- 4\n=4"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-5",
+      "text": "1d 3+2: (-2) #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-5-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-5-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "```calc\n3+2/(-2)\n```\n3+-1\n=2"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-6",
+      "text": "1e 2+6:2+6 #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-6-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-6-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "```calc\n2+6/2+6\n```\n2+3+6\n=11"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-7",
+      "text": "1f 2-6:2-6 #",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1cb-eccf-46cc-9099-0155b4f7ba89-opt-1",
+          "label": "1-6"
+        }
+      ],
+      "explanations": [
+        "```calc\n2-6/2-6\n```\n2-3-6\n-1-6\n=7"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-8",
+      "text": "1g 2*6: 2*6 #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-8-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-8-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "```calc\n2*6/2*6\n```\n2*3*6\n6*6\n=36"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-9",
+      "text": "1h 2+6-2+6 #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-9-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-9-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "```calc\n2+6-2+6\n```\n2+6-2+6\n2+4+6\n6+6\n=12"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-10",
+      "text": "1i (5+4): 3(1+2) #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-10-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-10-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "```calc\n(5+4)/3*(1+2)\n```\n(5+4)/3*(1+2)\n9/9\n=7",
+        "![image.png](../assets/image_1701710246180_0.png){:height 228, :width 175}"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701710246180_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-11",
+      "text": "1j (-1)¹⁰⁰¹ #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-11-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-11-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "(−1)¹⁰⁰¹ = -1^¹⁰⁰¹",
+        "−1"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-12",
+      "text": "1j (1)¹⁰⁰¹ #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-12-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-12-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "1^¹⁰⁰¹  = 1"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-13",
+      "text": "2a 273,08 +967,11 #",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1cb-b5f5-4834-abc7-16c152468347-opt-1",
+          "label": "08 +967.11"
+        }
+      ],
+      "explanations": [
+        "```calc\n273.08 +967.11\n```\n=1240"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-14",
+      "text": "2b 5103-765 #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-14-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-14-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "```calc\n5103-765\n```\n5103-765\n= 4338"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-15",
+      "text": "2c 765-4308 #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-15-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-15-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "```calc\n765-4308\n```\n4308-765\n=  -3543"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-16",
+      "text": "2d 3,14*0,3 #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-16-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-16-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "```calc\n3,14*0,3\n```\n314-3 = 942\n= 0.942"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-17",
+      "text": "2e 0,075*0,02 #",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1cb-244d-49db-b88f-a7c3f25d00cb-opt-1",
+          "label": "075*0.02"
+        }
+      ],
+      "explanations": [
+        "```calc\n0.075*0.02\n```\n75-2 = 150\n= 0.00150"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-18",
+      "text": "2f 27*27 #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-18-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-18-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "```calc\n27*27\n```\n![image.png](../assets/image_1701716087198_0.png){:height 212, :width 113}"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701716087198_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-19",
+      "text": "2g 1,5*1,5 #",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1cb-68c3-4f66-8063-aa82e9a89125-opt-1",
+          "label": "5*1.5"
+        }
+      ],
+      "explanations": [
+        "```calc\n1.5*1.5\n```"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-20",
+      "text": "2h 3,14: 0,3 (Ta med to siffer etter komma) #",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1cb-4a5d-4494-8fde-c78f268c5901-opt-1",
+          "label": "14/0.3"
+        }
+      ],
+      "explanations": [
+        "```calc\n3.14/0.3\n```"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-21",
+      "text": "2i 1:7 (Ta med to siffer etter komma) #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-21-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-21-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "```calc\n1/7\n```"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-22",
+      "text": "2j 3:20 #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-22-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-22-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "```calc\n3/20\n```"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-23",
+      "text": "3a Antall tommer i en meter når 1\" = 0,0254 m #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-23-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-23-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1701748051528_0.png){:height 102, :width 143}"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701748051528_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-24",
+      "text": "3b Antall yard i 20 m når 1 yard = 0,9144 m #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-24-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-24-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "Certainly! To calculate the number of yards in 20 meters when 1 yard is equal to 0.9144 meters, you can use a similar approach as before. Let's break it down step by step:",
+        "\\[ \\text{Number of yards in 20 meters} = \\frac{20}{0.9144} \\]",
+        "Step 1: Set up the division:",
+        "\\[ \\text{Number of yards in 20 meters} = \\frac{20}{0.9144} \\times \\frac{1}{1} \\]",
+        "Step 2: Multiply the numerator and denominator by 1000 to clear the decimal from the divisor:",
+        "\\[ \\text{Number of yards in 20 meters} = \\frac{20 \\times 1000}{0.9144 \\times 1000} \\]",
+        "This simplifies to:",
+        "\\[ \\text{Number of yards in 20 meters} = \\frac{20000}{914.4} \\]",
+        "Step 3: Divide the numerator by the denominator:",
+        "\\[ \\text{Number of yards in 20 meters} \\approx \\frac{20000}{914.4} \\]",
+        "Now, perform the division:",
+        "\\[ \\text{Number of yards in 20 meters} \\approx 21.8705 \\]",
+        "So, there are approximately 21.8705 yards in 20 meters when 1 yard is equal to \\(0.9144\\) meters."
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-25",
+      "text": "3c Antall pund i 10 kg når 1 lb = 0,4536 kg #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-25-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-25-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "To calculate the number of pounds in 10 kilograms when 1 pound is equal to 0.4536 kilograms, you can use the following formula:",
+        "\\[ \\text{Number of pounds in 10 kilograms} = \\frac{10}{0.4536} \\]",
+        "Step 1: Set up the division:",
+        "\\[ \\text{Number of pounds in 10 kilograms} = \\frac{10}{0.4536} \\times \\frac{1}{1} \\]",
+        "Step 2: Multiply the numerator and denominator by 10000 to clear the decimal from the divisor:",
+        "\\[ \\text{Number of pounds in 10 kilograms} = \\frac{10 \\times 10000}{0.4536 \\times 10000} \\]",
+        "This simplifies to:",
+        "\\[ \\text{Number of pounds in 10 kilograms} = \\frac{100000}{4536} \\]",
+        "Step 3: Divide the numerator by the denominator:",
+        "\\[ \\text{Number of pounds in 10 kilograms} \\approx \\frac{100000}{4536} \\]",
+        "Now, perform the division:",
+        "\\[ \\text{Number of pounds in 10 kilograms} \\approx 22.046 \\]",
+        "So, there are approximately 22.046 pounds in 10 kilograms when 1 pound is equal to \\(0.4536\\) kilograms."
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-26",
+      "text": "3d Antall nautiske mil i 100 km når 1 nautisk mil = 1852 m #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-26-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-26-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "To calculate the number of nautical miles in 100 kilometers when 1 nautical mile is equal to 1852 meters, you can use the following formula:",
+        "\\[ \\text{Number of nautical miles in 100 kilometers} = \\frac{100,000}{1852} \\]",
+        "Step 1: Set up the division:",
+        "\\[ \\text{Number of nautical miles in 100 kilometers} = \\frac{100,000}{1852} \\times \\frac{1}{1} \\]",
+        "Step 2: Divide the numerator by the denominator:",
+        "\\[ \\text{Number of nautical miles in 100 kilometers} \\approx \\frac{100,000}{1852} \\]",
+        "Now, perform the division:",
+        "\\[ \\text{Number of nautical miles in 100 kilometers} \\approx 53.9957 \\]",
+        "So, there are approximately 53.9957 nautical miles in 100 kilometers when 1 nautical mile is equal to 1852 meters."
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-27",
+      "text": "3e Antall miles i 100 km når 1 mile = 1609 m #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-27-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-27-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "To calculate the number of miles in 100 kilometers when 1 mile is equal to 1609 meters, you can use the following formula:",
+        "\\[ \\text{Number of miles in 100 kilometers} = \\frac{100}{1.609} \\]",
+        "Step 1: Set up the division:",
+        "\\[ \\text{Number of miles in 100 kilometers} = \\frac{100}{1.609} \\times \\frac{1}{1} \\]",
+        "Step 2: Divide the numerator by the denominator:",
+        "\\[ \\text{Number of miles in 100 kilometers} \\approx \\frac{100}{1.609} \\]",
+        "Now, perform the division:",
+        "\\[ \\text{Number of miles in 100 kilometers} \\approx 62.1371 \\]",
+        "So, there are approximately 62.1371 miles in 100 kilometers when 1 mile is equal to 1609 meters."
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-28",
+      "text": "3f Antall knop for 50 km/h når 1 knop = 1,852 km/h #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-28-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-28-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "To calculate the number of knots for 50 kilometers per hour when 1 knot is equal to 1.852 kilometers per hour, you can use the following formula:",
+        "\\[ \\text{Number of knots for 50 kilometers per hour} = \\frac{50}{1.852} \\]",
+        "Step 1: Set up the division:",
+        "\\[ \\text{Number of knots for 50 kilometers per hour} = \\frac{50}{1.852} \\times \\frac{1}{1} \\]",
+        "Step 2: Divide the numerator by the denominator:",
+        "\\[ \\text{Number of knots for 50 kilometers per hour} \\approx \\frac{50}{1.852} \\]",
+        "Now, perform the division:",
+        "\\[ \\text{Number of knots for 50 kilometers per hour} \\approx 27.01 \\]",
+        "So, there are approximately 27.01 knots in 50 kilometers per hour when 1 knot is equal to 1.852 kilometers per hour."
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-29",
+      "text": "3g Antall miles i timen for 50 km/h når 1 mile/h = 1,609 km/h #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-29-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-29-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "To calculate the number of miles per hour for 50 kilometers per hour when 1 mile per hour is equal to 1.609 kilometers per hour, you can use the following formula:",
+        "\\[ \\text{Number of miles per hour for 50 kilometers per hour} = \\frac{50}{1.609} \\]",
+        "Step 1: Set up the division:",
+        "\\[ \\text{Number of miles per hour for 50 kilometers per hour} = \\frac{50}{1.609} \\times \\frac{1}{1} \\]",
+        "Step 2: Divide the numerator by the denominator:",
+        "\\[ \\text{Number of miles per hour for 50 kilometers per hour} \\approx \\frac{50}{1.609} \\]",
+        "Now, perform the division:",
+        "\\[ \\text{Number of miles per hour for 50 kilometers per hour} \\approx 31.0686 \\]",
+        "So, there are approximately 31.0686 miles per hour for 50 kilometers per hour when 1 mile per hour is equal to 1.609 kilometers per hour."
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-30",
+      "text": "3h Antall fot i 10 000 m når 1 fot = 0,3048 m #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-30-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-30-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-31",
+      "text": "3i Antall meter i 7000 fot når 1 fot = 0,3048 m #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-31-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-31-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-32",
+      "text": "3j Toppen av Galdhøpiggen er 2469 meter over havet, hvor mange fot er det? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-32-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-32-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "To convert the height of Galdhøpiggen from meters to feet, you can use the conversion factor that 1 meter is approximately equal to 3.28084 feet. The formula is as follows:",
+        "\\[ \\text{Height in feet} = \\text{Height in meters} \\times \\text{Conversion factor} \\]",
+        "Given that the height of Galdhøpiggen is 2469 meters, you can use the conversion factor:",
+        "\\[ \\text{Height in feet} = 2469 \\, \\text{meters} \\times 3.28084 \\, \\text{feet/meter} \\]",
+        "Now, let's calculate it step by step:",
+        "Step 1: Multiply the height in meters by the conversion factor:",
+        "\\[ \\text{Height in feet} = 2469 \\times 3.28084 \\]",
+        "Step 2: Perform the multiplication:",
+        "\\[ \\text{Height in feet} \\approx 8093.5 \\]",
+        "So, the height of Galdhøpiggen is approximately 8093.5 feet above sea level."
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-33",
+      "text": "4a Hvor mye må du betale for 7 kg poteter når kiloprisen er 12 kr per kg? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-33-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-33-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "To calculate the cost of 7 kg of potatoes when the price is 12 kr per kg, you can use the following formula:",
+        "\\[ \\text{Total Cost} = \\text{Weight} \\times \\text{Price per kg} \\]",
+        "Given that the weight is 7 kg and the price per kg is 12 kr, you can substitute these values into the formula:",
+        "\\[ \\text{Total Cost} = 7 \\, \\text{kg} \\times 12 \\, \\text{kr/kg} \\]",
+        "Now, let's calculate it step by step:",
+        "\\[ \\text{Total Cost} = 84 \\, \\text{kr} \\]",
+        "So, you would need to pay 84 kr for 7 kg of potatoes when the kiloprice is 12 kr per kg."
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-34",
+      "text": "4b Hvor mange meter er det i en kilometer? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-34-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-34-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "Det er 1000 meter i en kilometer."
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-35",
+      "text": "4c Hvor mange gram er det i et hektogram? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-35-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-35-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "Det er 100 gram i et hektogram."
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-36",
+      "text": "4d Hvor mange kW er det i en MW? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-36-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-36-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "Det er 1000 kilowatt (kW) i en megawatt (MW)."
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-37",
+      "text": "4e Hvor mange mikrometer er det i en centimeter? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-37-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-37-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1701748862335_0.png){:height 302, :width 208}",
+        "Det er 10,000 mikrometer i en centimeter."
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701748862335_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-38",
+      "text": "4f Hva er symbolelene for mikrometer og millimeter? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-38-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-38-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "Symbolene for mikrometer og millimeter er:",
+        "Mikrometer: μm",
+        "Millimeter: mm"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-39",
+      "text": "4g Hvor mange nanometer er det i en meter? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-39-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-39-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1701748862335_0.png){:height 302, :width 208}",
+        "Det er 1 milliard nanometer (nm) i en meter. Med andre ord, 1 meter = 1,000,000,000 nanometer."
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701748862335_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-40",
+      "text": "4h Hvor mange desimeter er det i en meter? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-40-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-40-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1701748862335_0.png){:height 302, :width 208}",
+        "Det er 10 desimeter (dm) i en meter."
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701748862335_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-41",
+      "text": "4i Hvor mange kilowattimer (kWh) er det i en terawattimer (TWh)? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-41-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-41-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1701749180745_0.png){:height 191, :width 330}",
+        "1000 000 000 000 000/1000 = 1000 000 000",
+        "Det er 1 million kilowattimer (kWh) i en terawattimer (TWh). Med andre ord, 1 TWh = 1,000,000 kWh.",
+        "1 TWh er lik 1 000 000 000 kWh."
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701749180745_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-42",
+      "text": "4j Hvor mange millimeter er det i en nanometer? #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-42-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-42-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1701748862335_0.png){:height 302, :width 208}",
+        "10^9-10^3 = 10^6 (1000 000)"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701748862335_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-43",
+      "text": "5a Gjør om 4/5 til desimal med to siffer etter komma #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-43-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-43-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "For å gjøre brøken \\( \\frac{4}{5} \\) til desimal med to siffer etter komma, deler du 4 på 5:",
+        "\\[ \\frac{4}{5} = 0.8 \\]",
+        "Så, \\( \\frac{4}{5} \\) som et desimal med to siffer etter komma er 0.80."
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-44",
+      "text": "5b Gjør om 5,5 til brøk #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-44-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-44-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-45",
+      "text": "5c Gjør om 0,45 til brøk #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-45-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-45-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-46",
+      "text": "5d Gjør om 3/7 til desimal med to siffer etter komma #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-46-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-46-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-47",
+      "text": "5e Gjør om 12/11 til desimal med to siffer etter komma #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-47-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-47-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-48",
+      "text": "5f Gjør om 0,33 om til brøk #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-48-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-48-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-49",
+      "text": "5g Gjør om 0,333 om til brøk #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-49-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-49-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-50",
+      "text": "5h Gjør om 3/100 til desimal #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-50-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-50-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-51",
+      "text": "5i Gjør om 237/100 til desimal #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-51-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-51-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-52",
+      "text": "5j Forklar hva som menes med brudden brøk, og lag et regnestykke som viser et eksempel på utregning av en brudden brøk. #",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-52-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-52-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-53",
+      "text": "6a En grunnmur bygges på 20 dager av 5 arbeidere. Omtrent hvor mange dager vil 15 arbeidere bruke på dette?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-53-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-53-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-54",
+      "text": "6b Et hjul roterer med 300 rpm. Dette er koblet sammen med et annet hjul med reimdrift. Det andre hjulet har en diameter som er halvparten så stor. Hva blir turtallet til det lille hjulet?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-54-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-54-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-55",
+      "text": "6c En gressklipper trenger drivstoff med blandingsforhold mellom bensin og olje på 50:1. Hvor mye olje må du blande inn i 1 liter bensin for at det skal bli riktig forhold?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-55-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-55-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-56",
+      "text": "6d Du ser på en tegning av et fly i målestokk 1:50. Hvor langt er flyet på tegningen dersom flyet i virkeligheten er 15 meter langt?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-56-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-56-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-57",
+      "text": "6e Du tilsetter 1 dL saft til vann slik at saft og vann til sammen blir 5 dL. Hva blir blandingsforholdet mellom saft og vann i dette tilfellet?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-57-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-57-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-58",
+      "text": "6f Forholdet mellom hvit maling og svart maling er 2 til 3. Hvor stor del av den ferdig blandede malingen består av hvit maling? Et fly har en masse på 12 000 kg uten drivstoff",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-58-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-58-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-59",
+      "text": "6g og last. Hva er den samlede massen til 5 slike fly?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-59-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-59-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-60",
+      "text": "6h Et fly har en lastekapasitet på 5 000 kg. En last på 125 tonn korn skal fraktes med denne flytypen. Hvor mange turer må til for å frakte lasten?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-60-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-60-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-61",
+      "text": "6j Sidevinden til et fly med kurs nordover er 10 m/s. Flyet har en lufthastighet på 720 km/h. Omtrent hva er forholdet mellom sidevind og flyets lufthastighet?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-61-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-61-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-62",
+      "text": "7a Hvor mange prosent er 0,52?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-62-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-62-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-63",
+      "text": "7b Hvor mange prosent er 2/7? (Ta med to siffer etter komma)",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-63-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-63-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-64",
+      "text": "7c En pris øker med 23%. Hva er vekstfaktoren til denne økningen?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-64-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-64-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-65",
+      "text": "7d Hva er prosentfaktoren til 63% ?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-65-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-65-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-66",
+      "text": "7e Hva er prosenttallet til 63% ?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-66-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-66-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-67",
+      "text": "7f Hva er ny pris dersom gammel pris var 250,- kr og den øker med 5% ?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-67-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-67-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-68",
+      "text": "7g Ny pris etter en økning på 25% er 1000,- kr. Hva var prisen før økningen?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-68-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-68-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-69",
+      "text": "7h Summen av massene til bagasjen til 20 passasjeren er 800 kg. Hva er gjennomsnittlig vekt på bagasjen for en passasjer?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-69-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-69-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-70",
+      "text": "7i Følgende temperaturer var målt i løpet av en uke: 3, 3, 5, 7, 8, 9 og 14 grader celsius. Hva var gjennomsnittlig temperatur i løpet av denne uka?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-70-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-70-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-71",
+      "text": "7j Et politisk parti har en oppslutning på 6 %. Denne oppslutningen øker til 8%. Hva er økningen i prosent, og hva er økningen i prosentpoeng?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-71-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-71-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-72",
+      "text": "8a Hva er arealet av et kvadrat med sider på 9 meter?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-72-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-72-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-73",
+      "text": "8b Hva er 7 opphøyd i andre?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-73-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-73-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-74",
+      "text": "8c Hva er arealet av et kvadrat med sider på 5 kilometer?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-74-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-74-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-75",
+      "text": "8d Hva er volumet av en kube med sider på 3 meter?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-75-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-75-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-76",
+      "text": "8e Hva er 5 opphøyd i tredje?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-76-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-76-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-77",
+      "text": "9a Hva er kvadratroten av 64?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-77-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-77-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-78",
+      "text": "9b Hva er kubikkroten av 64?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-78-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-78-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-79",
+      "text": "9c Hva er kvadratroten av 36?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-79-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-79-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-80",
+      "text": "9d Hva er kubikkroten av 27?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-80-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-80-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-81",
+      "text": "9e Hva er kvadratroten av 144?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-81-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-81-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-82",
+      "text": "10a Hva er arealet av en sirkelflate med radius 5 cm?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-82-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-82-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-83",
+      "text": "10b Hva er arealet av et rektangel med lengde 7 cm og høyde 4 cm?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-83-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-83-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-84",
+      "text": "10c Hva er arealet av en trekant med grunnlinje 8 cm og høyde 5 cm?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-84-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-84-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-85",
+      "text": "10d Hva er arealet av et parallellogram med grunnlinje på 7 cm og høyde 3 cm?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-85-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-85-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-86",
+      "text": "10e Hva er overflatearealet til en kule med radius 4 m?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-86-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-86-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-87",
+      "text": "10f Hva er overflatearealet til en sylinder?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-87-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-87-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-88",
+      "text": "10g Hva er volumet til en sylinder med radius 4 cm og høyde 8 cm?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-88-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-88-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-89",
+      "text": "10h Hva er volumet til en kjegle med radius 3 cm og høyde på 5 cm?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-89-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-89-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-90",
+      "text": "10i Hva er volumet til en pyramide med grunnflate 100 cm² og høyde på 9 cm?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-90-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-90-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-91",
+      "text": "10j Hva er volumet til en kule med radius på 6 m?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-91-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-91-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-92",
+      "text": "10k Hva er volumet til et rett prisme med lengde 6 cm, bredde 7cm og høyde 10 cm?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-92-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-92-opt-2",
+          "label": "False"
+        }
+      ]
+    }
+  ]
+}

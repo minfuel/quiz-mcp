@@ -5,96 +5,211 @@
   "questions": [
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-710",
+      "text": "Hvorfor er vann sprøytet i motoren?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-710-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-710-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "skaper mer vekt i lufta og gjør mer effektiv og thrust",
+        "dette er deplecated av en activ clearance control på ny motor"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-711",
+      "text": "Hva er keywords om augmentation system?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-711-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-711-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "hot shot, katalyctic"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-712",
+      "text": "**258. Hva er en afterburner?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-712-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-712-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "used when we require more than full thrust ex. takeoff, rate of climb",
+        "jet pipe/afterburner/reheating/augmenting\n![image.png](../assets/image_1716981092506_0.png){:height 113, :width 187}"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1716981092506_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-713",
+      "text": "Hva er en augmentor?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-713-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-713-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "the exhaust pipe end of the engine - part of the exhaust nozzle, injected additional fuel in the augmentor for more thrust",
+        "![image.png](../assets/image_1701838492720_0.png){:height 184, :width 253}\nog"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701838492720_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-714",
       "text": "**259. Hvordan kan du se at etterbrenneren er på?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-714-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-714-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-715",
       "text": "**260. Hvilke komponenter inngår et etterbrennersystem?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-715-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-715-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-716",
       "text": "**261. Hvordan antennes luften i etterbrenneren?**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-716-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-716-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-717",
       "text": "262. Dersom motoren har et water injection system kan dette systemet aktiveres ved?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-717-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-717-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-718",
       "text": "263. Hvorfor er noen fly utstyrt med et water injection system?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-718-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-718-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-719",
       "text": "264. Hva skjer med luften i luftinntaket i et water injection system?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-719-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-719-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-720",
+      "text": "265. Forklarprinsippet med et water injection system.",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-720-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-720-opt-2",
           "label": "False"
         }
       ]

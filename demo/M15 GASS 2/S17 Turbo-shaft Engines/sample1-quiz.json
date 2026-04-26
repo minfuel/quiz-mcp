@@ -5,18 +5,207 @@
   "questions": [
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-729",
+      "text": "Hva er forskjellen på turbo-shaft og turbo-prop?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-729-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-729-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "shaft - convert gas energy to",
+        "prop - has a propeller mounted on the shaft",
+        "80%-90% av krafta går til"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-730",
+      "text": "Hvor er det vanligste brukt av turbo-shaft?",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1fb-8d67-48a8-aeab-2ee27b8701fe-opt-1",
+          "label": "((660d1aa6-2f7d-4428-a4d9-67c3b3e78100))"
+        },
+        {
+          "id": "69edc1fb-8d67-48a8-aeab-2ee27b8701fe-opt-2",
+          "label": "((660d1aaa-c977-4833-8441-fa53a4d40016))"
+        },
+        {
+          "id": "69edc1fb-8d67-48a8-aeab-2ee27b8701fe-opt-3",
+          "label": "((660d1ab5-5f17-42a5-9aa5-089219b429e8))"
+        }
+      ],
+      "explanations": [
+        "aircraft:\n*\n*\n*",
+        "industry:"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-731",
+      "text": "Hvorfor monteres free power turbin?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-731-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-731-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "energy from  drive the transmission/gear, because they have high speeds",
+        "high efficiency, low flight speeds"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-732",
+      "text": "Kan et APU produsere thrust?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-732-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-732-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "nei,"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-733",
+      "text": "Hva er main gear på helikoptere?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-733-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-733-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-734",
+      "text": "Prinsipet på freewheel på helikopter?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-734-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-734-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1712135894322_0.png)",
+        "prevent rotor from driving  Allowing autorotation to function",
+        "on eCH ENGINE",
+        "![image.png](../assets/image_1712136457625_0.png)"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1712135894322_0.png",
+            "alt": "image.png"
+          },
+          {
+            "id": "att-2",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1712136457625_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-735",
+      "text": "Vanligste typer freewheel?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-735-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-735-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "-spring loaded (mest brukt)"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-736",
+      "text": "271. Hva vil det si at en turboshaft motor har en fri turbin?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-736-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-736-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1712134259381_0.png)"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1712134259381_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-737",
       "text": "272. Torquemeteret på motoren brukes til å måle vridningen av hva?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-737-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-737-opt-2",
           "label": "False"
         }
+      ],
+      "explanations": [
+        "Torquemeteret på en turbo shaft motor måler vridningen av **turbinakselen**"
       ]
     }
   ]

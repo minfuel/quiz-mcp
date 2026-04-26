@@ -5,34 +5,705 @@
   "questions": [
     {
       "_kind": "single_choice",
-      "id": "q-0",
-      "text": "((656f91f1-5328-4a97-a2d0-4359909a90ae))",
+      "id": "q-557",
+      "text": "En liten oversikt om lubrikasjon system?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-557-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-557-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1701802446469_0.png){:height 171, :width 421}\nscavange -> removing waste (retur linja)"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701802446469_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-558",
+      "text": "123. Hva kjennetegner et wet-sump olje system?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-558-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-558-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1701802496373_0.png){:height 251, :width 412}",
+        "A wet sump oil system is a type of lubrication system used in gas turbine engines. In this system, the oil is stored in a pan or sump located at the bottom of the engine, and it is circulated through the engine using a pump. The oil is distributed to the various components of the engine, such as the compressor, combustion chamber, and turbine, where it provides lubrication and cools the engine.\nThe main advantage of a wet sump system is that it can handle high temperatures and pressures, making it well-suited for use in gas turbine engines. Additionally, the oil is constantly circulated through the engine, which helps to maintain a consistent oil pressure and temperature throughout the engine. This can help to improve the overall efficiency and performance of the engine.\nHowever, there are also some disadvantages to using a wet sump system. For example, it can be more difficult to maintain the correct oil level in the sump, as the oil can leak out through the gaps in the sump or evaporate over time. Additionally, the oil may become contaminated with dust and debris, which can affect its ability to lubricate the engine properly.\nOverall, a wet sump oil system is a common and effective method of lubricating gas turbine engines, but it requires careful maintenance and monitoring to ensure proper operation."
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701802496373_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-559",
+      "text": "124. Hva kjennetegner et Dry-sump oil system?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-559-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-559-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1701802387407_0.png){:height 142, :width 387}",
+        "![image.png](../assets/image_1701805712601_0.png){:height 178, :width 307}",
+        "![image.png](../assets/image_1701837918901_0.png){:height 251, :width 341}\n: typical turbin dry-sump pressure regulated system"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701802387407_0.png",
+            "alt": "image.png"
+          },
+          {
+            "id": "att-2",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701805712601_0.png",
+            "alt": "image.png"
+          },
+          {
+            "id": "att-3",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701837918901_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-560",
+      "text": "125. Vi har to typer av Dry-sump oil system. Hva heter disse?",
+      "score": 1,
+      "options": [
+        {
+          "id": "65649d78-38da-4f4e-adca-b63c4123f4f1-opt-1",
+          "label": "External Oil System: In this type of system, the oil is stored in a separate tank outside of the engine and is pumped to the sump through a dedicated oil pump."
+        },
+        {
+          "id": "65649d78-38da-4f4e-adca-b63c4123f4f1-opt-2",
+          "label": "Internal Oil System: In this type of system, the oil is stored inside the engine sump and is circulated through the engine using a specialized oil pump."
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1701802394455_0.png){:height 138, :width 404}",
+        "The two types of dry-sump oil systems are:\n1. External Oil System: In this type of system, the oil is stored in a separate tank outside of the engine and is pumped to the sump through a dedicated oil pump.\n2. Internal Oil System: In this type of system, the oil is stored inside the engine sump and is circulated through the engine using a specialized oil pump.",
+        "hot tank and dry tank"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701802394455_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-561",
+      "text": "126. Hva kjennetegner et hot tank system?",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1fc-a7a0-4a28-8dae-a112b8d45f9d-opt-1",
+          "label": "A hot tank system is a type of oil storage system used in gas turbine engines that is heated by the engine's waste heat. The oil is stored in a tank that is connected to the engine and heated by the engine's coolant, which is typically a mixture of water and an organic compound. This allows the oil to be circulated through the engine at a higher temperature than it would be able to reach on its own, which can improve its lubricating properties."
+        }
+      ],
+      "explanations": [
+        "if oil cooler in supply line",
+        "126. A hot tank system is a type of oil storage system used in gas turbine engines that is heated by the engine's waste heat. The oil is stored in a tank that is connected to the engine and heated by the engine's coolant, which is typically a mixture of water and an organic compound. This allows the oil to be circulated through the engine at a higher temperature than it would be able to reach on its own, which can improve its lubricating properties.",
+        "if oil cooler installed"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-562",
+      "text": "127. Hva kjennetegner et cold tank system?",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1fc-67f6-4376-a569-143f8e1d55e0-opt-1",
+          "label": "A cold tank system, on the other hand, is a type of oil storage system used in gas turbine engines that does not use waste heat to heat the oil. Instead, the oil is stored in a separate tank that is not connected to the engine. This allows the oil to remain at a lower temperature than the engine, which can improve its lubricating properties and help to prevent overheating of the engine."
+        }
+      ],
+      "explanations": [
+        "if oil cooler in scavenge line",
+        "127. A cold tank system, on the other hand, is a type of oil storage system used in gas turbine engines that does not use waste heat to heat the oil. Instead, the oil is stored in a separate tank that is not connected to the engine. This allows the oil to remain at a lower temperature than the engine, which can improve its lubricating properties and help to prevent overheating of the engine.\nIn general, hot tank systems are used in applications where high-temperature lubrication is required, such as in large industrial gas turbines or in aircraft engines. Cold tank systems are typically used in smaller engines or in applications where lower temperatures are preferred, such as in automotive gas turbochargers.",
+        "if"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-563",
+      "text": "128. Hva er et Last Chance filter?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-563-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-563-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "these are  (pumps), often placed to protect oil nozzle of the supply is bypassed",
+        "![image.png](../assets/image_1701807615496_0.png){:height 201, :width 233}\n![image.png](../assets/image_1701807801905_0.png){:height 217, :width 340}",
+        "![image.png](../assets/image_1701839706055_0.png){:height 117, :width 158}"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701807615496_0.png",
+            "alt": "image.png"
+          },
+          {
+            "id": "att-2",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701807801905_0.png",
+            "alt": "image.png"
+          },
+          {
+            "id": "att-3",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701839706055_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-564",
+      "text": "Hva er AGB og TGB? ![image.png](../assets/image_1701808715050_0.png){:height 241, :width 322} ((656f8a50-b23b-4783-8ad6-396da1e4b4e0))",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-564-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-564-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "TGB = the transfer gearbox",
+        "AGB =  the accessory gearbox (AGB)",
+        "Blue line is the scavenger back to the tank, after running through bearings and gears"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701808715050_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-565",
+      "text": "129. Hvilken oppgave har Scavenger pumpene?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-565-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-565-opt-2",
           "label": "False"
         }
       ]
     },
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-566",
+      "text": "130. Hvorfor er det 4psi trykk på olje-tanken?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-566-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-566-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "The 4psi (pounds per square inch) pressure on the oil tank in a gas turbine engine lubrication system is used to maintain the oil pressure in the system at a consistent level, ensuring that the turbine blades are properly lubricated during operation. This pressure is typically applied to the oil tank through a spring-loaded piston or other mechanical means, and helps to regulate the flow of oil into the system as needed. By maintaining a consistent oil pressure, the engine's performance and longevity can be improved, as well as its ability to operate in a wide range of temperatures and conditions."
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-567",
+      "text": "131. Hva er oppgaven til pressurization valve på oljetanken?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-567-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-567-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1701808433442_0.png){:height 177, :width 285}\nog",
+        "by using a spring-loaded piston, maintaining 4psi"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701808433442_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-568",
+      "text": "132. Hva er anti-siphon device i oljesystemet?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-568-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-568-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1701809431743_0.png){:height 201, :width 295}"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701809431743_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-569",
+      "text": "133. Hva er oppgaven til sloshing bulckhead i oljetanken?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-569-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-569-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1701809567519_0.png){:height 162, :width 189}"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701809567519_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-570",
+      "text": "134. Hva er en diarator/de-aerator?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-570-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-570-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1701809742375_0.png)",
+        "(retur linja)"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701809742375_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-571",
+      "text": "135. Hva brukes en chip detector til?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-571-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-571-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1701810402682_0.png)"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701810402682_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-572",
+      "text": "136. Magnetic chip detectores er installert i?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-572-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-572-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1701810402682_0.png)"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701810402682_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-573",
+      "text": "137. Hvorfor er det trykk på oljetanken?",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1fb-a00f-42eb-a1e6-aa63eed53516-opt-1",
+          "label": "((656f9147-d548-4cc4-bbc5-61eccdb0e08e))"
+        }
+      ],
+      "explanations": [
+        "*"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-574",
+      "text": "((656f91f1-5328-4a97-a2d0-4359909a90ae))",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-574-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-574-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-575",
+      "text": "138. Hva er forskjellene mellom et trykk pumpe elementene og retur pumpe elementene i oljesystem?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-575-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-575-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "In a gas turbine engine lubrication system, the main difference between the pressurized oil system and the return oil system is the direction of oil flow.\nThe pressurized oil system circulates oil through the engine under pressure, providing lubrication to all moving parts, including the compressor, combustion chamber, and turbine blades. This type of system is typically used in high-performance engines where a consistent and reliable supply of oil is required.\nOn the other hand, the return oil system returns the oil from the engine back to the sump or reservoir after it has been used for lubrication. The oil is pumped through the engine and then returned to the sump, where it can be reused or drained and replaced with fresh oil. This type of system is typically used in engines where a lower level of pressure and flow rate is required, such as in industrial or marine applications.\nIn summary, the main difference between the pressurized oil system and the return oil system is the direction of oil flow: the pressurized oil system circulates oil through the engine under pressure, while the return oil system returns the oil from the engine back to the sump after use."
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-576",
+      "text": "139. Hva er en SOAP prøve?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-576-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-576-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-577",
+      "text": "140. Hvorfor brukes det fuel oil heat exchanger?",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1fb-6c46-4313-ac79-785030e4d476-opt-1",
+          "label": "hot tank system:** in supply lines, oil form bearings is NOT cooled before return to tank"
+        },
+        {
+          "id": "69edc1fb-6c46-4313-ac79-785030e4d476-opt-2",
+          "label": "cold tank system:** in scavenge lines, oil form bearings is cooled before return to tank"
+        },
+        {
+          "id": "69edc1fb-6c46-4313-ac79-785030e4d476-opt-3",
+          "label": "fuel cooled"
+        },
+        {
+          "id": "69edc1fb-6c46-4313-ac79-785030e4d476-opt-4",
+          "label": "air cooled"
+        }
+      ],
+      "explanations": [
+        "to cool or not cool the oil to the tank",
+        "**hot tank system:** in supply lines, oil form bearings is NOT cooled before return to tank",
+        "**cold tank system:** in scavenge lines, oil form bearings is cooled before return to tank",
+        "oil coolers used are:\n* fuel cooled\n* air cooled",
+        "![image.png](../assets/image_1701811639125_0.png)",
+        "fuel cooled brukes siden disse primary  , iforhold til hvor mye denne kjøler"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701811639125_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-578",
+      "text": "141. Hvilken oppgave har trykk siden av oljesystemet?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-578-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-578-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "sette olje under trykk i supply",
+        "hindre foam",
+        "and"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-579",
+      "text": "142. Dersom du under servicing av oljesystemet lukter fuel i oljen. Hva kan årsaken være til dette?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-579-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-579-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "fuel cooled one"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-580",
+      "text": "143. Når skal du normalt sjekke oljenivået på tanken på en motor uten anti-siphon?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-580-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-580-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "motoren er stengt av, undertrykk i lager området, olje sugges derfor til disse område"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-581",
+      "text": "144. Hva er forskjellen på et full flow og et constant pressure oljesystem?",
+      "score": 1,
+      "options": [
+        {
+          "id": "69edc1fb-f841-42b4-84b5-19566c69f2a4-opt-1",
+          "label": "fordel: low oil pressures, no temperature rise after power reduction"
+        },
+        {
+          "id": "69edc1fb-f841-42b4-84b5-19566c69f2a4-opt-2",
+          "label": "ulemp: more compex systems, adjustements necessary"
+        },
+        {
+          "id": "69edc1fb-f841-42b4-84b5-19566c69f2a4-opt-3",
+          "label": "fordel: ((65700207-e736-4ef0-a60a-b07c8f734d0c)) , ((65700205-7362-4a6d-9aad-e1733c77efa6))"
+        },
+        {
+          "id": "69edc1fb-f841-42b4-84b5-19566c69f2a4-opt-4",
+          "label": "ulemp: ((657001d3-a2ec-4aa8-8726-0903dc0586c8)) , ((657001ed-8037-4af9-aa24-25ad9acc3fac)) ((657001e8-4266-46be-8710-0d4f95d641cd)) - ((657001f7-f908-48a6-90a3-fbd35dd27132)) , temperature rise after power reduction"
+        }
+      ],
+      "explanations": [
+        "constant pressure - , oil temparature has no effekt on pressure\n![image.png](../assets/image_1701839968261_0.png){:height 282, :width 322}\n* fordel: low oil pressures, no temperature rise after power reduction\n* ulemp: more compex systems, adjustements necessary",
+        "full flow -  (used is short operation craft like missles and drones)\n* fordel:  ,\n* ulemp:  ,   -  , temperature rise after power reduction"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701839968261_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-582",
+      "text": "145. Hvordan serviceing et oljesystem?",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-582-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-582-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-583",
       "text": "Hva er en augmentor?",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-583-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-583-opt-2",
           "label": "False"
         }
+      ],
+      "explanations": [
+        "the exhaust pipe end of the engine - part of the exhaust nozzle, injected additional fuel in the augmentor for more thrust",
+        "![image.png](../assets/image_1701838492720_0.png)\nog"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701838492720_0.png",
+            "alt": "image.png"
+          }
+        ]
       ]
     }
   ]

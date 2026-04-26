@@ -5,18 +5,424 @@
   "questions": [
     {
       "_kind": "single_choice",
-      "id": "q-0",
+      "id": "q-487",
+      "text": "**72  Hva er oppgaven til brennkammeret?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-487-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-487-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "brenne hyd karb og oksygen til en optimal forbrenning under hele flyturen",
+        "holde flamen er stabil",
+        "kjølig brennkammer",
+        "ønsket å være tilnærmet 100%",
+        "roterende fuel i fuel nozzle hjelper holder flamen på riktig plass, blandingen er mest effektiv",
+        "e - the further you go in combustor, the more oksygen is added.  The bigger holes are often the dilution holes and are often at the rear"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-488",
+      "text": "**73  Hva er en flame tube?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-488-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-488-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "holder flamen på plass",
+        "de små hulene/dilitering hul rundt tuben kjøler luften - 15,85%",
+        "primær utblanding skjer m/ de store hulene",
+        "utenfor er det casing"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-489",
+      "text": "**74  Hva er secondary luftstrøm?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-489-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-489-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "optimal forbrenning 15:1",
+        "![image.png](../assets/image_1698222475234_0.png)",
+        "brukes til å kjøle og blander mer luften og forbedre brenning"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1698222475234_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-490",
+      "text": "**75  Hva er primary luftstrøm?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-490-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-490-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1698222475234_0.png)"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1698222475234_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-491",
+      "text": "**76  Hva er oppgaven til Swirl vanes?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-491-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-491-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "befinner seg i primære sonen",
+        "disse er divergerende og senker hastigheten lokalt over flammet,",
+        "sette luften i rotasjon",
+        "bidrar forbedre mixing",
+        "senke hastigheten - hindre flame out"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-492",
+      "text": "**77  Hvilke typer brennkammer har vi?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-492-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-492-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "often i radial compressor motorer -",
+        "sec luft går uts",
+        "prim luft går i interconnector",
+        "- mest vanlig\n![image.png](../assets/image_1701797898779_0.png){:height 208, :width 329}",
+        "![image.png](../assets/image_1701797568964_0.png){:height 179, :width 332}"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701797898779_0.png",
+            "alt": "image.png"
+          },
+          {
+            "id": "att-2",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701797568964_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-493",
+      "text": "**78  Hvordan ser en can-annular brennkammer ut?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-493-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-493-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1698235402993_0.png)"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1698235402993_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-494",
+      "text": "**79  Hvordan ser en can type brennkammer ut?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-494-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-494-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1698235388477_0.png)"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1698235388477_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-495",
+      "text": "**80  Hvordan ser en annular/ringkammer brennkammer ut?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-495-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-495-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "![image.png](../assets/image_1698235377339_0.png)"
+      ],
+      "attachments": [
+        [
+          {
+            "id": "att-1",
+            "type": "image",
+            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1698235377339_0.png",
+            "alt": "image.png"
+          }
+        ]
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-496",
+      "text": "**81  Hvor mange % masse av luft er involvert i forbrenningsprosessen?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-496-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-496-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "primary airflow - 20%->30%",
+        "secondary airflow (inside the chamber) - 70%-80%"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-497",
+      "text": "**82  Hva er oppgaven til interconnector tubes?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-497-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-497-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        ", because there are only 2 igniter plugs on this engines"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-498",
+      "text": "**83  Hva er den mest vanlige type brennkammer på moderne gassturbiner i dag?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-498-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-498-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-499",
+      "text": "**84  Hva skjer dersom luften har stor hastighet gjennom brennkammeret?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-499-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-499-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "hastighet blir redusert av",
+        "blander luften for forbrenning"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-500",
+      "text": "**85  Hva skjer i forbrenning seksjonen?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-500-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-500-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "den indre delen av brennkamert har en spesial nozzle med forsjellige åpning for å fordele   fuelen"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-501",
+      "text": "**86  Hva er en dual dome brennkammer?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-501-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-501-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "den indre delen av brennkamert har en spesial nozzle med forsjellige åpning for å fordele   fuelen"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-502",
+      "text": "**87  Hva er fordelen med dual dome brennkammeret?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-502-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-502-opt-2",
+          "label": "False"
+        }
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-503",
+      "text": "**88  Hvordan blir fame tuben kjølt?**",
+      "score": 1,
+      "options": [
+        {
+          "id": "q-503-opt-1",
+          "label": "True"
+        },
+        {
+          "id": "q-503-opt-2",
+          "label": "False"
+        }
+      ],
+      "explanations": [
+        "-  ,"
+      ]
+    },
+    {
+      "_kind": "single_choice",
+      "id": "q-504",
       "text": "**89 Eksosgasser**",
       "score": 1,
       "options": [
         {
-          "id": "q-0-opt-1",
+          "id": "q-504-opt-1",
           "label": "True"
         },
         {
-          "id": "q-0-opt-2",
+          "id": "q-504-opt-2",
           "label": "False"
         }
+      ],
+      "explanations": [
+        "Adblue + iolise /amoniakk brukes til å minske eksosgasser, ved at disse blir mulig å brenne i motoren"
       ]
     }
   ]
