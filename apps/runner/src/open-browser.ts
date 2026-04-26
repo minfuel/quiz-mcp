@@ -7,7 +7,15 @@ export function openBrowser(url: string): void {
                                      "xdg-open";
   const args = process.platform === "win32" ? ["", url] : [url];
   try {
-    spawn(cmd, args, { stdio: "ignore", detached: true, shell: process.platform === "win32" }).unref();
+    const child = spawn(cmd, args, {
+      stdio: "ignore",
+      detached: true,
+      shell: process.platform === "win32",
+    });
+    child.once("error", (err) => {
+      console.error(`failed to open browser: ${err.message}`);
+    });
+    child.unref();
   } catch (err) {
     console.error(`failed to open browser: ${(err as Error).message}`);
   }

@@ -1,4 +1,4 @@
-.PHONY: help install build test typecheck lint dev clean schema-gen schema-check run-demo run-file run-url
+.PHONY: help install build test typecheck lint dev clean schema-gen schema-check run-demo run-file run-url quiz-15
 
 # Default values (override: make run-file QUIZ_FILE=./my.quiz.json OUTPUT_FILE=./answers.json)
 QUIZ_FILE ?= ./demo/js-quiz.json
@@ -19,6 +19,7 @@ help:
 	@echo "  make run-demo      Build runner and run demo quiz from file"
 	@echo "  make run-file      Build runner and run local quiz file"
 	@echo "  make run-url       Build runner and run remote quiz URL"
+	@echo "  make quiz-15       Run M15 GASS 2 - S1 Fundamentals quiz"
 	@echo ""
 	@echo "Variables for run-file/run-url:"
 	@echo "  QUIZ_FILE=$(QUIZ_FILE)"
@@ -58,8 +59,11 @@ run-demo:
 
 run-file:
 	pnpm --filter @quiz-mcp/runner build
-	pnpm --filter @quiz-mcp/runner start -- --file "$(QUIZ_FILE)" --output "$(OUTPUT_FILE)" --open
+	pnpm --filter @quiz-mcp/runner start --file "$(QUIZ_FILE)" --output "$(OUTPUT_FILE)" --open
 
 run-url:
 	pnpm --filter @quiz-mcp/runner build
-	pnpm --filter @quiz-mcp/runner start -- --url "$(QUIZ_URL)" --output "$(OUTPUT_FILE)" --open
+	pnpm --filter @quiz-mcp/runner start --url "$(QUIZ_URL)" --output "$(OUTPUT_FILE)" --open
+
+quiz-15:
+	$(MAKE) run-file QUIZ_FILE="../../demo/M15 GASS 2/S1 Fundamentals/sample1-quiz.json"

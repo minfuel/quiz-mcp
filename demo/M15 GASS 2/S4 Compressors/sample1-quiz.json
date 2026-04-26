@@ -21,16 +21,6 @@
       "explanations": [
         "Compressor begynner på det roterende delen etter fanen\n![2023-09-20-18-29-04.jpeg](../assets/2023-09-20-18-29-04.jpeg){:height 204, :width 249}",
         "using"
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/2023-09-20-18-29-04.jpeg",
-            "alt": "2023-09-20-18-29-04.jpeg"
-          }
-        ]
       ]
     },
     {
@@ -54,34 +44,6 @@
         "**Multiple stage -||-**\nThe air is centrifuged to the outers and to the next centrifugal compressor\n![image.png](../assets/image_1695202231177_0.png)",
         "axial flow -\n![image.png](../assets/image_1695202008531_0.png){:height 160, :width 194}",
         "tapering til bladene behokder luft hastigheten\n![image.png](../assets/image_1695205454319_0.png){:height 206, :width 416}\n12 trinn - over hvert trinn komprimeres luften 1,3 ganger (pressure ratio)\n$1,3^(12)$ =23,3 (233 psi)\nmotoren er lang enn det andre som er stor"
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1695201972530_0.png",
-            "alt": "image.png"
-          },
-          {
-            "id": "att-2",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1695202231177_0.png",
-            "alt": "image.png"
-          },
-          {
-            "id": "att-3",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1695202008531_0.png",
-            "alt": "image.png"
-          },
-          {
-            "id": "att-4",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1695205454319_0.png",
-            "alt": "image.png"
-          }
-        ]
       ]
     },
     {
@@ -101,16 +63,6 @@
       ],
       "explanations": [
         "{{renderer excalidraw, excalidraw-2023-09-20-13-16-35}}"
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1695208703130_0.png",
-            "alt": "image.png"
-          }
-        ]
       ]
     },
     {
@@ -134,22 +86,6 @@
         "Radialkompressorer har størst trykkoppbygging over et trinn. Dette skyldes at de bruker en skovlhjulsmotor til å øke trykket på gassen. Skovhjulene har en rekke blader som roterer rundt en akse. Når gassen passerer mellom bladene, blir den presset utover og oppover. Dette øker trykket på gassen.",
         "Aksialkompressorer bruker en rotor med en rekke blader til å øke trykket på gassen. Rotorbladene roterer rundt en akse, og gassen passerer gjennom bladene fra en side til den andre. Dette øker trykket på gassen, men ikke like mye som i en radialkompressor.",
         "En typisk radialkompressor kan øke trykket på gassen med opptil 10 bar over et trinn. En typisk aksialkompressor kan øke trykket på gassen med opptil 5 bar over et trinn.\nI praksis er det vanlig å bruke flere trinn i både radial- og aksialkompressorer for å oppnå det ønskede trykket."
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1695201972530_0.png",
-            "alt": "image.png"
-          },
-          {
-            "id": "att-2",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1695202231177_0.png",
-            "alt": "image.png"
-          }
-        ]
       ]
     },
     {
@@ -169,16 +105,6 @@
       ],
       "explanations": [
         "{{renderer excalidraw, excalidraw-2023-09-20-13-16-35}}"
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1695208703130_0.png",
-            "alt": "image.png"
-          }
-        ]
       ]
     },
     {
@@ -214,16 +140,6 @@
       ],
       "explanations": [
         "**Fordeler/Ulemper**\n![image.png](../assets/image_1695206261817_0.png){:height 193, :width 392}\n(hawker motor) axial + centrifugal = compact med mye kraft.\nHar reverse flow\n|axial|centrifugal|\n|mindre drag (fordi mindre front areal tynnere)|enklere å lage|\n||trenger ikke høy start kraft|\n||komprimere bra i lav fart|"
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1695206261817_0.png",
-            "alt": "image.png"
-          }
-        ]
       ]
     },
     {
@@ -243,16 +159,6 @@
       ],
       "explanations": [
         "compressor stall - kompressor bladene får ikke luft, mister luft over et eller flere trinn i kompressoren. trykk blir mindre og #surge oppstår (luften pumper framover), eventuel en motor cutout. endrer vi hastigheten til fly veldig fort kan dette oppstå takeoff/landing. Ungås av  gradvis throttling, eller auto systeme i moderne fly (variable vein system - stator  faktis endres [styre auto av FADEC])\nis, fugl, regn, insekter, salt (kompressor vask )\ncomressor i blades:\n![image.png](../assets/image_1695207125848_0.png){:height 250, :width 205}"
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1695207125848_0.png",
-            "alt": "image.png"
-          }
-        ]
       ]
     },
     {
@@ -286,34 +192,6 @@
         "VSV (stator veins)",
         "1 - trustbearing",
         "2-rullelager"
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1695207250453_0.png",
-            "alt": "image.png"
-          },
-          {
-            "id": "att-2",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1697012213764_0.png",
-            "alt": "image.png"
-          },
-          {
-            "id": "att-3",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1697012313898_0.png",
-            "alt": "image.png"
-          },
-          {
-            "id": "att-4",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1697012451447_0.png",
-            "alt": "image.png"
-          }
-        ]
       ]
     },
     {
@@ -354,16 +232,6 @@
       "explanations": [
         "![image.png](../assets/image_1700027929473_0.png){:height 87, :width 261}",
         "Disse brukes å kontrollere:\n*\n*"
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1700027929473_0.png",
-            "alt": "image.png"
-          }
-        ]
       ]
     },
     {
@@ -400,22 +268,6 @@
       "explanations": [
         "lufta roterer (er turbulent) ved inngangen og vi monterer stator blades for å  rette disse fram. Også på kompressor er roterende blades\n![2023-09-20-18-36-12.jpeg](../assets/2023-09-20-18-36-12.jpeg)",
         "inlet guide veins i bypass siden - brukes til rette opp luften som er turbulent i bypass siden spesielt\n![image.png](../assets/image_1695201753510_0.png){:height 291, :width 416}"
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/2023-09-20-18-36-12.jpeg",
-            "alt": "2023-09-20-18-36-12.jpeg"
-          },
-          {
-            "id": "att-2",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1695201753510_0.png",
-            "alt": "image.png"
-          }
-        ]
       ]
     },
     {
@@ -435,16 +287,6 @@
       ],
       "explanations": [
         "Inside the compressor blades level its formed as a divergent\n![image.png](../assets/image_1695206979230_0.png){:height 200, :width 287}"
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1695206979230_0.png",
-            "alt": "image.png"
-          }
-        ]
       ]
     },
     {
@@ -464,16 +306,6 @@
       ],
       "explanations": [
         "![image.png](../assets/image_1700027136698_0.png){:height 109, :width 244}"
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1700027136698_0.png",
-            "alt": "image.png"
-          }
-        ]
       ]
     },
     {
@@ -493,16 +325,6 @@
       ],
       "explanations": [
         "![image.png](../assets/image_1700027171983_0.png){:height 123, :width 265}"
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1700027171983_0.png",
-            "alt": "image.png"
-          }
-        ]
       ]
     },
     {
@@ -522,16 +344,6 @@
       ],
       "explanations": [
         "![image.png](../assets/image_1700027297910_0.png){:height 176, :width 196}"
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1700027297910_0.png",
-            "alt": "image.png"
-          }
-        ]
       ]
     },
     {
@@ -548,16 +360,6 @@
       "explanations": [
         ":\n*",
         "![image.png](../assets/image_1700655443608_0.png)"
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1700655443608_0.png",
-            "alt": "image.png"
-          }
-        ]
       ]
     },
     {
@@ -691,16 +493,6 @@
       ],
       "explanations": [
         "![image.png](../assets/image_1700042537474_0.png)"
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1700042537474_0.png",
-            "alt": "image.png"
-          }
-        ]
       ]
     },
     {
@@ -755,16 +547,6 @@
       ],
       "explanations": [
         "![image.png](../assets/image_1700042668590_0.png){:height 257, :width 162}"
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1700042668590_0.png",
-            "alt": "image.png"
-          }
-        ]
       ]
     },
     {
@@ -893,16 +675,6 @@
       ],
       "explanations": [
         "![image.png](../assets/image_1716982433934_0.png){:height 52, :width 63}\nspinner cone holder fast fanen\nmid span shroud fordler kraften fra hver blad til en enhet"
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1716982433934_0.png",
-            "alt": "image.png"
-          }
-        ]
       ]
     }
   ]

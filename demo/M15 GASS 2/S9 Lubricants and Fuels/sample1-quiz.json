@@ -79,16 +79,6 @@
       ],
       "explanations": [
         "![image.png](../assets/image_1700654171269_0.png){:height 269, :width 200}"
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1700654171269_0.png",
-            "alt": "image.png"
-          }
-        ]
       ]
     },
     {
@@ -272,16 +262,6 @@
       ],
       "explanations": [
         "![image.png](../assets/image_1700655562646_0.png)"
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1700655562646_0.png",
-            "alt": "image.png"
-          }
-        ]
       ]
     }
   ]

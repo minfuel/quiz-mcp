@@ -64,16 +64,6 @@
       "explanations": [
         "![image.png](../assets/image_1710318506287_0.png)",
         "same housing, 1 driveshaft"
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1710318506287_0.png",
-            "alt": "image.png"
-          }
-        ]
       ]
     },
     {
@@ -150,16 +140,6 @@
         "used in duplex nozzle engine\nAt engine start, **fuel control** send pres signal to pressurization valve to close dump valve, opening fuel passage\n* demand for fuel is low= fue flows through the primary manifold,\n* demand for fuel is high =  pressurization valve opens,  deliver fuel to the secondary manifold.",
         "At engine shutdown,  dump valve  opens to drain fuel from the manifolds.",
         "![image.png](../assets/image_1710319371325_0.png)"
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1710319371325_0.png",
-            "alt": "image.png"
-          }
-        ]
       ]
     },
     {
@@ -210,28 +190,6 @@
         "1 fuel manifold, da brukes duplex nozzle",
         "![image.png](../assets/image_1704879323285_0.png){:height 144, :width 253}\n* fuel manifold valve\n* flow divider valve\n* fuel flow transmitter - monitoring av hvor mye fuel vi bruker",
         "[[draws/2024-01-10-10-31-21.excalidraw]]"
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1704879694782_0.png",
-            "alt": "image.png"
-          },
-          {
-            "id": "att-2",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1704879602178_0.png",
-            "alt": "image.png"
-          },
-          {
-            "id": "att-3",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1704879323285_0.png",
-            "alt": "image.png"
-          }
-        ]
       ]
     },
     {
@@ -286,16 +244,6 @@
       ],
       "explanations": [
         "![image.png](../assets/image_1707254126728_0.png)\nthis transmitt info about fuel to the cockpit"
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1707254126728_0.png",
-            "alt": "image.png"
-          }
-        ]
       ]
     },
     {
@@ -315,16 +263,6 @@
       ],
       "explanations": [
         "![image.png](../assets/image_1707250168023_0.png){:height 254, :width 491}"
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1707250168023_0.png",
-            "alt": "image.png"
-          }
-        ]
       ]
     },
     {
@@ -391,16 +329,6 @@
         "på duplex nozzle med 2 prim og sec fuel , sitter etter fuel flow transmitter",
         "![image.png](../assets/image_1704879323285_0.png){:height 144, :width 253}\n* fuel manifold valve\n* flow divider valve\n* fuel flow transmitter - monitoring av hvor mye fuel vi bruker",
         "[[draws/2024-01-10-10-31-21.excalidraw]]"
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1704879323285_0.png",
-            "alt": "image.png"
-          }
-        ]
       ]
     },
     {
@@ -424,28 +352,6 @@
         "turtallet øker fordi motoren trenger mer kraft",
         "used in duplex nozzle engine\nAt engine start, **fuel control** send pres signal to pressurization valve to close dump valve, opening fuel passage\n* demand for fuel is low= fuel flows through the **primary manifold**,\n* demand for fuel is high =  pressurization valve opens,  deliver fuel to the secondary manifold.\nAt engine shutdown,  dump valve  opens to drain fuel from the manifolds.",
         "![image.png](../assets/image_1710319371325_0.png)"
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1710320392965_0.png",
-            "alt": "image.png"
-          },
-          {
-            "id": "att-2",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1710320417977_0.png",
-            "alt": "image.png"
-          },
-          {
-            "id": "att-3",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1710319371325_0.png",
-            "alt": "image.png"
-          }
-        ]
       ]
     },
     {

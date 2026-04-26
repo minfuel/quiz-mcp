@@ -111,17 +111,7 @@
         }
       ],
       "explanations": [
-        "dyse/nozzle\n![image.png](../assets/image_1694000597289_0.png)\nDenne kan har ofte en form som convergent form, men kan komme i divergent form i høy hastighet over mach 1"
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1694000597289_0.png",
-            "alt": "image.png"
-          }
-        ]
+        "dyse/nozzle\nDenne kan har ofte en form som convergent form, men kan komme i divergent form i høy hastighet over mach 1"
       ]
     },
     {

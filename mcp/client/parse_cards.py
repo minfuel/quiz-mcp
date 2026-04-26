@@ -17,10 +17,34 @@ Usage:
 
 import json
 import re
+import logging
 from pathlib import Path
 from typing import Dict, List, Any, Optional, Tuple
 
-ASSETS_BASE = "/home/grime/Documents/SKEDSMO/assets"
+# Setup logging
+logger = logging.getLogger(__name__)
+
+# Make ASSETS_BASE configurable via environment variable
+# Falls back to common relative paths if not found
+import os
+_env_assets = os.getenv("LOGSEQ_ASSETS_BASE")
+if _env_assets and Path(_env_assets).exists():
+    ASSETS_BASE = _env_assets
+else:
+    # Try common relative paths from this script
+    possible_paths = [
+        Path(__file__).parent.parent.parent / "assets",
+        Path(__file__).parent / "assets",
+        Path.home() / "Documents" / "SKEDSMO" / "assets",  # Original location
+    ]
+    ASSETS_BASE = None
+    for p in possible_paths:
+        if p.exists():
+            ASSETS_BASE = p
+            break
+    # If no path found, set to empty (will skip attachments)
+    ASSETS_BASE = ASSETS_BASE or ""
+
 DEMO_BASE = Path(__file__).parent.parent.parent / "demo"
 
 
@@ -291,7 +315,11 @@ class QuizParser:
         return question
     
     def _extract_images(self, content: str) -> Optional[List[List[Dict]]]:
-        """Extract images from markdown content."""
+        """Extract images from markdown content.
+        
+        Only includes images that exist and can be resolved.
+        Skips invalid or missing attachments to avoid schema validation errors.
+        """
         # Pattern: ![alt](path)
         pattern = r'!\[([^\]]*)\]\(([^\)]+)\)'
         matches = re.findall(pattern, content)
@@ -301,21 +329,47 @@ class QuizParser:
         
         attachment_list = []
         for alt_text, img_path in matches:
-            # Convert relative to absolute path
-            if img_path.startswith("./") or img_path.startswith("../"):
-                # Remove ./ or ../
-                clean_path = re.sub(r'^(\.\./)+', '', img_path)
-                abs_path = f"{ASSETS_BASE}/{clean_path}"
-            else:
-                abs_path = img_path if img_path.startswith("/") else f"{ASSETS_BASE}/{img_path}"
+            try:
+                # Skip if no assets base is configured
+                if not ASSETS_BASE:
+                    logger.debug(f"Skipping image attachment {img_path} - no assets base configured")
+                    continue
+                
+                # Resolve the absolute path
+                if img_path.startswith("./") or img_path.startswith("../"):
+                    # Clean up relative paths
+                    clean_path = re.sub(r'^(\.\./)+', '', img_path)
+                    full_path = Path(ASSETS_BASE) / clean_path
+                else:
+                    full_path = Path(ASSETS_BASE) / img_path
+                
+                # Check if file exists
+                if not full_path.exists():
+                    logger.debug(f"Skipping image attachment {img_path} - file not found at {full_path}")
+                    continue
+                
+                # Use relative path in URL instead of absolute path
+                # This makes quiz files portable across machines
+                try:
+                    relative_path = full_path.relative_to(DEMO_BASE)
+                    # Just use filename or a simple relative path
+                    url_path = f"./assets/{full_path.name}"
+                except ValueError:
+                    # If DEMO_BASE is not in the path, use the filename
+                    url_path = f"./assets/{full_path.name}"
+                
+                attachment = {
+                    "id": f"att-{len(attachment_list)+1}",
+                    "type": "image",
+                    "url": url_path,
+                    "alt": alt_text or full_path.name,
+                }
+                attachment_list.append(attachment)
+                logger.debug(f"Added image attachment: {url_path}")
             
-            attachment = {
-                "id": f"att-{len(attachment_list)+1}",
-                "type": "image",
-                "url": abs_path,
-                "alt": alt_text or Path(img_path).name,
-            }
-            attachment_list.append(attachment)
+            except Exception as e:
+                logger.warning(f"Failed to process image attachment {img_path}: {str(e)}")
+                continue
         
         return [attachment_list] if attachment_list else None
     

@@ -23,16 +23,6 @@
         "støtte opp radialt og aksial",
         "{{embed }}",
         "{{embed }}"
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1686493443763_0.png",
-            "alt": "image.png"
-          }
-        ]
       ]
     },
     {
@@ -71,16 +61,6 @@
       ],
       "explanations": [
         "![image.png](../assets/image_1700644964586_0.png){:height 217, :width 240}"
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1700644964586_0.png",
-            "alt": "image.png"
-          }
-        ]
       ]
     },
     {
@@ -161,22 +141,6 @@
         "a type of seals like carbon seals",
         "![image.png](../assets/image_1700647952653_0.png){:height 49, :width 73}",
         "![image.png](../assets/image_1701861021447_0.png)"
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1700647952653_0.png",
-            "alt": "image.png"
-          },
-          {
-            "id": "att-2",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1701861021447_0.png",
-            "alt": "image.png"
-          }
-        ]
       ]
     },
     {
@@ -215,16 +179,6 @@
       ],
       "explanations": [
         "![image.png](../assets/image_1700646616251_0.png)"
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1700646616251_0.png",
-            "alt": "image.png"
-          }
-        ]
       ]
     },
     {

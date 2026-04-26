@@ -365,16 +365,6 @@
         "- ILS, MLS",
         "A,B,C",
         "![image.png](../assets/image_1717604280907_0.png){:height 131, :width 225}\n* decision height\n* runway visual range"
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/image_1717604280907_0.png",
-            "alt": "image.png"
-          }
-        ]
       ]
     },
     {
@@ -556,16 +546,6 @@
           "id": "q-342-opt-2",
           "label": "False"
         }
-      ],
-      "attachments": [
-        [
-          {
-            "id": "att-1",
-            "type": "image",
-            "url": "/home/grime/Documents/SKEDSMO/assets/assets/Aspose.Words.19416a84-4cfd-45e8-ba7c-96d3f0d42991.074.jpeg",
-            "alt": "Aspose.Words.19416a84-4cfd-45e8-ba7c-96d3f0d42991.074.jpeg"
-          }
-        ]
       ]
     }
   ]
