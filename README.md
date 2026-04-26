@@ -1,3 +1,7 @@
+Methodology for setting up questions and managing ... - EASA
+
+EASA
+https://www.easa.europa.eu › default › files › dfu
 # quiz-mcp
 Let AI models hand off interactive quizzes to humans through a real browser UI.
 
@@ -136,6 +140,30 @@ pnpm install
 | `pnpm test` | Run the full test suite. |
 | `pnpm typecheck` | Type-check every package. |
 | `pnpm dev` | Watch mode, parallel across packages. |
+
+### Make shortcuts
+
+A root `Makefile` is included to wrap common commands:
+
+```bash
+make install
+make build
+make test
+make typecheck
+make run-demo
+```
+
+Run a specific local quiz file:
+
+```bash
+make run-file QUIZ_FILE=./demo/svelte-quiz.json OUTPUT_FILE=./answers.json
+```
+
+Run from a remote URL:
+
+```bash
+make run-url QUIZ_URL=https://example.com/quiz.json OUTPUT_FILE=./answers.json
+```
 
 ## Quiz schema
 
